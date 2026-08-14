@@ -1,0 +1,94 @@
+{
+  "sites": [
+    {
+      "name": "補助金ナビ",
+      "slug": "hojokin-nav",
+      "project": "hojokin-nav",
+      "domain": "hojokin-nav.pages.dev",
+      "description": "日本で使える補助金・助成金・給付金を最新情報で解説。申請方法・締切・対象者をわかりやすく案内。",
+      "kicker": "補助金・助成金・給付金の総合情報",
+      "categories": {
+        "事業者向け": "事業者向け補助金（ものづくり・IT導入・事業承継）",
+        "個人向け": "個人向け給付金・助成金",
+        "自治体": "自治体の補助金・助成金",
+        "省エネ": "省エネ・環境関連補助金",
+        "創業": "創業・起業支援補助金"
+      },
+      "affiliate_tag": "hojokinnav-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "確定申告ガイド",
+      "slug": "kakutei-guide",
+      "project": "kakutei-guide",
+      "domain": "kakutei-guide.pages.dev",
+      "description": "個人事業主・フリーランスのための確定申告・節税ガイド。毎年の制度変更を最新情報で解説。",
+      "kicker": "確定申告・節税の総合ガイド",
+      "categories": {
+        "確定申告": "確定申告の手続き",
+        "節税": "節税テクニック",
+        "青色申告": "青色申告・複式簿記",
+        "医療費控除": "医療費控除・各種控除",
+        "e-Tax": "e-Tax・電子申告"
+      },
+      "affiliate_tag": "kakuteiguide-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "住宅ローン案内所",
+      "slug": "sumai-loan",
+      "project": "sumai-loan",
+      "domain": "sumai-loan.pages.dev",
+      "description": "住宅ローンの選び方・金利比較・住宅減税を最新情報で解説。理想の住まい購入をサポート。",
+      "kicker": "住宅ローン・住宅減税の総合情報",
+      "categories": {
+        "住宅ローン": "住宅ローンの基礎・選び方",
+        "金利": "金利動向・比較",
+        "住宅減税": "住宅ローン減税・各種減税",
+        "頭金": "頭金・資金計画",
+        "リフォーム": "リフォーム・中古住宅"
+      },
+      "affiliate_tag": "sumailoan-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "副業マスター",
+      "slug": "fukugyo-master",
+      "project": "fukugyo-master",
+      "domain": "fukugyo-master.pages.dev",
+      "description": "副業・フリーランス・在宅ワークの始め方から稼ぎ方まで。最新の副業情報を毎日解説。",
+      "kicker": "副業・フリーランスの総合情報",
+      "categories": {
+        "副業入門": "副業の始め方",
+        "在宅ワーク": "在宅ワーク・リモート",
+        "スキル": "スキルアップ・資格",
+        "確定申告": "副業の税金・確定申告",
+        "案件獲得": "案件獲得・営業術"
+      },
+      "affiliate_tag": "fukugyomaster-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "介護保険制度ナビ",
+      "slug": "kaigo-seido",
+      "project": "kaigo-seido",
+      "domain": "kaigo-seido.pages.dev",
+      "description": "介護保険制度のサービス・申請・費用を最新情報で解説。介護に悩むご家族をサポート。",
+      "kicker": "介護保険制度の総合情報",
+      "categories": {
+        "介護保険": "介護保険の基礎",
+        "要介護認定": "要介護認定の流れ",
+        "介護サービス": "介護サービスの種類",
+        "介護費用": "介護費用・負担軽減",
+        "在宅介護": "在宅介護・家族の負担"
+      },
+      "affiliate_tag": "kaigoseido-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    }
+  ]
+}

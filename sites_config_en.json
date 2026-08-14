@@ -1,0 +1,99 @@
+{
+  "sites": [
+    {
+      "name": "Grant Navigator",
+      "slug": "grant-navigator",
+      "project": "grant-navigator",
+      "domain": "grant-navigator.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US government grants, subsidies, and financial aid. Step-by-step guides on how to apply, eligibility, and deadlines.",
+      "kicker": "US Government Grants & Subsidies Guide",
+      "categories": {
+        "Business Grants": "Business grants and subsidies",
+        "Personal Aid": "Personal financial aid and benefits",
+        "Energy": "Energy and environment grants",
+        "Startup": "Startup and entrepreneurship funding",
+        "Housing": "Housing and home improvement grants"
+      },
+      "affiliate_tag": "grantnav-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Tax Filing Guide",
+      "slug": "tax-filing-guide",
+      "project": "tax-filing-guide",
+      "domain": "tax-filing-guide.pages.dev",
+      "lang": "en",
+      "description": "Complete guide to US tax filing, deductions, and credits. Latest information for freelancers, small business owners, and individuals.",
+      "kicker": "US Tax Filing & Deductions Guide",
+      "categories": {
+        "Tax Filing": "Tax filing procedures",
+        "Deductions": "Tax deductions and credits",
+        "Freelancer": "Freelancer and self-employed taxes",
+        "Retirement": "Retirement and savings tax benefits",
+        "e-Filing": "Electronic filing and tools"
+      },
+      "affiliate_tag": "taxguide-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Mortgage Guide",
+      "slug": "mortgage-guide",
+      "project": "mortgage-guide",
+      "domain": "mortgage-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US mortgages, interest rates, and homebuyer tax credits. How to choose the right loan and save money.",
+      "kicker": "US Mortgage & Homebuyer Guide",
+      "categories": {
+        "Mortgage Basics": "Mortgage basics and types",
+        "Rates": "Interest rates and comparison",
+        "Tax Credits": "Homebuyer tax credits",
+        "Down Payment": "Down payment and budgeting",
+        "Refinance": "Refinancing and home equity"
+      },
+      "affiliate_tag": "mortgageguide-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Side Hustle Hub",
+      "slug": "side-hustle-hub",
+      "project": "side-hustle-hub",
+      "domain": "side-hustle-hub.pages.dev",
+      "lang": "en",
+      "description": "How to start and grow a side hustle. Latest information on freelancing, remote work, and making money online.",
+      "kicker": "Side Hustle & Freelancing Guide",
+      "categories": {
+        "Getting Started": "How to start a side hustle",
+        "Remote Work": "Remote work and online jobs",
+        "Skills": "Skills and certifications",
+        "Taxes": "Side hustle taxes",
+        "Clients": "Finding clients and growing"
+      },
+      "affiliate_tag": "sidehustle-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Elder Care Guide",
+      "slug": "elder-care-guide",
+      "project": "elder-care-guide",
+      "domain": "elder-care-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US elder care, Medicare, and long-term care. How to navigate care options and reduce costs.",
+      "kicker": "US Elder Care & Medicare Guide",
+      "categories": {
+        "Medicare": "Medicare basics and enrollment",
+        "Long-Term Care": "Long-term care options",
+        "Care Services": "Types of care services",
+        "Care Costs": "Care costs and financial aid",
+        "Family Care": "Family caregiving and support"
+      },
+      "affiliate_tag": "eldercare-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    }
+  ]
+}

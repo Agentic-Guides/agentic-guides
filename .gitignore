@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+
+# 生成されたサイト（Cloudflare Pagesでホスト済み・公開しない）
+hojokin-nav/
+kakutei-guide/
+sumai-loan/
+fukugyo-master/
+kaigo-seido/
+grant-navigator/
+
