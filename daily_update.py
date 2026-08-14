@@ -128,6 +128,30 @@ def deploy(slug):
     )
     return result.returncode == 0
 
+def push_to_github(slug, article_title):
+    """新記事をGitHubリポジトリに自動push（OSS公開の自動更新）"""
+    repo_dir = os.path.expanduser("~/Desktop/agentic-sites")
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if not token:
+        print("⚠️ GITHUB_TOKEN 環境変数が未設定です")
+        return False
+    try:
+        # リモートURLにトークンを埋め込んでpush
+        remote = f"https://x-access-token:{token}@github.com/HOTAgithub/agentic-guides.git"
+        subprocess.run(["git", "add", "-A"], cwd=repo_dir, capture_output=True, text=True, timeout=30)
+        subprocess.run(
+            ["git", "commit", "-m", f"Add article: {article_title[:50]}"],
+            cwd=repo_dir, capture_output=True, text=True, timeout=30
+        )
+        r = subprocess.run(
+            ["git", "push", remote, "main"],
+            cwd=repo_dir, capture_output=True, text=True, timeout=60
+        )
+        return r.returncode == 0
+    except Exception as e:
+        print(f"⚠️ GitHub push失敗: {e}")
+        return False
+
 if __name__ == "__main__":
     slug = sys.argv[1] if len(sys.argv) > 1 else "hojokin-nav"
     site = sb.get_site(slug)
@@ -140,6 +164,8 @@ if __name__ == "__main__":
     added = add_article(slug, category, topic)
     if added:
         ok = deploy(slug)
-        print(f"✅ {slug}: 記事追加 + デプロイ {'成功' if ok else '失敗'}")
+        # 新記事をGitHubに自動push（OSS公開の自動更新）
+        gh_ok = push_to_github(slug, topic)
+        print(f"✅ {slug}: 記事追加 + デプロイ {'成功' if ok else '失敗'} + GitHub push {'成功' if gh_ok else '失敗'}")
     else:
         print(f"ℹ️ {slug}: 追加する新規記事なし（重複）")
