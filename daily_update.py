@@ -137,7 +137,7 @@ def push_to_github(slug, article_title):
         return False
     try:
         # リモートURLにトークンを埋め込んでpush
-        remote = f"https://x-access-token:{token}@github.com/HOTAgithub/agentic-guides.git"
+        remote = f"https://x-access-token:{token}@github.com/Agentic-Guides/agentic-guides.git"
         subprocess.run(["git", "add", "-A"], cwd=repo_dir, capture_output=True, text=True, timeout=30)
         subprocess.run(
             ["git", "commit", "-m", f"Add article: {article_title[:50]}"],
