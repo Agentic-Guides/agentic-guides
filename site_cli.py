@@ -62,7 +62,9 @@ def detect_lang(slug):
                 "hsa-guide", "travel-insurance-guide", "gig-work-guide", "coupon-guide", "subscription-guide",
                 "crypto-guide", "forex-guide", "real-estate-investing-guide", "dividend-guide", "medical-billing-guide",
                 "annuity-guide", "credit-card-rewards-guide", "saving-strategies-guide", "home-equity-guide", "entrepreneur-guide",
-                "wealth-management-guide", "charity-tax-guide", "lease-guide", "financial-literacy-guide", "insurance-policy-guide"}
+                "wealth-management-guide", "charity-tax-guide", "lease-guide", "financial-literacy-guide", "insurance-policy-guide",
+                "disability-insurance-guide", "unemployment-benefits-guide", "medicaid-guide", "tax-planning-guide", "emergency-fund-guide",
+                "financial-aid-guide", "retirement-income-tax-guide", "home-buying-guide", "insurance-claims-guide", "financial-advisor-guide"}
     if slug in en_slugs:
         return "en"
     return "ja"
@@ -124,6 +126,16 @@ if __name__ == "__main__":
             "lease-guide": "lease_guide_seed",
             "financial-literacy-guide": "financial_literacy_guide_seed",
             "insurance-policy-guide": "insurance_policy_guide_seed",
+            "disability-insurance-guide": "disability_insurance_guide_seed",
+            "unemployment-benefits-guide": "unemployment_benefits_guide_seed",
+            "medicaid-guide": "medicaid_guide_seed",
+            "tax-planning-guide": "tax_planning_guide_seed",
+            "emergency-fund-guide": "emergency_fund_guide_seed",
+            "financial-aid-guide": "financial_aid_guide_seed",
+            "retirement-income-tax-guide": "retirement_income_tax_guide_seed",
+            "home-buying-guide": "home_buying_guide_seed",
+            "insurance-claims-guide": "insurance_claims_guide_seed",
+            "financial-advisor-guide": "financial_advisor_guide_seed",
         }
         modname = seed_map.get(slug)
         if modname:

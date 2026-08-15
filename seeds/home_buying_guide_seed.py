@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+"""Home Buying Guide 初期記事シードデータ（英語）"""
+
+ARTICLES = [
+    {
+        "title": "Home Buying Guide: Buying Basics Guide 2026",
+        "description": "Learn about buying basics for your home buying guide. Home buying basics.",
+        "category": "Buying Basics",
+        "body": "<h2>What is Buying Basics?</h2>\n<p>Buying Basics is an important topic for anyone researching home buying guide. This article provides general information to help you understand the basics as of 2026. Home buying basics.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    },
+    {
+        "title": "Home Buying Guide: Process Guide 2026",
+        "description": "Learn about process for your home buying guide. The buying process.",
+        "category": "Process",
+        "body": "<h2>What is Process?</h2>\n<p>Process is an important topic for anyone researching home buying guide. This article provides general information to help you understand the basics as of 2026. The buying process.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    },
+    {
+        "title": "Home Buying Guide: Costs Guide 2026",
+        "description": "Learn about costs for your home buying guide. Costs and fees.",
+        "category": "Costs",
+        "body": "<h2>What is Costs?</h2>\n<p>Costs is an important topic for anyone researching home buying guide. This article provides general information to help you understand the basics as of 2026. Costs and fees.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    },
+    {
+        "title": "Home Buying Guide: Preparation Guide 2026",
+        "description": "Learn about preparation for your home buying guide. How to prepare.",
+        "category": "Preparation",
+        "body": "<h2>What is Preparation?</h2>\n<p>Preparation is an important topic for anyone researching home buying guide. This article provides general information to help you understand the basics as of 2026. How to prepare.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    },
+    {
+        "title": "Home Buying Guide: Closing Guide 2026",
+        "description": "Learn about closing for your home buying guide. Closing and moving.",
+        "category": "Closing",
+        "body": "<h2>What is Closing?</h2>\n<p>Closing is an important topic for anyone researching home buying guide. This article provides general information to help you understand the basics as of 2026. Closing and moving.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    }
+]

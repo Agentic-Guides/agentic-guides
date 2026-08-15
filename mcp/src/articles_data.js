@@ -40,6 +40,94 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/HousingandHomeImprovementGrants2026GetHe"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "How to prepare a business plan: Overview and Key Points (August 2026)",
+    "description": "General information about How to prepare a business plan as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Business Grants",
+    "url": "https://grant-navigator.pages.dev/articles/HowtoprepareabusinessplanOverviewandKeyP"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "How to apply for assistance programs: Overview and Key Points (August 2026)",
+    "description": "General information about How to apply for assistance programs as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Personal Aid",
+    "url": "https://grant-navigator.pages.dev/articles/HowtoapplyforassistanceprogramsOverviewa"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Energy",
+    "url": "https://grant-navigator.pages.dev/articles/TheApplicationandProcessOverviewOverview"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Startup",
+    "url": "https://grant-navigator.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Types of home improvement grants: Overview and Key Points (August 2026)",
+    "description": "General information about Types of home improvement grants as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Housing",
+    "url": "https://grant-navigator.pages.dev/articles/TypesofhomeimprovementgrantsOverviewandK"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Overview of small business grants: Overview and Key Points (August 2026)",
+    "description": "General information about Overview of small business grants as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Business Grants",
+    "url": "https://grant-navigator.pages.dev/articles/OverviewofsmallbusinessgrantsOverviewand"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Types of personal financial aid: Overview and Key Points (August 2026)",
+    "description": "General information about Types of personal financial aid as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Personal Aid",
+    "url": "https://grant-navigator.pages.dev/articles/TypesofpersonalfinancialaidOverviewandKe"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Frequently Asked Questions and Key Points: Overview and Key Points (August 2026)",
+    "description": "General information about Frequently Asked Questions and Key Points as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Energy",
+    "url": "https://grant-navigator.pages.dev/articles/FrequentlyAskedQuestionsandKeyPointsOver"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Cost and Budget Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Cost and Budget Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Startup",
+    "url": "https://grant-navigator.pages.dev/articles/CostandBudgetConsiderationsOverviewandKe"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Eligibility for housing assistance: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility for housing assistance as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Housing",
+    "url": "https://grant-navigator.pages.dev/articles/EligibilityforhousingassistanceOverviewa"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "The grant application process: Overview and Key Points (August 2026)",
+    "description": "General information about The grant application process as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Business Grants",
+    "url": "https://grant-navigator.pages.dev/articles/ThegrantapplicationprocessOverviewandKey"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -1598,5 +1686,405 @@ export const ARTICLES = [
     "description": "Learn about management for your insurance policy guide. Managing policies.",
     "category": "Management",
     "url": "https://insurance-policy-guide.pages.dev/articles/InsurancePolicyGuideManagementGuide2026"
+  },
+  {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "Disability Insurance Guide: Disability Basics Guide 2026",
+    "description": "Learn about disability basics for your disability insurance guide. Disability insurance basics.",
+    "category": "Disability Basics",
+    "url": "https://disability-insurance-guide.pages.dev/articles/DisabilityInsuranceGuideDisabilityBasics"
+  },
+  {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "Disability Insurance Guide: Short-Term Guide 2026",
+    "description": "Learn about short-term for your disability insurance guide. Short-term disability.",
+    "category": "Short-Term",
+    "url": "https://disability-insurance-guide.pages.dev/articles/DisabilityInsuranceGuideShort-TermGuide2"
+  },
+  {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "Disability Insurance Guide: Long-Term Guide 2026",
+    "description": "Learn about long-term for your disability insurance guide. Long-term disability.",
+    "category": "Long-Term",
+    "url": "https://disability-insurance-guide.pages.dev/articles/DisabilityInsuranceGuideLong-TermGuide20"
+  },
+  {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "Disability Insurance Guide: SSDI Guide 2026",
+    "description": "Learn about ssdi for your disability insurance guide. Social Security Disability.",
+    "category": "SSDI",
+    "url": "https://disability-insurance-guide.pages.dev/articles/DisabilityInsuranceGuideSSDIGuide2026"
+  },
+  {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "Disability Insurance Guide: Choosing Guide 2026",
+    "description": "Learn about choosing for your disability insurance guide. Choosing a policy.",
+    "category": "Choosing",
+    "url": "https://disability-insurance-guide.pages.dev/articles/DisabilityInsuranceGuideChoosingGuide202"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
+    "description": "Learn about benefits basics for your unemployment benefits guide. Unemployment benefits basics.",
+    "category": "Benefits Basics",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/UnemploymentBenefitsGuideBenefitsBasicsG"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "Unemployment Benefits Guide: Eligibility Guide 2026",
+    "description": "Learn about eligibility for your unemployment benefits guide. Eligibility requirements.",
+    "category": "Eligibility",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/UnemploymentBenefitsGuideEligibilityGuid"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "Unemployment Benefits Guide: Applying Guide 2026",
+    "description": "Learn about applying for your unemployment benefits guide. How to apply.",
+    "category": "Applying",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/UnemploymentBenefitsGuideApplyingGuide20"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "Unemployment Benefits Guide: Amounts Guide 2026",
+    "description": "Learn about amounts for your unemployment benefits guide. Benefit amounts.",
+    "category": "Amounts",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/UnemploymentBenefitsGuideAmountsGuide202"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "Unemployment Benefits Guide: Rights Guide 2026",
+    "description": "Learn about rights for your unemployment benefits guide. Your rights.",
+    "category": "Rights",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/UnemploymentBenefitsGuideRightsGuide2026"
+  },
+  {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "Medicaid Guide: Medicaid Basics Guide 2026",
+    "description": "Learn about medicaid basics for your medicaid guide. Medicaid basics.",
+    "category": "Medicaid Basics",
+    "url": "https://medicaid-guide.pages.dev/articles/MedicaidGuideMedicaidBasicsGuide2026"
+  },
+  {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "Medicaid Guide: Eligibility Guide 2026",
+    "description": "Learn about eligibility for your medicaid guide. Eligibility requirements.",
+    "category": "Eligibility",
+    "url": "https://medicaid-guide.pages.dev/articles/MedicaidGuideEligibilityGuide2026"
+  },
+  {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "Medicaid Guide: Coverage Guide 2026",
+    "description": "Learn about coverage for your medicaid guide. What Medicaid covers.",
+    "category": "Coverage",
+    "url": "https://medicaid-guide.pages.dev/articles/MedicaidGuideCoverageGuide2026"
+  },
+  {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "Medicaid Guide: Applying Guide 2026",
+    "description": "Learn about applying for your medicaid guide. How to apply.",
+    "category": "Applying",
+    "url": "https://medicaid-guide.pages.dev/articles/MedicaidGuideApplyingGuide2026"
+  },
+  {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "Medicaid Guide: CHIP Guide 2026",
+    "description": "Learn about chip for your medicaid guide. Children's health insurance.",
+    "category": "CHIP",
+    "url": "https://medicaid-guide.pages.dev/articles/MedicaidGuideCHIPGuide2026"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "Tax Planning Guide: Planning Basics Guide 2026",
+    "description": "Learn about planning basics for your tax planning guide. Tax planning basics.",
+    "category": "Planning Basics",
+    "url": "https://tax-planning-guide.pages.dev/articles/TaxPlanningGuidePlanningBasicsGuide2026"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "Tax Planning Guide: Strategies Guide 2026",
+    "description": "Learn about strategies for your tax planning guide. Tax strategies.",
+    "category": "Strategies",
+    "url": "https://tax-planning-guide.pages.dev/articles/TaxPlanningGuideStrategiesGuide2026"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "Tax Planning Guide: Credits Guide 2026",
+    "description": "Learn about credits for your tax planning guide. Tax credits.",
+    "category": "Credits",
+    "url": "https://tax-planning-guide.pages.dev/articles/TaxPlanningGuideCreditsGuide2026"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "Tax Planning Guide: Year-Round Guide 2026",
+    "description": "Learn about year-round for your tax planning guide. Year-round planning.",
+    "category": "Year-Round",
+    "url": "https://tax-planning-guide.pages.dev/articles/TaxPlanningGuideYear-RoundGuide2026"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "Tax Planning Guide: Retirement Guide 2026",
+    "description": "Learn about retirement for your tax planning guide. Retirement tax planning.",
+    "category": "Retirement",
+    "url": "https://tax-planning-guide.pages.dev/articles/TaxPlanningGuideRetirementGuide2026"
+  },
+  {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Emergency Fund Guide: Fund Basics Guide 2026",
+    "description": "Learn about fund basics for your emergency fund guide. Emergency fund basics.",
+    "category": "Fund Basics",
+    "url": "https://emergency-fund-guide.pages.dev/articles/EmergencyFundGuideFundBasicsGuide2026"
+  },
+  {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Emergency Fund Guide: Amount Guide 2026",
+    "description": "Learn about amount for your emergency fund guide. How much to save.",
+    "category": "Amount",
+    "url": "https://emergency-fund-guide.pages.dev/articles/EmergencyFundGuideAmountGuide2026"
+  },
+  {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Emergency Fund Guide: Where Guide 2026",
+    "description": "Learn about where for your emergency fund guide. Where to keep it.",
+    "category": "Where",
+    "url": "https://emergency-fund-guide.pages.dev/articles/EmergencyFundGuideWhereGuide2026"
+  },
+  {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Emergency Fund Guide: Building Guide 2026",
+    "description": "Learn about building for your emergency fund guide. How to build it.",
+    "category": "Building",
+    "url": "https://emergency-fund-guide.pages.dev/articles/EmergencyFundGuideBuildingGuide2026"
+  },
+  {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Emergency Fund Guide: Using Guide 2026",
+    "description": "Learn about using for your emergency fund guide. When to use it.",
+    "category": "Using",
+    "url": "https://emergency-fund-guide.pages.dev/articles/EmergencyFundGuideUsingGuide2026"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "Financial Aid Guide: Aid Basics Guide 2026",
+    "description": "Learn about aid basics for your financial aid guide. Financial aid basics.",
+    "category": "Aid Basics",
+    "url": "https://financial-aid-guide.pages.dev/articles/FinancialAidGuideAidBasicsGuide2026"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "Financial Aid Guide: FAFSA Guide 2026",
+    "description": "Learn about fafsa for your financial aid guide. FAFSA and application.",
+    "category": "FAFSA",
+    "url": "https://financial-aid-guide.pages.dev/articles/FinancialAidGuideFAFSAGuide2026"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "Financial Aid Guide: Grants Guide 2026",
+    "description": "Learn about grants for your financial aid guide. Grants and scholarships.",
+    "category": "Grants",
+    "url": "https://financial-aid-guide.pages.dev/articles/FinancialAidGuideGrantsGuide2026"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "Financial Aid Guide: Work-Study Guide 2026",
+    "description": "Learn about work-study for your financial aid guide. Work-study programs.",
+    "category": "Work-Study",
+    "url": "https://financial-aid-guide.pages.dev/articles/FinancialAidGuideWork-StudyGuide2026"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "Financial Aid Guide: Planning Guide 2026",
+    "description": "Learn about planning for your financial aid guide. College funding planning.",
+    "category": "Planning",
+    "url": "https://financial-aid-guide.pages.dev/articles/FinancialAidGuidePlanningGuide2026"
+  },
+  {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Retirement Income Tax Guide: Tax Basics Guide 2026",
+    "description": "Learn about tax basics for your retirement income tax guide. Retirement tax basics.",
+    "category": "Tax Basics",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/RetirementIncomeTaxGuideTaxBasicsGuide20"
+  },
+  {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Retirement Income Tax Guide: 401k Guide 2026",
+    "description": "Learn about 401k for your retirement income tax guide. 401(k) and IRA taxes.",
+    "category": "401k",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/RetirementIncomeTaxGuide401kGuide2026"
+  },
+  {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Retirement Income Tax Guide: Social Security Guide 2026",
+    "description": "Learn about social security for your retirement income tax guide. Social Security taxes.",
+    "category": "Social Security",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/RetirementIncomeTaxGuideSocialSecurityGu"
+  },
+  {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Retirement Income Tax Guide: RMDs Guide 2026",
+    "description": "Learn about rmds for your retirement income tax guide. Required minimum distributions.",
+    "category": "RMDs",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/RetirementIncomeTaxGuideRMDsGuide2026"
+  },
+  {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Retirement Income Tax Guide: Strategies Guide 2026",
+    "description": "Learn about strategies for your retirement income tax guide. Tax strategies.",
+    "category": "Strategies",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/RetirementIncomeTaxGuideStrategiesGuide2"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "Home Buying Guide: Buying Basics Guide 2026",
+    "description": "Learn about buying basics for your home buying guide. Home buying basics.",
+    "category": "Buying Basics",
+    "url": "https://home-buying-guide-728.pages.dev/articles/HomeBuyingGuideBuyingBasicsGuide2026"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "Home Buying Guide: Process Guide 2026",
+    "description": "Learn about process for your home buying guide. The buying process.",
+    "category": "Process",
+    "url": "https://home-buying-guide-728.pages.dev/articles/HomeBuyingGuideProcessGuide2026"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "Home Buying Guide: Costs Guide 2026",
+    "description": "Learn about costs for your home buying guide. Costs and fees.",
+    "category": "Costs",
+    "url": "https://home-buying-guide-728.pages.dev/articles/HomeBuyingGuideCostsGuide2026"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "Home Buying Guide: Preparation Guide 2026",
+    "description": "Learn about preparation for your home buying guide. How to prepare.",
+    "category": "Preparation",
+    "url": "https://home-buying-guide-728.pages.dev/articles/HomeBuyingGuidePreparationGuide2026"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "Home Buying Guide: Closing Guide 2026",
+    "description": "Learn about closing for your home buying guide. Closing and moving.",
+    "category": "Closing",
+    "url": "https://home-buying-guide-728.pages.dev/articles/HomeBuyingGuideClosingGuide2026"
+  },
+  {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Insurance Claims Guide: Claims Basics Guide 2026",
+    "description": "Learn about claims basics for your insurance claims guide. Claims basics.",
+    "category": "Claims Basics",
+    "url": "https://insurance-claims-guide.pages.dev/articles/InsuranceClaimsGuideClaimsBasicsGuide202"
+  },
+  {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Insurance Claims Guide: Auto Guide 2026",
+    "description": "Learn about auto for your insurance claims guide. Auto insurance claims.",
+    "category": "Auto",
+    "url": "https://insurance-claims-guide.pages.dev/articles/InsuranceClaimsGuideAutoGuide2026"
+  },
+  {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Insurance Claims Guide: Home Guide 2026",
+    "description": "Learn about home for your insurance claims guide. Home insurance claims.",
+    "category": "Home",
+    "url": "https://insurance-claims-guide.pages.dev/articles/InsuranceClaimsGuideHomeGuide2026"
+  },
+  {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Insurance Claims Guide: Health Guide 2026",
+    "description": "Learn about health for your insurance claims guide. Health insurance claims.",
+    "category": "Health",
+    "url": "https://insurance-claims-guide.pages.dev/articles/InsuranceClaimsGuideHealthGuide2026"
+  },
+  {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Insurance Claims Guide: Appeals Guide 2026",
+    "description": "Learn about appeals for your insurance claims guide. Appealing denials.",
+    "category": "Appeals",
+    "url": "https://insurance-claims-guide.pages.dev/articles/InsuranceClaimsGuideAppealsGuide2026"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
+    "description": "Learn about advisor basics for your financial advisor guide. Financial advisor basics.",
+    "category": "Advisor Basics",
+    "url": "https://financial-advisor-guide.pages.dev/articles/FinancialAdvisorGuideAdvisorBasicsGuide2"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "Financial Advisor Guide: Types Guide 2026",
+    "description": "Learn about types for your financial advisor guide. Types of advisors.",
+    "category": "Types",
+    "url": "https://financial-advisor-guide.pages.dev/articles/FinancialAdvisorGuideTypesGuide2026"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "Financial Advisor Guide: Fees Guide 2026",
+    "description": "Learn about fees for your financial advisor guide. Fees and costs.",
+    "category": "Fees",
+    "url": "https://financial-advisor-guide.pages.dev/articles/FinancialAdvisorGuideFeesGuide2026"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "Financial Advisor Guide: Choosing Guide 2026",
+    "description": "Learn about choosing for your financial advisor guide. How to choose.",
+    "category": "Choosing",
+    "url": "https://financial-advisor-guide.pages.dev/articles/FinancialAdvisorGuideChoosingGuide2026"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "Financial Advisor Guide: Working Guide 2026",
+    "description": "Learn about working for your financial advisor guide. Working with an advisor.",
+    "category": "Working",
+    "url": "https://financial-advisor-guide.pages.dev/articles/FinancialAdvisorGuideWorkingGuide2026"
   }
 ];

@@ -759,6 +759,196 @@
       "affiliate_tag": "policy-20",
       "ad_sense_client": "ca-pub-2741071921044101",
       "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Disability Insurance Guide",
+      "slug": "disability-insurance-guide",
+      "project": "disability-insurance-guide",
+      "domain": "disability-insurance-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US disability insurance: short-term, long-term, and SSDI. How to protect your income.",
+      "kicker": "US Disability Insurance & Income Protection Guide",
+      "categories": {
+        "Disability Basics": "Disability insurance basics",
+        "Short-Term": "Short-term disability",
+        "Long-Term": "Long-term disability",
+        "SSDI": "Social Security Disability",
+        "Choosing": "Choosing a policy"
+      },
+      "affiliate_tag": "disability-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Unemployment Benefits Guide",
+      "slug": "unemployment-benefits-guide",
+      "project": "unemployment-benefits-guide",
+      "domain": "unemployment-benefits-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US unemployment benefits: eligibility, how to apply, and how much you can receive.",
+      "kicker": "US Unemployment Benefits Guide",
+      "categories": {
+        "Benefits Basics": "Unemployment benefits basics",
+        "Eligibility": "Eligibility requirements",
+        "Applying": "How to apply",
+        "Amounts": "Benefit amounts",
+        "Rights": "Your rights"
+      },
+      "affiliate_tag": "unemployment-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Medicaid Guide",
+      "slug": "medicaid-guide",
+      "project": "medicaid-guide",
+      "domain": "medicaid-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US Medicaid: eligibility, coverage, and how to apply. Health coverage for those who qualify.",
+      "kicker": "US Medicaid & Health Coverage Guide",
+      "categories": {
+        "Medicaid Basics": "Medicaid basics",
+        "Eligibility": "Eligibility requirements",
+        "Coverage": "What Medicaid covers",
+        "Applying": "How to apply",
+        "CHIP": "Children's health insurance"
+      },
+      "affiliate_tag": "medicaid-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Tax Planning Guide",
+      "slug": "tax-planning-guide",
+      "project": "tax-planning-guide",
+      "domain": "tax-planning-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US tax planning: strategies, credits, and year-round planning. How to minimize your tax bill legally.",
+      "kicker": "US Tax Planning & Strategy Guide",
+      "categories": {
+        "Planning Basics": "Tax planning basics",
+        "Strategies": "Tax strategies",
+        "Credits": "Tax credits",
+        "Year-Round": "Year-round planning",
+        "Retirement": "Retirement tax planning"
+      },
+      "affiliate_tag": "taxplan-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Emergency Fund Guide",
+      "slug": "emergency-fund-guide",
+      "project": "emergency-fund-guide",
+      "domain": "emergency-fund-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on building an emergency fund: how much to save, where to keep it, and how to grow it.",
+      "kicker": "US Emergency Fund & Financial Safety Guide",
+      "categories": {
+        "Fund Basics": "Emergency fund basics",
+        "Amount": "How much to save",
+        "Where": "Where to keep it",
+        "Building": "How to build it",
+        "Using": "When to use it"
+      },
+      "affiliate_tag": "emergency-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Financial Aid Guide",
+      "slug": "financial-aid-guide",
+      "project": "financial-aid-guide",
+      "domain": "financial-aid-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US financial aid: FAFSA, grants, scholarships, and work-study. How to pay for college.",
+      "kicker": "US Financial Aid & College Funding Guide",
+      "categories": {
+        "Aid Basics": "Financial aid basics",
+        "FAFSA": "FAFSA and application",
+        "Grants": "Grants and scholarships",
+        "Work-Study": "Work-study programs",
+        "Planning": "College funding planning"
+      },
+      "affiliate_tag": "finaid-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Retirement Income Tax Guide",
+      "slug": "retirement-income-tax-guide",
+      "project": "retirement-income-tax-guide",
+      "domain": "retirement-income-tax-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US retirement income taxes: 401(k), IRA, Social Security, and RMDs. How to minimize taxes in retirement.",
+      "kicker": "US Retirement Income & Tax Guide",
+      "categories": {
+        "Tax Basics": "Retirement tax basics",
+        "401k": "401(k) and IRA taxes",
+        "Social Security": "Social Security taxes",
+        "RMDs": "Required minimum distributions",
+        "Strategies": "Tax strategies"
+      },
+      "affiliate_tag": "retiretax-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Home Buying Guide",
+      "slug": "home-buying-guide",
+      "project": "home-buying-guide",
+      "domain": "home-buying-guide-728.pages.dev",
+      "lang": "en",
+      "description": "Latest information on buying a home in the US: the process, costs, and how to prepare. Your complete home buying guide.",
+      "kicker": "US Home Buying Process Guide",
+      "categories": {
+        "Buying Basics": "Home buying basics",
+        "Process": "The buying process",
+        "Costs": "Costs and fees",
+        "Preparation": "How to prepare",
+        "Closing": "Closing and moving"
+      },
+      "affiliate_tag": "homebuy-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Insurance Claims Guide",
+      "slug": "insurance-claims-guide",
+      "project": "insurance-claims-guide",
+      "domain": "insurance-claims-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on filing US insurance claims: auto, home, health, and life. How to get your claims approved.",
+      "kicker": "US Insurance Claims & Approval Guide",
+      "categories": {
+        "Claims Basics": "Claims basics",
+        "Auto": "Auto insurance claims",
+        "Home": "Home insurance claims",
+        "Health": "Health insurance claims",
+        "Appeals": "Appealing denials"
+      },
+      "affiliate_tag": "claims-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Financial Advisor Guide",
+      "slug": "financial-advisor-guide",
+      "project": "financial-advisor-guide",
+      "domain": "financial-advisor-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on choosing a US financial advisor: types, fees, and how to find the right one. How to get professional financial help.",
+      "kicker": "US Financial Advisor & Professional Help Guide",
+      "categories": {
+        "Advisor Basics": "Financial advisor basics",
+        "Types": "Types of advisors",
+        "Fees": "Fees and costs",
+        "Choosing": "How to choose",
+        "Working": "Working with an advisor"
+      },
+      "affiliate_tag": "advisor-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
     }
   ]
 }
