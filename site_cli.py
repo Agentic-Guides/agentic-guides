@@ -59,7 +59,10 @@ def detect_lang(slug):
                 "insurance-guide", "credit-score-guide", "student-loan-guide", "retirement-guide", "small-business-guide",
                 "investing-guide", "pet-insurance-guide", "estate-planning-guide", "auto-loan-guide", "rental-guide",
                 "personal-loan-guide", "banking-guide", "financial-planning-guide", "career-guide", "home-improvement-guide",
-                "hsa-guide", "travel-insurance-guide", "gig-work-guide", "coupon-guide", "subscription-guide"}
+                "hsa-guide", "travel-insurance-guide", "gig-work-guide", "coupon-guide", "subscription-guide",
+                "crypto-guide", "forex-guide", "real-estate-investing-guide", "dividend-guide", "medical-billing-guide",
+                "annuity-guide", "credit-card-rewards-guide", "saving-strategies-guide", "home-equity-guide", "entrepreneur-guide",
+                "wealth-management-guide", "charity-tax-guide", "lease-guide", "financial-literacy-guide", "insurance-policy-guide"}
     if slug in en_slugs:
         return "en"
     return "ja"
@@ -106,6 +109,21 @@ if __name__ == "__main__":
             "gig-work-guide": "gig_work_guide_seed",
             "coupon-guide": "coupon_guide_seed",
             "subscription-guide": "subscription_guide_seed",
+            "crypto-guide": "crypto_guide_seed",
+            "forex-guide": "forex_guide_seed",
+            "real-estate-investing-guide": "real_estate_investing_guide_seed",
+            "dividend-guide": "dividend_guide_seed",
+            "medical-billing-guide": "medical_billing_guide_seed",
+            "annuity-guide": "annuity_guide_seed",
+            "credit-card-rewards-guide": "credit_card_rewards_guide_seed",
+            "saving-strategies-guide": "saving_strategies_guide_seed",
+            "home-equity-guide": "home_equity_guide_seed",
+            "entrepreneur-guide": "entrepreneur_guide_seed",
+            "wealth-management-guide": "wealth_management_guide_seed",
+            "charity-tax-guide": "charity_tax_guide_seed",
+            "lease-guide": "lease_guide_seed",
+            "financial-literacy-guide": "financial_literacy_guide_seed",
+            "insurance-policy-guide": "insurance_policy_guide_seed",
         }
         modname = seed_map.get(slug)
         if modname:

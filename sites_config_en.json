@@ -474,6 +474,291 @@
       "affiliate_tag": "subscription-20",
       "ad_sense_client": "ca-pub-2741071921044101",
       "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Crypto Guide",
+      "slug": "crypto-guide",
+      "project": "crypto-guide",
+      "domain": "crypto-guide-aor.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US cryptocurrency: Bitcoin, Ethereum, exchanges, and taxes. How to invest and trade crypto safely.",
+      "kicker": "US Cryptocurrency & Digital Assets Guide",
+      "categories": {
+        "Crypto Basics": "Cryptocurrency basics",
+        "Trading": "Trading and exchanges",
+        "Investing": "Crypto investing",
+        "Taxes": "Crypto taxes",
+        "Security": "Crypto security and wallets"
+      },
+      "affiliate_tag": "crypto-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Forex Guide",
+      "slug": "forex-guide",
+      "project": "forex-guide",
+      "domain": "forex-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US forex trading: currency pairs, strategies, and risk management. How to trade foreign exchange safely.",
+      "kicker": "US Forex Trading Guide",
+      "categories": {
+        "Forex Basics": "Forex trading basics",
+        "Strategies": "Trading strategies",
+        "Platforms": "Brokers and platforms",
+        "Risk": "Risk management",
+        "Education": "Learning to trade"
+      },
+      "affiliate_tag": "forex-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Real Estate Investing Guide",
+      "slug": "real-estate-investing-guide",
+      "project": "real-estate-investing-guide",
+      "domain": "real-estate-investing-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US real estate investing: rental properties, REITs, and house flipping. How to build wealth through property.",
+      "kicker": "US Real Estate Investing Guide",
+      "categories": {
+        "RE Basics": "Real estate investing basics",
+        "Rental": "Rental properties",
+        "REITs": "REITs and funds",
+        "Flipping": "House flipping",
+        "Financing": "Investment financing"
+      },
+      "affiliate_tag": "reinvest-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Dividend Guide",
+      "slug": "dividend-guide",
+      "project": "dividend-guide",
+      "domain": "dividend-guide-aip.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US dividend investing: dividend stocks, DRIPs, and income strategies. How to build passive income.",
+      "kicker": "US Dividend Investing Guide",
+      "categories": {
+        "Dividend Basics": "Dividend investing basics",
+        "Stocks": "Dividend stocks",
+        "DRIP": "Dividend reinvestment",
+        "Income": "Income strategies",
+        "Portfolio": "Dividend portfolio"
+      },
+      "affiliate_tag": "dividend-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Medical Billing Guide",
+      "slug": "medical-billing-guide",
+      "project": "medical-billing-guide",
+      "domain": "medical-billing-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US medical billing and health costs: insurance claims, medical bills, and negotiation. How to reduce healthcare costs.",
+      "kicker": "US Medical Billing & Health Costs Guide",
+      "categories": {
+        "Billing Basics": "Medical billing basics",
+        "Claims": "Insurance claims",
+        "Bills": "Medical bills",
+        "Negotiation": "Negotiating bills",
+        "Costs": "Reducing health costs"
+      },
+      "affiliate_tag": "medbilling-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Annuity Guide",
+      "slug": "annuity-guide",
+      "project": "annuity-guide",
+      "domain": "annuity-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US annuities: types, pros and cons, and retirement income. How to choose the right annuity.",
+      "kicker": "US Annuity & Retirement Income Guide",
+      "categories": {
+        "Annuity Basics": "Annuity basics",
+        "Types": "Types of annuities",
+        "Income": "Retirement income",
+        "Comparison": "Comparing options",
+        "Risks": "Annuity risks"
+      },
+      "affiliate_tag": "annuity-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Credit Card Rewards Guide",
+      "slug": "credit-card-rewards-guide",
+      "project": "credit-card-rewards-guide",
+      "domain": "credit-card-rewards-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US credit card rewards: points, miles, cashback, and sign-up bonuses. How to maximize your rewards.",
+      "kicker": "US Credit Card Rewards Guide",
+      "categories": {
+        "Rewards Basics": "Rewards basics",
+        "Cashback": "Cashback cards",
+        "Points": "Points and miles",
+        "Bonuses": "Sign-up bonuses",
+        "Maximizing": "Maximizing rewards"
+      },
+      "affiliate_tag": "ccrewards-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Saving Strategies Guide",
+      "slug": "saving-strategies-guide",
+      "project": "saving-strategies-guide",
+      "domain": "saving-strategies-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US saving strategies: high-yield savings, automation, and money-saving tips. How to grow your savings.",
+      "kicker": "US Saving & Money Growth Guide",
+      "categories": {
+        "Saving Basics": "Saving basics",
+        "High-Yield": "High-yield savings",
+        "Automation": "Automating savings",
+        "Tips": "Money-saving tips",
+        "Goals": "Savings goals"
+      },
+      "affiliate_tag": "saving-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Home Equity Guide",
+      "slug": "home-equity-guide",
+      "project": "home-equity-guide",
+      "domain": "home-equity-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US home equity: HELOC, home equity loans, and cash-out refinancing. How to use your home's value wisely.",
+      "kicker": "US Home Equity & Borrowing Guide",
+      "categories": {
+        "Equity Basics": "Home equity basics",
+        "HELOC": "Home equity lines of credit",
+        "Loans": "Home equity loans",
+        "Refinancing": "Cash-out refinancing",
+        "Borrowing": "Borrowing wisely"
+      },
+      "affiliate_tag": "homeequity-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Entrepreneur Guide",
+      "slug": "entrepreneur-guide",
+      "project": "entrepreneur-guide",
+      "domain": "entrepreneur-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US entrepreneurship: starting, scaling, and growing a business. How to become a successful entrepreneur.",
+      "kicker": "US Entrepreneurship Guide",
+      "categories": {
+        "Mindset": "Entrepreneur mindset",
+        "Starting": "Starting a venture",
+        "Scaling": "Scaling a business",
+        "Funding": "Funding and investors",
+        "Mistakes": "Avoiding mistakes"
+      },
+      "affiliate_tag": "entrepreneur-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Wealth Management Guide",
+      "slug": "wealth-management-guide",
+      "project": "wealth-management-guide",
+      "domain": "wealth-management-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US wealth management: asset allocation, financial advisors, and high-net-worth planning. How to grow and protect wealth.",
+      "kicker": "US Wealth Management Guide",
+      "categories": {
+        "Wealth Basics": "Wealth management basics",
+        "Advisors": "Financial advisors",
+        "Allocation": "Asset allocation",
+        "Planning": "High-net-worth planning",
+        "Protection": "Protecting wealth"
+      },
+      "affiliate_tag": "wealth-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Charity Tax Guide",
+      "slug": "charity-tax-guide",
+      "project": "charity-tax-guide",
+      "domain": "charity-tax-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US charitable giving and tax deductions: donations, DAFs, and non-profits. How to give and save on taxes.",
+      "kicker": "US Charitable Giving & Tax Deductions Guide",
+      "categories": {
+        "Giving Basics": "Charitable giving basics",
+        "Deductions": "Tax deductions",
+        "DAF": "Donor-advised funds",
+        "Nonprofits": "Non-profit giving",
+        "Planning": "Giving strategies"
+      },
+      "affiliate_tag": "charity-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Lease Guide",
+      "slug": "lease-guide",
+      "project": "lease-guide",
+      "domain": "lease-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US leasing: car leases, equipment leases, and commercial leases. How to negotiate and understand lease agreements.",
+      "kicker": "US Leasing & Agreements Guide",
+      "categories": {
+        "Lease Basics": "Leasing basics",
+        "Car": "Car leasing",
+        "Equipment": "Equipment leasing",
+        "Commercial": "Commercial leasing",
+        "Negotiation": "Negotiating leases"
+      },
+      "affiliate_tag": "lease-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Financial Literacy Guide",
+      "slug": "financial-literacy-guide",
+      "project": "financial-literacy-guide",
+      "domain": "financial-literacy-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US financial literacy: money basics, compound interest, and smart money habits. How to build financial knowledge.",
+      "kicker": "US Financial Literacy Guide",
+      "categories": {
+        "Money Basics": "Money basics",
+        "Interest": "Compound interest",
+        "Habits": "Money habits",
+        "Education": "Financial education",
+        "Skills": "Financial skills"
+      },
+      "affiliate_tag": "finlit-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Insurance Policy Guide",
+      "slug": "insurance-policy-guide",
+      "project": "insurance-policy-guide",
+      "domain": "insurance-policy-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US insurance policies: understanding coverage, riders, and claims. How to read and manage your policies.",
+      "kicker": "US Insurance Policy & Claims Guide",
+      "categories": {
+        "Policy Basics": "Policy basics",
+        "Coverage": "Understanding coverage",
+        "Riders": "Riders and add-ons",
+        "Claims": "Filing claims",
+        "Management": "Managing policies"
+      },
+      "affiliate_tag": "policy-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
     }
   ]
 }

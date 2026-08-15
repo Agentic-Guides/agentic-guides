@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+"""Dividend Guide 初期記事シードデータ（英語）"""
+
+ARTICLES = [
+    {
+        "title": "Dividend Guide: Dividend Basics Guide 2026",
+        "description": "Learn about dividend basics for your dividend guide. Dividend investing basics.",
+        "category": "Dividend Basics",
+        "body": "<h2>What is Dividend Basics?</h2>\n<p>Dividend Basics is an important topic for anyone researching dividend guide. This article provides general information to help you understand the basics as of 2026. Dividend investing basics.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    },
+    {
+        "title": "Dividend Guide: Stocks Guide 2026",
+        "description": "Learn about stocks for your dividend guide. Dividend stocks.",
+        "category": "Stocks",
+        "body": "<h2>What is Stocks?</h2>\n<p>Stocks is an important topic for anyone researching dividend guide. This article provides general information to help you understand the basics as of 2026. Dividend stocks.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    },
+    {
+        "title": "Dividend Guide: DRIP Guide 2026",
+        "description": "Learn about drip for your dividend guide. Dividend reinvestment.",
+        "category": "DRIP",
+        "body": "<h2>What is DRIP?</h2>\n<p>DRIP is an important topic for anyone researching dividend guide. This article provides general information to help you understand the basics as of 2026. Dividend reinvestment.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    },
+    {
+        "title": "Dividend Guide: Income Guide 2026",
+        "description": "Learn about income for your dividend guide. Income strategies.",
+        "category": "Income",
+        "body": "<h2>What is Income?</h2>\n<p>Income is an important topic for anyone researching dividend guide. This article provides general information to help you understand the basics as of 2026. Income strategies.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    },
+    {
+        "title": "Dividend Guide: Portfolio Guide 2026",
+        "description": "Learn about portfolio for your dividend guide. Dividend portfolio.",
+        "category": "Portfolio",
+        "body": "<h2>What is Portfolio?</h2>\n<p>Portfolio is an important topic for anyone researching dividend guide. This article provides general information to help you understand the basics as of 2026. Dividend portfolio.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    }
+]

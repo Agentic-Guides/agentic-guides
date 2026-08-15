@@ -3,58 +3,33 @@
 
 ARTICLES = [
     {
-        "title": "Estate Planning 2026: A Complete Guide for Beginners",
-        "description": "Learn the basics of estate planning in 2026. Understand wills, trusts, and how to protect your assets and family.",
+        "title": "Estate Planning Guide: Estate Basics Guide 2026",
+        "description": "Learn about estate basics for your estate planning guide. Estate planning basics.",
         "category": "Estate Basics",
-        "body": """<h2>What is estate planning?</h2>
-<p>Estate planning is the process of arranging how your assets will be managed and distributed after your death. It involves creating legal documents like wills and trusts to ensure your wishes are carried out and your family is protected.</p>
-<h2>Why is estate planning important?</h2>
-<p>Estate planning ensures your assets go to the people you choose, minimizes taxes, and avoids the delays and costs of probate. It also allows you to name guardians for minor children and make healthcare decisions.</p>
-<h2>What documents do I need?</h2>
-<p>Key documents include a will, a durable power of attorney, a healthcare directive, and possibly a trust. These documents ensure your wishes are followed and your affairs are managed if you become incapacitated.</p>"""
+        "body": "<h2>What is Estate Basics?</h2>\n<p>Estate Basics is an important topic for anyone researching estate planning guide. This article provides general information to help you understand the basics as of 2026. Estate planning basics.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
     },
     {
-        "title": "Wills 2026: How to Write a Will",
-        "description": "Learn how to write a will in 2026. Understand what to include, how to make it legal, and how to update it.",
+        "title": "Estate Planning Guide: Wills Guide 2026",
+        "description": "Learn about wills for your estate planning guide. Wills and testaments.",
         "category": "Wills",
-        "body": """<h2>What is a will?</h2>
-<p>A will is a legal document that states how you want your assets distributed after your death. It also names an executor to manage your estate and guardians for minor children. Without a will, state law determines who gets your assets.</p>
-<h2>What should I include in my will?</h2>
-<p>Include your assets, beneficiaries, an executor, and guardians for minor children. Be specific about how you want your assets distributed. Review and update your will after major life events like marriage, divorce, or the birth of a child.</p>
-<h2>How do I make a will legal?</h2>
-<p>A will must be signed and witnessed according to your state's requirements. You can use an attorney, online services, or a DIY kit. Ensure your will is properly executed to be valid.</p>"""
+        "body": "<h2>What is Wills?</h2>\n<p>Wills is an important topic for anyone researching estate planning guide. This article provides general information to help you understand the basics as of 2026. Wills and testaments.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
     },
     {
-        "title": "Trusts 2026: How to Protect Your Assets",
-        "description": "Learn about trusts in 2026. Understand the types of trusts and how they can protect your assets and family.",
+        "title": "Estate Planning Guide: Trusts Guide 2026",
+        "description": "Learn about trusts for your estate planning guide. Trusts and asset protection.",
         "category": "Trusts",
-        "body": """<h2>What is a trust?</h2>
-<p>A trust is a legal arrangement where a trustee holds and manages assets for beneficiaries. Trusts can help avoid probate, reduce taxes, and provide more control over how assets are distributed.</p>
-<h2>What types of trusts are available?</h2>
-<p>Common types include revocable living trusts, irrevocable trusts, and special needs trusts. Revocable trusts can be changed, while irrevocable trusts generally cannot. Each has different tax and control implications.</p>
-<h2>Do I need a trust?</h2>
-<p>Trusts are useful for larger estates, complex family situations, or if you want to avoid probate. They can also protect assets for minor children or beneficiaries with special needs. Consult an attorney to determine if a trust is right for you.</p>"""
+        "body": "<h2>What is Trusts?</h2>\n<p>Trusts is an important topic for anyone researching estate planning guide. This article provides general information to help you understand the basics as of 2026. Trusts and asset protection.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
     },
     {
-        "title": "Probate 2026: What You Need to Know",
-        "description": "Learn about probate in 2026. Understand the process, costs, and how to avoid it.",
+        "title": "Estate Planning Guide: Probate Guide 2026",
+        "description": "Learn about probate for your estate planning guide. Probate and administration.",
         "category": "Probate",
-        "body": """<h2>What is probate?</h2>
-<p>Probate is the legal process of administering a deceased person's estate. It involves validating the will, paying debts and taxes, and distributing assets to beneficiaries. Probate can be time-consuming and costly.</p>
-<h2>How long does probate take?</h2>
-<p>Probate can take several months to over a year, depending on the complexity of the estate and state laws. Simple estates may be resolved faster. The process can be delayed by disputes or missing documents.</p>
-<h2>How can I avoid probate?</h2>
-<p>You can avoid probate by using trusts, naming beneficiaries on accounts, and holding property jointly. These strategies allow assets to pass directly to beneficiaries without court involvement.</p>"""
+        "body": "<h2>What is Probate?</h2>\n<p>Probate is an important topic for anyone researching estate planning guide. This article provides general information to help you understand the basics as of 2026. Probate and administration.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
     },
     {
-        "title": "Inheritance 2026: How to Manage Inherited Assets",
-        "description": "Learn how to manage inherited assets in 2026. Understand inheritance taxes, beneficiary designations, and planning.",
+        "title": "Estate Planning Guide: Inheritance Guide 2026",
+        "description": "Learn about inheritance for your estate planning guide. Inheritance and beneficiaries.",
         "category": "Inheritance",
-        "body": """<h2>What is inheritance?</h2>
-<p>Inheritance is the assets you receive from a deceased person. This can include money, property, investments, and personal belongings. How you manage inherited assets depends on the type and your financial goals.</p>
-<h2>What are the tax implications?</h2>
-<p>Most states do not impose an inheritance tax, but the federal estate tax may apply to large estates. Inherited assets may have a stepped-up basis, reducing capital gains taxes. Consult a tax professional for guidance.</p>
-<h2>How do I manage inherited assets?</h2>
-<p>Take time to understand the assets and their tax implications. Consider your financial goals and how the inheritance fits into your plan. Consult financial and legal professionals to make informed decisions.</p>"""
-    },
+        "body": "<h2>What is Inheritance?</h2>\n<p>Inheritance is an important topic for anyone researching estate planning guide. This article provides general information to help you understand the basics as of 2026. Inheritance and beneficiaries.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    }
 ]

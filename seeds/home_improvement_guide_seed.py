@@ -3,58 +3,33 @@
 
 ARTICLES = [
     {
-        "title": "Home Improvement 2026: Projects That Add Value",
-        "description": "Learn about home improvement projects in 2026. Understand which projects add value to your home.",
+        "title": "Home Improvement Guide: Projects Guide 2026",
+        "description": "Learn about projects for your home improvement guide. Home improvement projects.",
         "category": "Projects",
-        "body": """<h2>What home improvements add the most value?</h2>
-<p>Kitchen and bathroom remodels, energy-efficient upgrades, and curb appeal improvements typically add the most value. A new front door, garage door, or siding can offer a high return on investment. Choose projects that appeal to buyers.</p>
-<h2>How do I plan a home improvement project?</h2>
-<p>Set a budget, research costs, and prioritize projects based on your goals. Get multiple quotes from contractors and check references. Plan for unexpected costs and timelines.</p>
-<h2>Should I hire a contractor or do it myself?</h2>
-<p>DIY can save money on simple projects if you have the skills. Hire a contractor for complex projects that require permits, specialized skills, or significant risk. Get written contracts and warranties.</p>"""
+        "body": "<h2>What is Projects?</h2>\n<p>Projects is an important topic for anyone researching home improvement guide. This article provides general information to help you understand the basics as of 2026. Home improvement projects.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
     },
     {
-        "title": "Home Renovation Loans 2026: How to Finance Your Project",
-        "description": "Learn about home renovation loans in 2026. Understand your financing options and how to fund your project.",
+        "title": "Home Improvement Guide: Financing Guide 2026",
+        "description": "Learn about financing for your home improvement guide. Renovation financing.",
         "category": "Financing",
-        "body": """<h2>What are my financing options?</h2>
-<p>Options include home equity loans, home equity lines of credit (HELOCs), cash-out refinancing, and personal loans. Government programs like FHA 203(k) loans are designed for renovations. Choose based on your equity and needs.</p>
-<h2>What is a home equity loan?</h2>
-<p>A home equity loan lets you borrow against the equity in your home, with a fixed rate and term. It provides a lump sum for renovations. A HELOC works like a credit line you can draw from as needed.</p>
-<h2>How do I choose the right financing?</h2>
-<p>Compare interest rates, terms, and fees. Consider the amount you need and your repayment ability. Home equity options often offer lower rates but use your home as collateral. Consult a financial advisor for guidance.</p>"""
+        "body": "<h2>What is Financing?</h2>\n<p>Financing is an important topic for anyone researching home improvement guide. This article provides general information to help you understand the basics as of 2026. Renovation financing.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
     },
     {
-        "title": "Energy Efficiency Upgrades 2026: Save Money and Add Value",
-        "description": "Learn about energy efficiency upgrades in 2026. Understand how to save money and add value to your home.",
+        "title": "Home Improvement Guide: Energy Guide 2026",
+        "description": "Learn about energy for your home improvement guide. Energy efficiency upgrades.",
         "category": "Energy",
-        "body": """<h2>What energy upgrades should I consider?</h2>
-<p>Consider upgrading to energy-efficient windows, insulation, heating and cooling systems, and solar panels. These upgrades reduce your energy bills and can qualify for tax credits and rebates.</p>
-<h2>What are the benefits?</h2>
-<p>Energy-efficient upgrades lower your utility bills, increase your home's value, and reduce your environmental impact. Many upgrades qualify for federal tax credits and utility rebates, reducing the upfront cost.</p>
-<h2>How do I get started?</h2>
-<p>Start with an energy audit to identify the most impactful upgrades. Prioritize projects that offer the best return. Check for rebates and incentives before starting. Hire qualified contractors for major upgrades.</p>"""
+        "body": "<h2>What is Energy?</h2>\n<p>Energy is an important topic for anyone researching home improvement guide. This article provides general information to help you understand the basics as of 2026. Energy efficiency upgrades.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
     },
     {
-        "title": "Home Renovation Planning 2026: Budget and Timeline",
-        "description": "Learn how to plan a home renovation in 2026. Understand budgeting, timelines, and how to avoid common mistakes.",
+        "title": "Home Improvement Guide: Planning Guide 2026",
+        "description": "Learn about planning for your home improvement guide. Planning and budgeting.",
         "category": "Planning",
-        "body": """<h2>How do I budget for a renovation?</h2>
-<p>Estimate the cost of materials, labor, permits, and contingencies. Set aside 10-20% for unexpected costs. Get multiple quotes and compare. Prioritize essential improvements and finance wisely.</p>
-<h2>How long does a renovation take?</h2>
-<p>Timelines vary by project. Minor updates take days to weeks, while major remodels can take months. Factors include permits, materials, and contractor availability. Plan for delays and communicate with your contractor.</p>
-<h2>What mistakes should I avoid?</h2>
-<p>Avoid underestimating costs, skipping permits, and hiring unlicensed contractors. Avoid making changes during construction that increase costs. Plan thoroughly and communicate clearly with your contractor.</p>"""
+        "body": "<h2>What is Planning?</h2>\n<p>Planning is an important topic for anyone researching home improvement guide. This article provides general information to help you understand the basics as of 2026. Planning and budgeting.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
     },
     {
-        "title": "DIY Home Improvement 2026: Projects for Beginners",
-        "description": "Learn about DIY home improvement in 2026. Discover beginner-friendly projects and tips.",
+        "title": "Home Improvement Guide: DIY Guide 2026",
+        "description": "Learn about diy for your home improvement guide. DIY projects and tips.",
         "category": "DIY",
-        "body": """<h2>What DIY projects are good for beginners?</h2>
-<p>Beginner-friendly projects include painting, replacing fixtures, installing shelving, and updating hardware. These projects are affordable, low-risk, and can improve your home's appearance. Start with small projects to build confidence.</p>
-<h2>What tools do I need?</h2>
-<p>Essential tools include a hammer, screwdriver set, drill, measuring tape, level, and basic safety gear. Invest in quality tools that will last. Learn to use tools safely and properly.</p>
-<h2>How do I know if a project is DIY-friendly?</h2>
-<p>Consider the complexity, risk, and required skills. Simple cosmetic projects are often DIY-friendly, while electrical, plumbing, and structural work should be left to professionals. Know your limits and hire help when needed.</p>"""
-    },
+        "body": "<h2>What is DIY?</h2>\n<p>DIY is an important topic for anyone researching home improvement guide. This article provides general information to help you understand the basics as of 2026. DIY projects and tips.</p>\n<h2>Who is this relevant to?</h2>\n<p>This topic is relevant to individuals and families planning their finances, and to those who want accurate, up-to-date information. Requirements and rules can change, so it is wise to verify current details with official sources.</p>\n<h2>How do I get started?</h2>\n<p>The process generally involves understanding your needs, gathering relevant information, and comparing available options. The right approach depends on your individual circumstances and goals.</p>\n<h2>What should I keep in mind?</h2>\n<p>There are several important considerations. Because this involves financial decisions, you should not rely on general information alone. Consult a qualified professional for advice specific to your situation.</p>"
+    }
 ]

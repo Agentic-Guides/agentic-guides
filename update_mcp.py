@@ -13,7 +13,10 @@ EN_SITES = ["grant-navigator", "tax-filing-guide", "mortgage-guide", "side-hustl
             "insurance-guide", "credit-score-guide", "student-loan-guide", "retirement-guide", "small-business-guide",
             "investing-guide", "pet-insurance-guide", "estate-planning-guide", "auto-loan-guide", "rental-guide",
             "personal-loan-guide", "banking-guide", "financial-planning-guide", "career-guide", "home-improvement-guide",
-            "hsa-guide", "travel-insurance-guide", "gig-work-guide", "coupon-guide", "subscription-guide"]
+            "hsa-guide", "travel-insurance-guide", "gig-work-guide", "coupon-guide", "subscription-guide",
+            "crypto-guide", "forex-guide", "real-estate-investing-guide", "dividend-guide", "medical-billing-guide",
+            "annuity-guide", "credit-card-rewards-guide", "saving-strategies-guide", "home-equity-guide", "entrepreneur-guide",
+            "wealth-management-guide", "charity-tax-guide", "lease-guide", "financial-literacy-guide", "insurance-policy-guide"]
 
 def rebuild_index():
     all_articles = []
