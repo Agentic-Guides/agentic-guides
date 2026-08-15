@@ -26,6 +26,18 @@ GENERIC_TOPICS_EN = [
     "Comparing and Choosing Your Options",
     "Latest Policy Updates",
     "What Beginners Should Know",
+    "Common Mistakes to Avoid",
+    "Step-by-Step Guide for First-Timers",
+    "How to Prepare the Required Documents",
+    "Eligibility Requirements Explained",
+    "Timeline and How Long It Takes",
+    "What to Do If You Are Denied",
+    "Renewal and Maintenance Requirements",
+    "Tax Implications You Should Know",
+    "How to Maximize Your Benefits",
+    "State-by-State Differences",
+    "Real-World Examples and Scenarios",
+    "Resources and Where to Get Help",
 ]
 
 # 日本語サイト用テーマ
@@ -38,6 +50,18 @@ GENERIC_TOPICS_JA = [
     "比較・選択のポイント",
     "制度改正の最新状況",
     "初心者が知っておくべき基礎",
+    "よくある失敗と回避方法",
+    "初めての方向けステップガイド",
+    "必要書類の準備方法",
+    "受給資格の条件を解説",
+    "申請から完了までの期間",
+    "却下された場合の対処法",
+    "更新・維持の要件",
+    "税金への影響と注意点",
+    "給付を最大化する方法",
+    "都道府県・地域による違い",
+    "実際の事例とシナリオ",
+    "参考リソースと相談窓口",
 ]
 
 # 英語サイト固有テーマ（英語のみ）

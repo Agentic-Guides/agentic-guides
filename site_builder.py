@@ -45,8 +45,8 @@ def save_articles(slug, articles):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(articles, f, ensure_ascii=False, indent=2)
 
-def build_article_html(site, a):
-    """記事HTMLを生成（AEO最適化 + JSON-LD Article/FAQPage）"""
+def build_article_html(site, a, all_articles=None):
+    """記事HTMLを生成（AEO最適化 + JSON-LD Article/FAQPage + 内部リンク）"""
     domain = site["domain"]
     lang = site.get("lang", "ja")
     noext = _noext(a["file"])
@@ -70,6 +70,33 @@ def build_article_html(site, a):
     # 記事冒頭に免責を自動挿入（重複防止）
     if top_notice not in body:
         body = top_notice + "\n" + body
+
+    # 関連記事リンク（内部リンク・トピック深度強化）
+    related_html = ""
+    if all_articles:
+        related = [x for x in all_articles if x["file"] != a["file"]][:3]
+        if related:
+            if lang == "en":
+                related_html = '<div class="related"><h2>Related Articles</h2><ul>'
+                for r in related:
+                    r_noext = _noext(r["file"])
+                    related_html += f'<li><a href="/articles/{r_noext}">{r["title"]}</a></li>'
+                related_html += '</ul></div>'
+            else:
+                related_html = '<div class="related"><h2>関連記事</h2><ul>'
+                for r in related:
+                    r_noext = _noext(r["file"])
+                    related_html += f'<li><a href="/articles/{r_noext}">{r["title"]}</a></li>'
+                related_html += '</ul></div>'
+
+    # 著者リンク（著者ページへの内部リンク）
+    author_html = ""
+    if lang == "en":
+        author_html = '<p class="author">By <a href="/author">Agentic Guides Editorial Team</a></p>'
+    else:
+        author_html = '<p class="author">著者: <a href="/author">Agentic Guides編集部</a></p>'
+
+    body = body + related_html + author_html
 
     # FAQ構造化データ（記事から「？で終わる見出し」を抽出してFAQにする）
     faq_items = []
@@ -143,6 +170,174 @@ th{{background:#e8f5e9}}
 </body>
 </html>'''
     return html
+
+def build_author_page(site, articles):
+    """著者ページを生成（著者リンクの受け皿・信頼とリンク獲得）"""
+    lang = site.get("lang", "ja")
+    domain = site["domain"]
+    name = site["name"]
+    if lang == "en":
+        title = "About the Author | Agentic Guides Editorial Team"
+        body = f"""<h1>About the Author</h1>
+<p>The <strong>Agentic Guides Editorial Team</strong> researches and publishes practical guides on {name.lower()} topics. Our team focuses on providing accurate, up-to-date, and clearly sourced information to help readers make informed decisions.</p>
+<h2>What We Cover</h2>
+<p>We publish guides on {name.lower()}, covering the topics readers ask about most. Each article is written to be clear, factual, and useful, with a focus on helping readers understand their options.</p>
+<h2>Our Approach</h2>
+<p>We prioritize accuracy and transparency. Every article includes a clear disclaimer that it provides general information, not professional advice. We encourage readers to verify details with official sources and consult qualified professionals for their specific situations.</p>
+<h2>Published Articles</h2>
+<ul>"""
+        for a in articles:
+            noext = _noext(a["file"])
+            body += f'<li><a href="/articles/{noext}">{a["title"]}</a></li>'
+        body += "</ul>"
+    else:
+        title = "著者について | Agentic Guides編集部"
+        body = f"""<h1>著者について</h1>
+<p><strong>Agentic Guides編集部</strong>は、{name}に関する実用的なガイドを調査・公開しています。正確で最新の情報を、明確な出典とともに提供することを目指しています。</p>
+<h2>取り扱うテーマ</h2>
+<p>{name}に関する、読者が最もよく尋ねるテーマを扱っています。各記事は明確で事実に基づき、読者が選択肢を理解するのに役立つよう書かれています。</p>
+<h2>編集方針</h2>
+<p>正確性と透明性を重視しています。すべての記事に「一般的な情報提供であり、専門的助言ではない」という免責を明記しています。詳細は公式情報で確認し、具体的な判断は専門家に相談するよう推奨しています。</p>
+<h2>公開記事</h2>
+<ul>"""
+        for a in articles:
+            noext = _noext(a["file"])
+            body += f'<li><a href="/articles/{noext}">{a["title"]}</a></li>'
+        body += "</ul>"
+    return f"""<!DOCTYPE html>
+<html lang="{'en' if lang=='en' else 'ja'}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>{title}</title>
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://{domain}/author">
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"Person","name":"Agentic Guides Editorial Team","url":"https://{domain}/author"}}</script>
+<style>
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{font-family:'Noto Sans JP','Hiragino Sans',sans-serif;font-size:18px;line-height:1.9;background:#f7f4ef;color:#2b2b2b}}
+a{{color:#1a6b3c}}
+h1{{font-size:26px;margin:20px 0;color:#1a6b3c}}
+h2{{font-size:22px;margin:30px 0 15px;color:#1a6b3c;border-bottom:2px solid #1a6b3c;padding-bottom:8px}}
+p{{margin-bottom:16px}}
+ul{{margin:0 0 20px 20px}}
+li{{margin-bottom:8px}}
+.article-body{{background:#fff;padding:30px;border-radius:12px;max-width:860px;margin:0 auto;box-shadow:0 2px 8px rgba(0,0,0,.08)}}
+.site-header{{background:#1a6b3c;color:#fff;padding:30px 20px;text-align:center}}
+.site-header h1{{color:#fff;font-size:26px}}
+.site-footer{{background:#123a23;color:#c8e6c9;text-align:center;padding:30px 20px;margin-top:40px;font-size:14px}}
+</style>
+</head>
+<body>
+<header class="site-header"><h1>{site['name']}</h1></header>
+<main class="article-body">{body}</main>
+<footer class="site-footer"><p>© 2026 {site['name']}</p></footer>
+</body>
+</html>"""
+
+def build_statistics_page(site, articles):
+    """統計ページを生成（リンク獲得のためのオリジナル統計・実データ反映）"""
+    lang = site.get("lang", "ja")
+    domain = site["domain"]
+    name = site["name"]
+    n = len(articles)
+
+    # カテゴリ分布を集計
+    cats = {}
+    for a in articles:
+        c = a.get("category", "Uncategorized" if lang == "en" else "未分類")
+        cats[c] = cats.get(c, 0) + 1
+
+    # 更新日（最新記事の日付）
+    dates = [a.get("date", "") for a in articles if a.get("date")]
+    latest = max(dates) if dates else datetime.now().strftime("%Y-%m-%d")
+
+    if lang == "en":
+        title = f"Statistics: {name} Coverage & Research"
+        # カテゴリ分布テーブル
+        cat_rows = "".join(
+            f"<tr><td>{c}</td><td>{cnt}</td><td>{round(cnt/n*100)}%</td></tr>"
+            for c, cnt in sorted(cats.items(), key=lambda x: -x[1])
+        )
+        # 記事一覧
+        art_list = "".join(
+            f'<li><a href="/articles/{_noext(a["file"])}">{a["title"]}</a></li>'
+            for a in articles
+        )
+        body = f"""<h1>Statistics & Research</h1>
+<p>This page shares original statistics about our coverage of {name.lower()} topics. We publish this data to help readers and researchers understand the landscape.</p>
+<h2>Our Coverage</h2>
+<p>As of {datetime.now().strftime('%B %Y')}, we have published <strong>{n} articles</strong> covering the most important {name.lower()} topics. Each article is written to be clear, factual, and useful.</p>
+<h2>Coverage by Category</h2>
+<table>
+<tr><th>Category</th><th>Articles</th><th>Share</th></tr>
+{cat_rows}
+</table>
+<h2>Methodology</h2>
+<p>We track the topics readers ask about most and prioritize coverage accordingly. Our articles are reviewed for accuracy and updated as information changes. This page is updated automatically as our coverage grows.</p>
+<h2>All Published Articles</h2>
+<ul>{art_list}</ul>
+<h2>Update History</h2>
+<p>Last updated: {latest}</p>
+<p><em>This data is provided for general information and reflects our own coverage. It is not professional advice.</em></p>"""
+    else:
+        title = f"統計: {name}のカバー状況と調査"
+        cat_rows = "".join(
+            f"<tr><td>{c}</td><td>{cnt}</td><td>{round(cnt/n*100)}%</td></tr>"
+            for c, cnt in sorted(cats.items(), key=lambda x: -x[1])
+        )
+        art_list = "".join(
+            f'<li><a href="/articles/{_noext(a["file"])}">{a["title"]}</a></li>'
+            for a in articles
+        )
+        body = f"""<h1>統計と調査</h1>
+<p>このページでは、{name}に関する当サイトのカバー状況の統計を公開しています。読者や研究者が状況を理解するのに役立つデータを提供します。</p>
+<h2>当サイトのカバー状況</h2>
+<p>{datetime.now().strftime('%Y年%m月')}時点で、{name}に関する重要なテーマを<strong>{n}記事</strong>でカバーしています。各記事は明確で事実に基づき、役立つ内容を目指しています。</p>
+<h2>カテゴリ別カバー状況</h2>
+<table>
+<tr><th>カテゴリ</th><th>記事数</th><th>割合</th></tr>
+{cat_rows}
+</table>
+<h2>調査方法</h2>
+<p>読者が最もよく尋ねるテーマを追跡し、それに応じてカバーを優先しています。記事は正確性を確認し、情報が変わったら更新しています。このページはカバーが増えるにつれて自動更新されます。</p>
+<h2>公開記事一覧</h2>
+<ul>{art_list}</ul>
+<h2>更新履歴</h2>
+<p>最終更新: {latest}</p>
+<p><em>このデータは一般的な情報提供のためであり、当サイト自身のカバー状況を反映しています。専門的助言ではありません。</em></p>"""
+    return f"""<!DOCTYPE html>
+<html lang="{'en' if lang=='en' else 'ja'}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>{title}</title>
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://{domain}/statistics">
+<style>
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{font-family:'Noto Sans JP','Hiragino Sans',sans-serif;font-size:18px;line-height:1.9;background:#f7f4ef;color:#2b2b2b}}
+a{{color:#1a6b3c}}
+h1{{font-size:26px;margin:20px 0;color:#1a6b3c}}
+h2{{font-size:22px;margin:30px 0 15px;color:#1a6b3c;border-bottom:2px solid #1a6b3c;padding-bottom:8px}}
+p{{margin-bottom:16px}}
+ul{{margin:0 0 20px 20px}}
+li{{margin-bottom:8px}}
+table{{width:100%;border-collapse:collapse;margin:15px 0}}
+th,td{{border:1px solid #ddd;padding:10px;text-align:left}}
+th{{background:#e8f5e9}}
+.article-body{{background:#fff;padding:30px;border-radius:12px;max-width:860px;margin:0 auto;box-shadow:0 2px 8px rgba(0,0,0,.08)}}
+.site-header{{background:#1a6b3c;color:#fff;padding:30px 20px;text-align:center}}
+.site-header h1{{color:#fff;font-size:26px}}
+.site-footer{{background:#123a23;color:#c8e6c9;text-align:center;padding:30px 20px;margin-top:40px;font-size:14px}}
+</style>
+</head>
+<body>
+<header class="site-header"><h1>{site['name']}</h1></header>
+<main class="article-body">{body}</main>
+<footer class="site-footer"><p>© 2026 {site['name']}</p></footer>
+</body>
+</html>"""
 
 def build_robots(site):
     """AIエージェントがクロールできるよう robots.txt を生成"""
@@ -343,10 +538,20 @@ def write_site_files(slug, articles, lang="ja"):
 
     # 記事HTML
     for a in articles:
-        html = build_article_html(site, a)
+        html = build_article_html(site, a, all_articles=articles)
         filepath = os.path.join(d, "articles", a["file"])
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(html)
+
+    # 著者ページ（author.html）
+    author_html = build_author_page(site, articles)
+    with open(os.path.join(d, "author.html"), "w", encoding="utf-8") as f:
+        f.write(author_html)
+
+    # 統計ページ（statistics.html）
+    stats_html = build_statistics_page(site, articles)
+    with open(os.path.join(d, "statistics.html"), "w", encoding="utf-8") as f:
+        f.write(stats_html)
 
     # 記事一覧(index.html)
     index_html = build_index_html(site, articles)
