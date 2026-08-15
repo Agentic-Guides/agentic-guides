@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+"""Subscription Guide 初期記事シードデータ（英語）"""
+
+ARTICLES = [
+    {
+        "title": "Subscription Management 2026: How to Track Your Subscriptions",
+        "description": "Learn how to manage your subscriptions in 2026. Understand how to track and organize your subscriptions.",
+        "category": "Subscription Basics",
+        "body": """<h2>Why is subscription management important?</h2>
+<p>Managing your subscriptions helps you avoid unnecessary costs and keep track of recurring payments. Many people pay for subscriptions they no longer use. Tracking your subscriptions can save significant money each year.</p>
+<h2>How do I track my subscriptions?</h2>
+<p>Create a list of all your subscriptions, including streaming, apps, memberships, and services. Note the monthly or annual cost and billing date. Use subscription tracking apps or a simple spreadsheet.</p>
+<h2>What are the common subscription types?</h2>
+<p>Common subscriptions include streaming services, software, fitness memberships, meal delivery, and subscriptions boxes. Review each one to determine if you still use and value it.</p>"""
+    },
+    {
+        "title": "Managing Subscriptions 2026: Tips to Stay Organized",
+        "description": "Learn how to manage your subscriptions in 2026. Understand tips to stay organized and avoid overspending.",
+        "category": "Management",
+        "body": """<h2>How do I stay organized with subscriptions?</h2>
+<p>Maintain a subscription list, set reminders for renewal dates, and review your subscriptions quarterly. Cancel unused services and consolidate where possible. Use a single payment method to track spending.</p>
+<h2>How do I avoid subscription creep?</h2>
+<p>Subscription creep is the gradual accumulation of subscriptions that are easy to forget. Regularly review your bank statements for recurring charges and cancel services you do not use.</p>
+<h2>What tools can help?</h2>
+<p>Subscription tracking apps like Rocket Money and Truebill can help identify and cancel subscriptions. Set calendar reminders for renewals. Review your subscriptions during annual financial checkups.</p>"""
+    },
+    {
+        "title": "Cutting Subscriptions 2026: How to Cancel and Save",
+        "description": "Learn how to cut subscriptions in 2026. Understand how to cancel services and save money.",
+        "category": "Cutting",
+        "body": """<h2>When should I cut a subscription?</h2>
+<p>Cut a subscription if you no longer use it, can get a cheaper alternative, or are spending more than you value the service. Regularly review your usage to identify subscriptions to cancel.</p>
+<h2>How do I cancel a subscription?</h2>
+<p>Cancel through the service's website or app, or contact customer support. Be aware of cancellation policies and any remaining billing cycles. Confirm the cancellation in writing and monitor for future charges.</p>
+<h2>How do I avoid re-subscription fees?</h2>
+<p>Set a reminder to cancel before the next billing cycle. Use a virtual card or payment method that can be easily paused. Review your bank statements for any unexpected charges.</p>"""
+    },
+    {
+        "title": "Streaming Services 2026: How to Save on Entertainment",
+        "description": "Learn how to save on streaming services in 2026. Understand how to manage and reduce your streaming costs.",
+        "category": "Streaming",
+        "body": """<h2>How do I save on streaming services?</h2>
+<p>Review your streaming subscriptions and cancel ones you rarely use. Share plans with family or friends where allowed. Choose ad-supported plans to save money. Rotate services based on what you watch.</p>
+<h2>What are the popular streaming services?</h2>
+<p>Popular services include Netflix, Hulu, Disney+, Max, and Peacock. Each offers different content and pricing. Compare plans and choose the services that provide the most value for your viewing habits.</p>
+<h2>How do I avoid streaming overlap?</h2>
+<p>Track what you watch and avoid paying for multiple services with overlapping content. Subscribe to one or two services at a time and rotate based on your needs. Take advantage of free trials.</p>"""
+    },
+    {
+        "title": "Subscription Savings 2026: How to Get the Best Deals",
+        "description": "Learn how to save money on subscriptions in 2026. Understand how to find discounts and reduce costs.",
+        "category": "Savings",
+        "body": """<h2>How do I find subscription discounts?</h2>
+<p>Look for annual plans that offer discounts, student or military discounts, and promotional deals. Contact the provider to negotiate a lower rate. Consider bundling services for savings.</p>
+<h2>What is the best time to buy subscriptions?</h2>
+<p>Many services offer discounts during holidays and promotional periods. Look for deals during Black Friday, Cyber Monday, and back-to-school season. Set alerts for price drops and promotions.</p>
+<h2>How do I reduce recurring costs?</h2>
+<p>Review all your subscriptions regularly, negotiate rates, and cancel unused services. Consider free or cheaper alternatives. Consolidate subscriptions where possible to reduce the number of payments.</p>"""
+    },
+]

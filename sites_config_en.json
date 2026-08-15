@@ -94,6 +94,386 @@
       "affiliate_tag": "eldercare-20",
       "ad_sense_client": "ca-pub-2741071921044101",
       "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Insurance Guide",
+      "slug": "insurance-guide",
+      "project": "insurance-guide-x35",
+      "domain": "insurance-guide-x35.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US insurance: health, life, auto, home, and more. How to choose the right coverage and save money.",
+      "kicker": "US Insurance Coverage Guide",
+      "categories": {
+        "Health Insurance": "Health insurance plans and enrollment",
+        "Life Insurance": "Life insurance types and coverage",
+        "Auto Insurance": "Auto insurance and coverage",
+        "Home Insurance": "Home and renters insurance",
+        "Insurance Basics": "Insurance basics and comparison"
+      },
+      "affiliate_tag": "insurance-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Credit Score Guide",
+      "slug": "credit-score-guide",
+      "project": "credit-score-guide",
+      "domain": "credit-score-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US credit scores, credit reports, and how to improve your credit. Understand what affects your score.",
+      "kicker": "US Credit Score & Report Guide",
+      "categories": {
+        "Credit Basics": "Credit score basics",
+        "Improve Credit": "How to improve your credit",
+        "Credit Cards": "Credit cards and usage",
+        "Credit Reports": "Credit reports and monitoring",
+        "Debt Management": "Debt management and consolidation"
+      },
+      "affiliate_tag": "creditscore-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Student Loan Guide",
+      "slug": "student-loan-guide",
+      "project": "student-loan-guide",
+      "domain": "student-loan-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US student loans, repayment plans, and forgiveness programs. How to manage and reduce student debt.",
+      "kicker": "US Student Loan & Repayment Guide",
+      "categories": {
+        "Loan Basics": "Student loan basics and types",
+        "Repayment": "Repayment plans and options",
+        "Forgiveness": "Loan forgiveness programs",
+        "Refinancing": "Refinancing student loans",
+        "Financial Aid": "Financial aid and scholarships"
+      },
+      "affiliate_tag": "studentloan-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Retirement Guide",
+      "slug": "retirement-guide",
+      "project": "retirement-guide",
+      "domain": "retirement-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US retirement planning, 401(k), IRA, and Social Security. How to save and plan for retirement.",
+      "kicker": "US Retirement Planning Guide",
+      "categories": {
+        "Retirement Basics": "Retirement planning basics",
+        "401k": "401(k) and employer plans",
+        "IRA": "IRA and individual accounts",
+        "Social Security": "Social Security benefits",
+        "Retirement Income": "Retirement income and withdrawal"
+      },
+      "affiliate_tag": "retirement-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Small Business Guide",
+      "slug": "small-business-guide",
+      "project": "small-business-guide-bgu",
+      "domain": "small-business-guide-bgu.pages.dev",
+      "lang": "en",
+      "description": "Latest information on starting and running a small business in the US. How to register, fund, and grow your business.",
+      "kicker": "US Small Business Guide",
+      "categories": {
+        "Starting": "How to start a business",
+        "Funding": "Business funding and loans",
+        "Legal": "Business legal and compliance",
+        "Marketing": "Marketing and growth",
+        "Taxes": "Business taxes and accounting"
+      },
+      "affiliate_tag": "smallbiz-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Investing Guide",
+      "slug": "investing-guide",
+      "project": "investing-guide",
+      "domain": "investing-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US investing: stocks, bonds, ETFs, and retirement accounts. How to build a diversified portfolio.",
+      "kicker": "US Investing & Portfolio Guide",
+      "categories": {
+        "Investing Basics": "Investing basics and principles",
+        "Stocks": "Stocks and equity investing",
+        "Bonds": "Bonds and fixed income",
+        "ETFs": "ETFs and index funds",
+        "Portfolio": "Portfolio building and diversification"
+      },
+      "affiliate_tag": "investing-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Pet Insurance Guide",
+      "slug": "pet-insurance-guide",
+      "project": "pet-insurance-guide",
+      "domain": "pet-insurance-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US pet insurance: coverage, costs, and how to choose the right plan for your pet.",
+      "kicker": "US Pet Insurance Guide",
+      "categories": {
+        "Pet Insurance Basics": "Pet insurance basics",
+        "Coverage": "Coverage and plans",
+        "Costs": "Costs and premiums",
+        "Choosing": "Choosing the right plan",
+        "Claims": "Claims and reimbursement"
+      },
+      "affiliate_tag": "petinsurance-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Estate Planning Guide",
+      "slug": "estate-planning-guide",
+      "project": "estate-planning-guide",
+      "domain": "estate-planning-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US estate planning: wills, trusts, probate, and inheritance. How to protect your assets and family.",
+      "kicker": "US Estate Planning Guide",
+      "categories": {
+        "Estate Basics": "Estate planning basics",
+        "Wills": "Wills and testaments",
+        "Trusts": "Trusts and asset protection",
+        "Probate": "Probate and administration",
+        "Inheritance": "Inheritance and beneficiaries"
+      },
+      "affiliate_tag": "estate-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Auto Loan Guide",
+      "slug": "auto-loan-guide",
+      "project": "auto-loan-guide",
+      "domain": "auto-loan-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US auto loans: rates, terms, and how to get the best financing for your car.",
+      "kicker": "US Auto Loan & Financing Guide",
+      "categories": {
+        "Auto Loan Basics": "Auto loan basics",
+        "Rates": "Interest rates and terms",
+        "Financing": "Financing options",
+        "Leasing": "Leasing vs buying",
+        "Refinancing": "Refinancing auto loans"
+      },
+      "affiliate_tag": "autoloan-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Rental Guide",
+      "slug": "rental-guide",
+      "project": "rental-guide",
+      "domain": "rental-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on renting in the US: finding apartments, leases, tenant rights, and moving.",
+      "kicker": "US Rental & Tenant Guide",
+      "categories": {
+        "Finding": "Finding a rental",
+        "Leases": "Leases and agreements",
+        "Tenant Rights": "Tenant rights and responsibilities",
+        "Moving": "Moving and relocation",
+        "Renters Insurance": "Renters insurance"
+      },
+      "affiliate_tag": "rental-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Personal Loan Guide",
+      "slug": "personal-loan-guide",
+      "project": "personal-loan-guide",
+      "domain": "personal-loan-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US personal loans: rates, terms, and how to borrow responsibly. Compare lenders and save money.",
+      "kicker": "US Personal Loan Guide",
+      "categories": {
+        "Loan Basics": "Personal loan basics",
+        "Rates": "Interest rates and terms",
+        "Lenders": "Comparing lenders",
+        "Debt Consolidation": "Debt consolidation loans",
+        "Borrowing": "Responsible borrowing"
+      },
+      "affiliate_tag": "personalloan-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Banking Guide",
+      "slug": "banking-guide",
+      "project": "banking-guide",
+      "domain": "banking-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US banking: checking accounts, savings, CDs, and online banking. How to choose the right bank and earn more interest.",
+      "kicker": "US Banking & Savings Guide",
+      "categories": {
+        "Checking": "Checking accounts",
+        "Savings": "Savings accounts and rates",
+        "CDs": "Certificates of deposit",
+        "Online Banking": "Online and mobile banking",
+        "Banking Basics": "Banking basics and fees"
+      },
+      "affiliate_tag": "banking-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Financial Planning Guide",
+      "slug": "financial-planning-guide",
+      "project": "financial-planning-guide",
+      "domain": "financial-planning-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US financial planning: budgeting, saving, goals, and money management. Build a solid financial foundation.",
+      "kicker": "US Financial Planning Guide",
+      "categories": {
+        "Budgeting": "Budgeting and money management",
+        "Saving": "Saving and emergency funds",
+        "Goals": "Financial goals and planning",
+        "Money Management": "Money management tips",
+        "Net Worth": "Building net worth"
+      },
+      "affiliate_tag": "finplan-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Career Guide",
+      "slug": "career-guide",
+      "project": "career-guide-dbn",
+      "domain": "career-guide-dbn.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US careers: job search, resume, interview, and career growth. How to advance your career and increase your income.",
+      "kicker": "US Career & Job Search Guide",
+      "categories": {
+        "Job Search": "Job search and application",
+        "Resume": "Resume and cover letter",
+        "Interview": "Interview tips and preparation",
+        "Career Growth": "Career advancement",
+        "Salary": "Salary and negotiation"
+      },
+      "affiliate_tag": "career-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Home Improvement Guide",
+      "slug": "home-improvement-guide",
+      "project": "home-improvement-guide",
+      "domain": "home-improvement-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US home improvement: remodeling, renovation loans, and energy upgrades. How to finance and plan home projects.",
+      "kicker": "US Home Improvement Guide",
+      "categories": {
+        "Projects": "Home improvement projects",
+        "Financing": "Renovation financing",
+        "Energy": "Energy efficiency upgrades",
+        "Planning": "Planning and budgeting",
+        "DIY": "DIY projects and tips"
+      },
+      "affiliate_tag": "homeimprove-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "HSA Guide",
+      "slug": "hsa-guide",
+      "project": "hsa-guide",
+      "domain": "hsa-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US Health Savings Accounts (HSA): contributions, withdrawals, and how to maximize tax savings.",
+      "kicker": "US Health Savings Account (HSA) Guide",
+      "categories": {
+        "HSA Basics": "HSA basics and eligibility",
+        "Contributions": "Contributions and limits",
+        "Investing": "Investing your HSA",
+        "Withdrawals": "Withdrawals and rules",
+        "Maximizing": "Maximizing tax savings"
+      },
+      "affiliate_tag": "hsa-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Travel Insurance Guide",
+      "slug": "travel-insurance-guide",
+      "project": "travel-insurance-guide",
+      "domain": "travel-insurance-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US travel insurance: coverage, costs, and how to choose the right plan for your trip.",
+      "kicker": "US Travel Insurance Guide",
+      "categories": {
+        "Insurance Basics": "Travel insurance basics",
+        "Coverage": "Coverage and plans",
+        "Costs": "Costs and premiums",
+        "Choosing": "Choosing the right plan",
+        "Claims": "Claims and reimbursement"
+      },
+      "affiliate_tag": "travelins-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Gig Work Guide",
+      "slug": "gig-work-guide",
+      "project": "gig-work-guide",
+      "domain": "gig-work-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US gig work: driving, delivery, freelancing, and the gig economy. How to earn and grow your gig income.",
+      "kicker": "US Gig Economy & Gig Work Guide",
+      "categories": {
+        "Gig Basics": "Gig work basics",
+        "Platforms": "Gig platforms and apps",
+        "Earning": "Maximizing gig income",
+        "Taxes": "Gig work taxes",
+        "Growth": "Growing your gig business"
+      },
+      "affiliate_tag": "gigwork-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Coupon Guide",
+      "slug": "coupon-guide",
+      "project": "coupon-guide",
+      "domain": "coupon-guide.pages.dev",
+      "lang": "en",
+      "description": "Latest information on US coupons, deals, and money-saving strategies. How to save money on everyday purchases.",
+      "kicker": "US Coupons & Money-Saving Guide",
+      "categories": {
+        "Couponing": "Couponing basics",
+        "Deals": "Finding the best deals",
+        "Cashback": "Cashback and rewards",
+        "Strategies": "Money-saving strategies",
+        "Online Shopping": "Online shopping savings"
+      },
+      "affiliate_tag": "coupon-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Subscription Guide",
+      "slug": "subscription-guide",
+      "project": "subscription-guide-c84",
+      "domain": "subscription-guide-c84.pages.dev",
+      "lang": "en",
+      "description": "Latest information on managing subscriptions: streaming, apps, and memberships. How to track, cut, and save on subscriptions.",
+      "kicker": "US Subscription Management Guide",
+      "categories": {
+        "Subscription Basics": "Subscription basics",
+        "Management": "Managing subscriptions",
+        "Cutting": "Cutting subscriptions",
+        "Streaming": "Streaming services",
+        "Savings": "Subscription savings"
+      },
+      "affiliate_tag": "subscription-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
     }
   ]
 }

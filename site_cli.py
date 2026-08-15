@@ -55,12 +55,13 @@ def deploy(slug):
 
 def detect_lang(slug):
     """サイトの言語を判定"""
-    en_slugs = {"grant-navigator", "tax-filing-guide", "mortgage-guide", "side-hustle-hub", "elder-care-guide"}
-    id_slugs = {"panduan-bantuan", "panduan-pajak", "panduan-kpr", "panduan-sampingan", "panduan-lansia"}
+    en_slugs = {"grant-navigator", "tax-filing-guide", "mortgage-guide", "side-hustle-hub", "elder-care-guide",
+                "insurance-guide", "credit-score-guide", "student-loan-guide", "retirement-guide", "small-business-guide",
+                "investing-guide", "pet-insurance-guide", "estate-planning-guide", "auto-loan-guide", "rental-guide",
+                "personal-loan-guide", "banking-guide", "financial-planning-guide", "career-guide", "home-improvement-guide",
+                "hsa-guide", "travel-insurance-guide", "gig-work-guide", "coupon-guide", "subscription-guide"}
     if slug in en_slugs:
         return "en"
-    if slug in id_slugs:
-        return "id"
     return "ja"
 
 if __name__ == "__main__":
@@ -75,16 +76,36 @@ if __name__ == "__main__":
             "sumai-loan": "sumai_loan_seed",
             "fukugyo-master": "fukugyo_master_seed",
             "kaigo-seido": "kaigo_seido_seed",
+            "sozoku-guide": "sozoku_guide_seed",
+            "hoken-guide": "hoken_guide_seed",
+            "rogo-shikin": "rogo_shikin_seed",
+            "nenkin-guide": "nenkin_guide_seed",
+            "kosodate-shien": "kosodate_shien_seed",
             "grant-navigator": "grant_navigator_seed",
             "tax-filing-guide": "tax_filing_guide_seed",
             "mortgage-guide": "mortgage_guide_seed",
             "side-hustle-hub": "side_hustle_hub_seed",
             "elder-care-guide": "elder_care_guide_seed",
-            "panduan-bantuan": "panduan_bantuan_seed",
-            "panduan-pajak": "panduan_pajak_seed",
-            "panduan-kpr": "panduan_kpr_seed",
-            "panduan-sampingan": "panduan_sampingan_seed",
-            "panduan-lansia": "panduan_lansia_seed",
+            "insurance-guide": "insurance_guide_seed",
+            "credit-score-guide": "credit_score_guide_seed",
+            "student-loan-guide": "student_loan_guide_seed",
+            "retirement-guide": "retirement_guide_seed",
+            "small-business-guide": "small_business_guide_seed",
+            "investing-guide": "investing_guide_seed",
+            "pet-insurance-guide": "pet_insurance_guide_seed",
+            "estate-planning-guide": "estate_planning_guide_seed",
+            "auto-loan-guide": "auto_loan_guide_seed",
+            "rental-guide": "rental_guide_seed",
+            "personal-loan-guide": "personal_loan_guide_seed",
+            "banking-guide": "banking_guide_seed",
+            "financial-planning-guide": "financial_planning_guide_seed",
+            "career-guide": "career_guide_seed",
+            "home-improvement-guide": "home_improvement_guide_seed",
+            "hsa-guide": "hsa_guide_seed",
+            "travel-insurance-guide": "travel_insurance_guide_seed",
+            "gig-work-guide": "gig_work_guide_seed",
+            "coupon-guide": "coupon_guide_seed",
+            "subscription-guide": "subscription_guide_seed",
         }
         modname = seed_map.get(slug)
         if modname:

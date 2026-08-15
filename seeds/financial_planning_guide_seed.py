@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+"""Financial Planning Guide 初期記事シードデータ（英語）"""
+
+ARTICLES = [
+    {
+        "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
+        "description": "Learn how to create a budget in 2026. Understand budgeting methods and how to stick to your plan.",
+        "category": "Budgeting",
+        "body": """<h2>Why is budgeting important?</h2>
+<p>Budgeting helps you track your income and expenses, control your spending, and reach your financial goals. It gives you a clear picture of where your money goes and helps you make informed decisions.</p>
+<h2>What budgeting methods are there?</h2>
+<p>Popular methods include the 50/30/20 rule (needs, wants, savings), zero-based budgeting, and the envelope system. Choose a method that fits your lifestyle and preferences. Use budgeting apps or spreadsheets to track your spending.</p>
+<h2>How do I stick to my budget?</h2>
+<p>Set realistic goals, track your spending regularly, and review your budget monthly. Build in flexibility for unexpected expenses. Celebrate your progress and adjust your budget as your situation changes.</p>"""
+    },
+    {
+        "title": "Saving Money 2026: How to Build an Emergency Fund",
+        "description": "Learn how to save money and build an emergency fund in 2026. Understand saving strategies and goals.",
+        "category": "Saving",
+        "body": """<h2>Why do I need an emergency fund?</h2>
+<p>An emergency fund is savings set aside for unexpected expenses like medical bills, car repairs, or job loss. It provides financial security and prevents you from relying on credit. Aim to save 3-6 months of living expenses.</p>
+<h2>How do I build an emergency fund?</h2>
+<p>Set a savings goal and automate regular contributions. Pay yourself first by transferring money to savings before spending. Cut unnecessary expenses and put windfalls into savings. Start small and increase over time.</p>
+<h2>Where should I keep my emergency fund?</h2>
+<p>Keep your emergency fund in a high-yield savings account for easy access and interest. Avoid investing it in risky assets. Ensure it is separate from your everyday checking account.</p>"""
+    },
+    {
+        "title": "Financial Goals 2026: How to Set and Achieve Them",
+        "description": "Learn how to set and achieve financial goals in 2026. Understand short-term, medium-term, and long-term goals.",
+        "category": "Goals",
+        "body": """<h2>How do I set financial goals?</h2>
+<p>Identify your priorities and set specific, measurable, achievable, relevant, and time-bound (SMART) goals. Categorize goals as short-term (under 1 year), medium-term (1-5 years), and long-term (5+ years). Write them down and track your progress.</p>
+<h2>What are common financial goals?</h2>
+<p>Common goals include building an emergency fund, paying off debt, saving for a down payment, funding retirement, and investing. Prioritize goals based on importance and urgency. Focus on the goals that have the biggest impact.</p>
+<h2>How do I stay on track?</h2>
+<p>Create a plan, automate savings, and review your progress regularly. Adjust your goals as your circumstances change. Celebrate milestones and stay motivated by tracking your achievements.</p>"""
+    },
+    {
+        "title": "Money Management 2026: Tips for Building Wealth",
+        "description": "Learn money management tips in 2026. Understand how to manage your money and build long-term wealth.",
+        "category": "Money Management",
+        "body": """<h2>What are the basics of money management?</h2>
+<p>Track your income and expenses, create a budget, build an emergency fund, and pay off high-interest debt. Automate your savings and investments. Review your finances regularly to stay on track.</p>
+<h2>How do I build wealth?</h2>
+<p>Live below your means, save and invest consistently, and take advantage of tax-advantaged accounts. Invest in a diversified portfolio and let compound interest work over time. Avoid lifestyle inflation as your income grows.</p>
+<h2>What mistakes should I avoid?</h2>
+<p>Avoid overspending, accumulating high-interest debt, and neglecting to save. Avoid trying to time the market and making emotional investment decisions. Focus on consistent, long-term financial habits.</p>"""
+    },
+    {
+        "title": "Building Net Worth 2026: How to Grow Your Wealth",
+        "description": "Learn how to build net worth in 2026. Understand what net worth is and how to grow it.",
+        "category": "Net Worth",
+        "body": """<h2>What is net worth?</h2>
+<p>Net worth is the total value of your assets minus your liabilities. It is a measure of your financial health. Growing your net worth involves increasing assets (savings, investments, property) and reducing liabilities (debt).</p>
+<h2>How do I increase my net worth?</h2>
+<p>Increase your savings and investments, pay down debt, and grow your income. Invest in assets that appreciate over time. Avoid unnecessary debt and monitor your net worth regularly to track progress.</p>
+<h2>How often should I track my net worth?</h2>
+<p>Track your net worth quarterly or annually to monitor your progress. Use a net worth calculator or spreadsheet. Reviewing it regularly helps you stay motivated and adjust your financial plan.</p>"""
+    },
+]

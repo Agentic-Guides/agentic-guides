@@ -89,6 +89,96 @@
       "affiliate_tag": "kaigoseido-20",
       "ad_sense_client": "ca-pub-2741071921044101",
       "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "相続ガイド",
+      "slug": "sozoku-guide",
+      "project": "sozoku-guide",
+      "domain": "sozoku-guide.pages.dev",
+      "description": "相続・遺産分割・相続税の手続きを最新情報で解説。相続に悩む家族をサポート。",
+      "kicker": "相続・相続税の総合ガイド",
+      "categories": {
+        "相続基礎": "相続の基礎知識",
+        "相続税": "相続税の計算・申告",
+        "遺言書": "遺言書の作成",
+        "遺産分割": "遺産分割協議",
+        "相続手続き": "相続手続きの流れ"
+      },
+      "affiliate_tag": "sozoku-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "保険ガイド",
+      "slug": "hoken-guide",
+      "project": "hoken-guide",
+      "domain": "hoken-guide.pages.dev",
+      "description": "生命保険・医療保険・がん保険の選び方を最新情報で解説。自分に合った保険を選ぶサポート。",
+      "kicker": "生命保険・医療保険の総合情報",
+      "categories": {
+        "生命保険": "生命保険の基礎・選び方",
+        "医療保険": "医療保険・入院保険",
+        "がん保険": "がん保険の選び方",
+        "保険比較": "保険の比較・見直し",
+        "保険の基礎": "保険の基礎知識"
+      },
+      "affiliate_tag": "hoken-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "老後資金ナビ",
+      "slug": "rogo-shikin",
+      "project": "rogo-shikin",
+      "domain": "rogo-shikin.pages.dev",
+      "description": "老後資金・年金・iDeCo・NISAの運用を最新情報で解説。安心できる老後を目指すための情報。",
+      "kicker": "老後資金・資産形成の総合情報",
+      "categories": {
+        "老後資金": "老後資金の準備",
+        "年金": "年金制度・受給",
+        "iDeCo": "iDeCo・確定拠出年金",
+        "NISA": "NISA・投資",
+        "資産形成": "資産形成の方法"
+      },
+      "affiliate_tag": "rogoshikin-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "年金ガイド",
+      "slug": "nenkin-guide",
+      "project": "nenkin-guide-6wp",
+      "domain": "nenkin-guide-6wp.pages.dev",
+      "description": "国民年金・厚生年金の制度を最新情報で解説。年金の受給・手続きをわかりやすく案内。",
+      "kicker": "年金制度の総合ガイド",
+      "categories": {
+        "年金基礎": "年金制度の基礎",
+        "受給手続き": "年金の受給手続き",
+        "国民年金": "国民年金の加入",
+        "厚生年金": "厚生年金の制度",
+        "年金改正": "年金制度の改正"
+      },
+      "affiliate_tag": "nenkin-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "子育て支援ナビ",
+      "slug": "kosodate-shien",
+      "project": "kosodate-shien",
+      "domain": "kosodate-shien.pages.dev",
+      "description": "児童手当・保育・教育資金など子育て支援制度を最新情報で解説。子育て家庭をサポート。",
+      "kicker": "子育て支援制度の総合情報",
+      "categories": {
+        "児童手当": "児童手当・給付金",
+        "保育": "保育園・保育サービス",
+        "教育資金": "教育資金・学資保険",
+        "育児休業": "育児休業・給付金",
+        "子育て制度": "子育て支援制度"
+      },
+      "affiliate_tag": "kosodate-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
     }
   ]
 }

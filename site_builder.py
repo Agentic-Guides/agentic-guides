@@ -10,13 +10,10 @@ from urllib.parse import quote
 BASE_DIR = os.path.expanduser("~/Desktop/agentic-sites")
 CONFIG_PATH = os.path.join(BASE_DIR, "sites_config.json")
 CONFIG_PATH_EN = os.path.join(BASE_DIR, "sites_config_en.json")
-CONFIG_PATH_ID = os.path.join(BASE_DIR, "sites_config_id.json")
 
 def load_config(lang="ja"):
     if lang == "en":
         path = CONFIG_PATH_EN
-    elif lang == "id":
-        path = CONFIG_PATH_ID
     else:
         path = CONFIG_PATH
     with open(path, "r", encoding="utf-8") as f:
@@ -64,11 +61,6 @@ def build_article_html(site, a):
         html_lang = "en"
         # 記事冒頭の免責（FTC・YMYL対策）
         top_notice = '<p><em>This article provides general information for reference purposes only and does not constitute professional legal, tax, medical, or financial advice. Rules and programs may change. Always verify current details with official sources or consult a qualified professional.</em></p>'
-    elif lang == "id":
-        disclaimer = "Situs ini menyediakan informasi untuk tujuan referensi saja dan tidak merupakan nasihat profesional hukum, pajak, medis, atau keuangan. Informasi mungkin tidak terkini karena perubahan kebijakan. Selalu verifikasi dengan sumber resmi atau konsultasikan dengan profesional."
-        affiliate_note = "Situs ini mungkin berisi tautan afiliasi (termasuk Amazon Associates). Kami dapat memperoleh komisi dari pembelian yang dilakukan melalui tautan ini."
-        html_lang = "id"
-        top_notice = '<p><em>Artikel ini menyediakan informasi umum untuk tujuan referensi saja dan tidak merupakan nasihat profesional hukum, pajak, medis, atau keuangan. Aturan dan program dapat berubah. Selalu verifikasi detail terkini dengan sumber resmi atau konsultasikan dengan profesional yang berkualifikasi.</em></p>'
     else:
         disclaimer = "当サイトは情報の提供を目的としており、法律・税務・医療・金融等の専門的助言を提供するものではありません。記載内容は公開時点の情報であり、制度変更等により最新でない場合があります。必ず公式サイトや専門家にご確認ください。"
         affiliate_note = "本サイトにはアフィリエイト広告（Amazonアソシエイト等）を含む場合があります。リンク経由の購入により当サイトに収益が発生することがあります。"
@@ -251,76 +243,6 @@ You can control or delete cookies through your browser settings. Disabling cooki
 We use third-party services (Google AdSense, affiliate networks) that may set their own cookies. Please review their privacy policies.
 
 *This policy is provided for general information and does not constitute legal advice.*
-"""
-    elif lang == "id":
-        privacy = f"""# Kebijakan Privasi
-
-**Terakhir diperbarui:** {datetime.now().strftime("%d %B %Y")}
-
-{name} ("kami") mengoperasikan situs web di https://{domain}/ ("Situs"). Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi.
-
-## Informasi yang Kami Kumpulkan
-- **Data log:** Saat Anda mengunjungi Situs, server kami dapat mencatat informasi standar seperti alamat IP, jenis browser, dan halaman yang dikunjungi.
-- **Cookie:** Kami dapat menggunakan cookie untuk meningkatkan pengalaman dan menganalisis lalu lintas.
-- **Data afiliasi:** Kami berpartisipasi dalam program afiliasi (termasuk Amazon Associates). Saat Anda mengklik tautan afiliasi, jaringan afiliasi dapat mengatur cookie untuk melacak rujukan.
-
-## Bagaimana Kami Menggunakan Informasi
-Kami menggunakan informasi untuk mengoperasikan Situs, memahami penggunaan, dan meningkatkan konten. Kami tidak menjual informasi pribadi.
-
-## Layanan Pihak Ketiga
-Kami dapat menggunakan layanan analitik dan periklanan (seperti Google AdSense) yang mengumpulkan data sesuai dengan kebijakan privasi mereka sendiri.
-
-## Hak Anda
-Tergantung pada lokasi Anda, Anda mungkin memiliki hak untuk mengakses, mengoreksi, atau menghapus informasi pribadi Anda.
-
-## Kontak
-Untuk pertanyaan privasi, hubungi kami melalui Situs.
-
-*Kebijakan ini disediakan untuk informasi umum dan tidak merupakan nasihat hukum.*
-"""
-        terms = f"""# Ketentuan Layanan
-
-**Terakhir diperbarui:** {datetime.now().strftime("%d %B %Y")}
-
-## Penerimaan Ketentuan
-Dengan mengakses https://{domain}/ ("Situs"), Anda menyetujui Ketentuan Layanan ini.
-
-## Konten Informasional Saja
-Konten di Situs ini disediakan untuk tujuan informasi umum saja. Ini tidak merupakan nasihat profesional hukum, pajak, medis, keuangan, atau nasihat profesional lainnya. Anda tidak boleh mengandalkan informasi ini sebagai pengganti konsultasi dengan profesional yang berkualifikasi.
-
-## Tidak Ada Hubungan Profesional
-Penggunaan Situs ini tidak menciptakan hubungan profesional-klien antara Anda dan {name}.
-
-## Pengungkapan Afiliasi
-Situs ini mungkin berisi tautan afiliasi. Kami dapat memperoleh komisi dari pembelian yang dilakukan melalui tautan ini tanpa biaya tambahan untuk Anda.
-
-## Batasan Tanggung Jawab
-Sejauh diizinkan oleh hukum, {name} tidak bertanggung jawab atas kerusakan apa pun yang timbul dari penggunaan atau ketergantungan Anda pada konten di Situs ini.
-
-## Perubahan
-Kami dapat memperbarui Ketentuan ini kapan saja. Penggunaan Situs yang berkelanjutan merupakan penerimaan Ketentuan yang diperbarui.
-
-*Ketentuan ini disediakan untuk informasi umum dan tidak merupakan nasihat hukum.*
-"""
-        cookie = f"""# Kebijakan Cookie
-
-**Terakhir diperbarui:** {datetime.now().strftime("%d %B %Y")}
-
-## Apa Itu Cookie?
-Cookie adalah file teks kecil yang disimpan di perangkat Anda saat Anda mengunjungi situs web.
-
-## Bagaimana Kami Menggunakan Cookie
-- **Cookie penting:** Diperlukan agar Situs berfungsi.
-- **Cookie analitik:** Membantu kami memahami bagaimana pengunjung menggunakan Situs.
-- **Cookie iklan:** Digunakan oleh jaringan iklan pihak ketiga (misalnya Google AdSense) untuk menayangkan iklan yang relevan.
-
-## Mengelola Cookie
-Anda dapat mengontrol atau menghapus cookie melalui pengaturan browser Anda. Menonaktifkan cookie dapat memengaruhi fungsionalitas Situs.
-
-## Cookie Pihak Ketiga
-Kami menggunakan layanan pihak ketiga (Google AdSense, jaringan afiliasi) yang dapat mengatur cookie mereka sendiri. Silakan tinjau kebijakan privasi mereka.
-
-*Kebijakan ini disediakan untuk informasi umum dan tidak merupakan nasihat hukum.*
 """
     else:
         privacy = f"""# プライバシーポリシー

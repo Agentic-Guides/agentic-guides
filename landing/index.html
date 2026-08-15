@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Agentic Guides | AI-Agent-Ready Content Sites</title>
+<meta name="description" content="Agentic Guides publishes practical guides on grants, taxes, mortgages, insurance, investing, and more — optimized for AI agents to discover, read, and recommend.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://agentic-guides.pages.dev/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Agentic Guides","url":"https://agentic-guides.pages.dev/","description":"AI-agent-ready content sites covering grants, taxes, mortgages, insurance, investing, and personal finance.","sameAs":["https://github.com/Agentic-Guides/agentic-guides"]}</script>
+<!-- WebMCP: make this site's content discoverable and usable by AI agents -->
+<script type="module" src="/.webmcp/bridge.js" data-packs="mcp-server-client"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter','Noto Sans',sans-serif;font-size:17px;line-height:1.7;background:#0d1117;color:#e6edf3}
+a{color:#58a6ff;text-decoration:none}
+.hero{background:linear-gradient(135deg,#1a6b3c,#123a23);color:#fff;padding:70px 24px;text-align:center}
+.hero h1{font-size:40px;margin-bottom:14px}
+.hero p{font-size:19px;max-width:720px;margin:0 auto;color:#e8f5e9}
+.container{max-width:1000px;margin:0 auto;padding:40px 24px}
+h2{font-size:26px;color:#1a6b3c;margin:30px 0 18px;border-bottom:2px solid #1a6b3c;padding-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:16px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:20px}
+.card h3{font-size:18px;color:#58a6ff;margin-bottom:8px}
+.card p{font-size:14px;color:#8b949e}
+.card a{color:#58a6ff}
+.tag{display:inline-block;background:#1a6b3c;color:#fff;border-radius:20px;padding:4px 12px;font-size:12px;margin:4px 4px 0 0}
+.footer{background:#0a0e14;color:#8b949e;text-align:center;padding:30px 20px;margin-top:40px;font-size:14px;border-top:1px solid #30363d}
+.disclaimer{max-width:1000px;margin:20px auto;padding:16px 24px;background:#161b22;border:1px solid #30363d;border-radius:8px;font-size:13px;color:#8b949e}
+</style>
+</head>
+<body>
+<header class="hero">
+<h1>Agentic Guides</h1>
+<p>Practical guides on grants, taxes, mortgages, insurance, investing, and personal finance — built to be discovered, read, and recommended by AI agents.</p>
+</header>
+<main class="container">
+<section>
+<h2>Our Guide Network</h2>
+<p>Every site is optimized for AI agents: structured data, WebMCP, and clean machine-readable content.</p>
+<div class="grid" id="sites"></div>
+</section>
+<div class="disclaimer">
+<strong>Disclaimer:</strong> This site provides general information for reference purposes only and does not constitute professional legal, tax, medical, or financial advice. Information may not be current due to policy changes. Always verify with official sources or consult a qualified professional.
+</div>
+</main>
+<footer class="footer">
+<p>&copy; 2026 Agentic Guides | <a href="/privacy">Privacy</a> | <a href="/terms">Terms</a> | <a href="/cookie">Cookies</a> | <a href="https://github.com/Agentic-Guides/agentic-guides" target="_blank">Open Source</a></p>
+</footer>
+<script>
+const sites = [
+  {name:"Grant Navigator", url:"https://grant-navigator.pages.dev", desc:"US government grants, subsidies, and financial aid", tags:["Grants","Business","Housing"]},
+  {name:"Tax Filing Guide", url:"https://tax-filing-guide.pages.dev", desc:"US tax filing, deductions, and credits", tags:["Taxes","Freelancer","Deductions"]},
+  {name:"Mortgage Guide", url:"https://mortgage-guide.pages.dev", desc:"US mortgages, rates, and homebuyer benefits", tags:["Mortgage","Rates","Home"]},
+  {name:"Side Hustle Hub", url:"https://side-hustle-hub.pages.dev", desc:"Side hustles, remote work, and freelancing", tags:["Side Hustle","Remote","Freelance"]},
+  {name:"Elder Care Guide", url:"https://elder-care-guide.pages.dev", desc:"Medicare, long-term care, and elder care", tags:["Medicare","Care","Seniors"]},
+  {name:"Insurance Guide", url:"https://insurance-guide-x35.pages.dev", desc:"Health, life, auto, and home insurance", tags:["Insurance","Health","Home"]},
+  {name:"Credit Score Guide", url:"https://credit-score-guide.pages.dev", desc:"Credit scores, reports, and improvement", tags:["Credit","Debt","Finance"]},
+  {name:"Student Loan Guide", url:"https://student-loan-guide.pages.dev", desc:"Student loans, repayment, and forgiveness", tags:["Student Loan","Education"]},
+  {name:"Retirement Guide", url:"https://retirement-guide.pages.dev", desc:"401(k), IRA, Social Security, retirement planning", tags:["Retirement","401k","IRA"]},
+  {name:"Small Business Guide", url:"https://small-business-guide-bgu.pages.dev", desc:"Starting and running a small business", tags:["Business","Startup","Funding"]},
+  {name:"Investing Guide", url:"https://investing-guide.pages.dev", desc:"Stocks, bonds, ETFs, and portfolio building", tags:["Investing","Stocks","ETFs"]},
+  {name:"Pet Insurance Guide", url:"https://pet-insurance-guide.pages.dev", desc:"Pet insurance coverage, costs, and claims", tags:["Pets","Insurance"]},
+  {name:"Estate Planning Guide", url:"https://estate-planning-guide.pages.dev", desc:"Wills, trusts, probate, and inheritance", tags:["Estate","Wills","Trusts"]},
+  {name:"Auto Loan Guide", url:"https://auto-loan-guide.pages.dev", desc:"Auto loans, rates, financing, and leasing", tags:["Auto","Loan","Finance"]},
+  {name:"Rental Guide", url:"https://rental-guide.pages.dev", desc:"Finding rentals, leases, tenant rights", tags:["Rental","Tenant","Housing"]},
+  {name:"Personal Loan Guide", url:"https://personal-loan-guide.pages.dev", desc:"Personal loans, rates, and borrowing", tags:["Loan","Debt","Finance"]},
+  {name:"Banking Guide", url:"https://banking-guide.pages.dev", desc:"Checking, savings, CDs, online banking", tags:["Banking","Savings","CD"]},
+  {name:"Financial Planning Guide", url:"https://financial-planning-guide.pages.dev", desc:"Budgeting, saving, and money management", tags:["Budget","Saving","Finance"]},
+  {name:"Career Guide", url:"https://career-guide-dbn.pages.dev", desc:"Job search, resume, interview, career growth", tags:["Career","Job","Interview"]},
+  {name:"Home Improvement Guide", url:"https://home-improvement-guide.pages.dev", desc:"Home projects, renovation, energy upgrades", tags:["Home","Renovation","DIY"]},
+  {name:"HSA Guide", url:"https://hsa-guide.pages.dev", desc:"Health Savings Accounts, contributions, investing", tags:["HSA","Health","Savings"]},
+  {name:"Travel Insurance Guide", url:"https://travel-insurance-guide.pages.dev", desc:"Travel insurance coverage, costs, claims", tags:["Travel","Insurance"]},
+  {name:"Gig Work Guide", url:"https://gig-work-guide.pages.dev", desc:"Gig economy, platforms, gig income, taxes", tags:["Gig","Freelance","Income"]},
+  {name:"Coupon Guide", url:"https://coupon-guide.pages.dev", desc:"Coupons, deals, cashback, savings strategies", tags:["Coupon","Deals","Savings"]},
+  {name:"Subscription Guide", url:"https://subscription-guide-c84.pages.dev", desc:"Manage, cut, and save on subscriptions", tags:["Subscription","Streaming","Savings"]}
+];
+const grid = document.getElementById('sites');
+sites.forEach(s => {
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `<h3><a href="${s.url}" target="_blank" rel="noopener">${s.name}</a></h3><p>${s.desc}</p>` + s.tags.map(t => `<span class="tag">${t}</span>`).join('');
+  grid.appendChild(card);
+});
+</script>
+</body>
+</html>
