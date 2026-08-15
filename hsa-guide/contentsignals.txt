@@ -1,3 +1,0 @@
-# Content Signals: AIエージェントにコンテンツ利用を明示
-# 学習より、検索・参照・引用を許可する（エージェントが読めるように）
-https://hsa-guide.pages.dev/ : allow-agent-access

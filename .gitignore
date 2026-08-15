@@ -3,19 +3,58 @@ __pycache__/
 .env
 
 # 生成されたサイト（Cloudflare Pagesでホスト済み・公開しない）
+# 全サイトディレクトリ（スラグベース）
 hojokin-nav/
 kakutei-guide/
 sumai-loan/
 fukugyo-master/
 kaigo-seido/
+sozoku-guide/
+hoken-guide/
+rogo-shikin/
+nenkin-guide/
+kosodate-shien/
 grant-navigator/
 tax-filing-guide/
 mortgage-guide/
 side-hustle-hub/
 elder-care-guide/
-
+insurance-guide/
+credit-score-guide/
+student-loan-guide/
+retirement-guide/
+small-business-guide/
+investing-guide/
+pet-insurance-guide/
+estate-planning-guide/
+auto-loan-guide/
+rental-guide/
+personal-loan-guide/
+banking-guide/
+financial-planning-guide/
+career-guide/
+home-improvement-guide/
+hsa-guide/
+travel-insurance-guide/
+gig-work-guide/
+coupon-guide/
+subscription-guide/
+crypto-guide/
+forex-guide/
+real-estate-investing-guide/
+dividend-guide/
+medical-billing-guide/
+annuity-guide/
+credit-card-rewards-guide/
+saving-strategies-guide/
+home-equity-guide/
+entrepreneur-guide/
+wealth-management-guide/
+charity-tax-guide/
+lease-guide/
+financial-literacy-guide/
+insurance-policy-guide/
 
 # MCPサーバー
 mcp/node_modules/
 mcp/.wrangler/
-
