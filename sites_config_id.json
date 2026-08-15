@@ -1,0 +1,99 @@
+{
+  "sites": [
+    {
+      "name": "Panduan Bantuan",
+      "slug": "panduan-bantuan",
+      "project": "panduan-bantuan",
+      "domain": "panduan-bantuan.pages.dev",
+      "lang": "id",
+      "description": "Informasi terbaru tentang bantuan pemerintah, subsidi, dan dana bantuan di Indonesia. Panduan langkah demi langkah tentang cara mengajukan, syarat, dan tenggat waktu.",
+      "kicker": "Panduan Bantuan & Subsidi Pemerintah Indonesia",
+      "categories": {
+        "Bantuan Usaha": "Bantuan dan subsidi untuk usaha",
+        "Bantuan Pribadi": "Bantuan keuangan dan tunjangan pribadi",
+        "Energi": "Bantuan energi dan lingkungan",
+        "Startup": "Pendanaan untuk startup dan wirausaha",
+        "Perumahan": "Bantuan perumahan dan renovasi rumah"
+      },
+      "affiliate_tag": "panduanbantuan-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Panduan Pajak",
+      "slug": "panduan-pajak",
+      "project": "panduan-pajak",
+      "domain": "panduan-pajak.pages.dev",
+      "lang": "id",
+      "description": "Panduan lengkap pelaporan pajak di Indonesia, pengurangan, dan kredit pajak. Informasi terbaru untuk freelancer, pemilik usaha kecil, dan individu.",
+      "kicker": "Panduan Pajak & Pengurangan Indonesia",
+      "categories": {
+        "Pelaporan Pajak": "Prosedur pelaporan pajak",
+        "Pengurangan": "Pengurangan dan kredit pajak",
+        "Freelancer": "Pajak untuk freelancer dan wiraswasta",
+        "Pensiun": "Manfaat pajak pensiun dan tabungan",
+        "e-Filing": "Pelaporan elektronik dan alat"
+      },
+      "affiliate_tag": "panduanpajak-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Panduan KPR",
+      "slug": "panduan-kpr",
+      "project": "panduan-kpr",
+      "domain": "panduan-kpr.pages.dev",
+      "lang": "id",
+      "description": "Informasi terbaru tentang KPR (Kredit Pemilikan Rumah), suku bunga, dan insentif pajak pembeli rumah di Indonesia. Cara memilih pinjaman yang tepat.",
+      "kicker": "Panduan KPR & Pembeli Rumah Indonesia",
+      "categories": {
+        "Dasar KPR": "Dasar dan jenis KPR",
+        "Suku Bunga": "Suku bunga dan perbandingan",
+        "Insentif Pajak": "Insentif pajak pembeli rumah",
+        "Uang Muka": "Uang muka dan anggaran",
+        "Refinancing": "Refinancing dan ekuitas rumah"
+      },
+      "affiliate_tag": "panduankpr-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Panduan Sampingan",
+      "slug": "panduan-sampingan",
+      "project": "panduan-sampingan",
+      "domain": "panduan-sampingan.pages.dev",
+      "lang": "id",
+      "description": "Cara memulai dan mengembangkan pekerjaan sampingan di Indonesia. Informasi terbaru tentang freelancing, kerja jarak jauh, dan menghasilkan uang online.",
+      "kicker": "Panduan Pekerjaan Sampingan & Freelance Indonesia",
+      "categories": {
+        "Memulai": "Cara memulai pekerjaan sampingan",
+        "Kerja Jarak Jauh": "Kerja jarak jauh dan pekerjaan online",
+        "Keterampilan": "Keterampilan dan sertifikasi",
+        "Pajak": "Pajak pekerjaan sampingan",
+        "Klien": "Mencari klien dan berkembang"
+      },
+      "affiliate_tag": "panduansampingan-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Panduan Lansia",
+      "slug": "panduan-lansia",
+      "project": "panduan-lansia",
+      "domain": "panduan-lansia.pages.dev",
+      "lang": "id",
+      "description": "Informasi terbaru tentang perawatan lansia, BPJS Kesehatan, dan perawatan jangka panjang di Indonesia. Cara memilih opsi perawatan dan mengurangi biaya.",
+      "kicker": "Panduan Perawatan Lansia & BPJS Indonesia",
+      "categories": {
+        "BPJS": "Dasar BPJS Kesehatan dan pendaftaran",
+        "Perawatan Jangka Panjang": "Opsi perawatan jangka panjang",
+        "Layanan Perawatan": "Jenis layanan perawatan",
+        "Biaya Perawatan": "Biaya perawatan dan bantuan keuangan",
+        "Perawatan Keluarga": "Perawatan keluarga dan dukungan"
+      },
+      "affiliate_tag": "panduanlansia-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
+    }
+  ]
+}

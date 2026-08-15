@@ -54,9 +54,14 @@ def deploy(slug):
         print(f"⚠️ デプロイ失敗: {result.stderr}")
 
 def detect_lang(slug):
-    """英語サイトか判定"""
+    """サイトの言語を判定"""
     en_slugs = {"grant-navigator", "tax-filing-guide", "mortgage-guide", "side-hustle-hub", "elder-care-guide"}
-    return "en" if slug in en_slugs else "ja"
+    id_slugs = {"panduan-bantuan", "panduan-pajak", "panduan-kpr", "panduan-sampingan", "panduan-lansia"}
+    if slug in en_slugs:
+        return "en"
+    if slug in id_slugs:
+        return "id"
+    return "ja"
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "all"
@@ -71,6 +76,15 @@ if __name__ == "__main__":
             "fukugyo-master": "fukugyo_master_seed",
             "kaigo-seido": "kaigo_seido_seed",
             "grant-navigator": "grant_navigator_seed",
+            "tax-filing-guide": "tax_filing_guide_seed",
+            "mortgage-guide": "mortgage_guide_seed",
+            "side-hustle-hub": "side_hustle_hub_seed",
+            "elder-care-guide": "elder_care_guide_seed",
+            "panduan-bantuan": "panduan_bantuan_seed",
+            "panduan-pajak": "panduan_pajak_seed",
+            "panduan-kpr": "panduan_kpr_seed",
+            "panduan-sampingan": "panduan_sampingan_seed",
+            "panduan-lansia": "panduan_lansia_seed",
         }
         modname = seed_map.get(slug)
         if modname:
