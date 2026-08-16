@@ -128,6 +128,14 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/ThegrantapplicationprocessOverviewandKey"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Important Points and What to Verify: Overview and Key Points (August 2026)",
+    "description": "General information about Important Points and What to Verify as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Personal Aid",
+    "url": "https://grant-navigator.pages.dev/articles/ImportantPointsandWhattoVerifyOverviewan"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -166,6 +174,14 @@ export const ARTICLES = [
     "description": "Learn how to e-file your US taxes in 2026. Step-by-step guide to electronic filing, including IRS Free File and tax software.",
     "category": "e-Filing",
     "url": "https://tax-filing-guide.pages.dev/articles/HowtoE-FileYourTaxes2026Step-by-StepGuid"
+  },
+  {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "Tax filing deadlines: Overview and Key Points (August 2026)",
+    "description": "General information about Tax filing deadlines as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Tax Filing",
+    "url": "https://tax-filing-guide.pages.dev/articles/TaxfilingdeadlinesOverviewandKeyPointsAu"
   },
   {
     "site": "Mortgage Guide",
@@ -208,6 +224,14 @@ export const ARTICLES = [
     "url": "https://mortgage-guide.pages.dev/articles/ShouldYouRefinanceYourMortgagein2026"
   },
   {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "Types of mortgages: Overview and Key Points (August 2026)",
+    "description": "General information about Types of mortgages as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Mortgage Basics",
+    "url": "https://mortgage-guide.pages.dev/articles/TypesofmortgagesOverviewandKeyPointsAugu"
+  },
+  {
     "site": "Side Hustle Hub",
     "slug": "side-hustle-hub",
     "title": "How to Start a Side Hustle in 2026: Complete Guide for Beginners",
@@ -246,6 +270,14 @@ export const ARTICLES = [
     "description": "Learn how to find your first freelance client in 2026. Practical tips for landing your first paid project.",
     "category": "Clients",
     "url": "https://side-hustle-hub.pages.dev/articles/HowtoFindYourFirstFreelanceClientin2026"
+  },
+  {
+    "site": "Side Hustle Hub",
+    "slug": "side-hustle-hub",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Getting Started",
+    "url": "https://side-hustle-hub.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Elder Care Guide",
@@ -288,6 +320,14 @@ export const ARTICLES = [
     "url": "https://elder-care-guide.pages.dev/articles/FamilyCaregiving2026HowtoSupportAgingPar"
   },
   {
+    "site": "Elder Care Guide",
+    "slug": "elder-care-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Medicare",
+    "url": "https://elder-care-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Insurance Guide",
     "slug": "insurance-guide",
     "title": "How to Choose Health Insurance in 2026: Complete Guide",
@@ -326,6 +366,14 @@ export const ARTICLES = [
     "description": "Learn the basics of insurance in 2026. Understand coverage types, premiums, deductibles, and how to choose the right policy.",
     "category": "Insurance Basics",
     "url": "https://insurance-guide-x35.pages.dev/articles/InsuranceBasics2026UnderstandingCoverage"
+  },
+  {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "Comparing health plans: Overview and Key Points (August 2026)",
+    "description": "General information about Comparing health plans as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Health Insurance",
+    "url": "https://insurance-guide-x35.pages.dev/articles/ComparinghealthplansOverviewandKeyPoints"
   },
   {
     "site": "Credit Score Guide",
@@ -368,6 +416,14 @@ export const ARTICLES = [
     "url": "https://credit-score-guide.pages.dev/articles/DebtManagement2026HowtoGetOutofDebt"
   },
   {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "How credit scores work: Overview and Key Points (August 2026)",
+    "description": "General information about How credit scores work as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Credit Basics",
+    "url": "https://credit-score-guide.pages.dev/articles/HowcreditscoresworkOverviewandKeyPointsA"
+  },
+  {
     "site": "Student Loan Guide",
     "slug": "student-loan-guide",
     "title": "Student Loans 2026: Federal vs Private Loans Explained",
@@ -406,6 +462,14 @@ export const ARTICLES = [
     "description": "Learn about financial aid and scholarships in 2026. How to find and apply for free money for college.",
     "category": "Financial Aid",
     "url": "https://student-loan-guide.pages.dev/articles/FinancialAidandScholarships2026HowtoGetF"
+  },
+  {
+    "site": "Student Loan Guide",
+    "slug": "student-loan-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Loan Basics",
+    "url": "https://student-loan-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Retirement Guide",
@@ -448,6 +512,14 @@ export const ARTICLES = [
     "url": "https://retirement-guide.pages.dev/articles/RetirementIncome2026HowtoMakeYourSavings"
   },
   {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "Planning for retirement income: Overview and Key Points (August 2026)",
+    "description": "General information about Planning for retirement income as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Retirement Basics",
+    "url": "https://retirement-guide.pages.dev/articles/PlanningforretirementincomeOverviewandKe"
+  },
+  {
     "site": "Small Business Guide",
     "slug": "small-business-guide",
     "title": "How to Start a Small Business in 2026: Complete Guide",
@@ -486,6 +558,14 @@ export const ARTICLES = [
     "description": "Learn about small business taxes in 2026. Understand deductions, quarterly payments, and tax planning.",
     "category": "Taxes",
     "url": "https://small-business-guide-bgu.pages.dev/articles/SmallBusinessTaxes2026WhatYouNeedtoKnow"
+  },
+  {
+    "site": "Small Business Guide",
+    "slug": "small-business-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Starting",
+    "url": "https://small-business-guide-bgu.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Investing Guide",
@@ -528,6 +608,14 @@ export const ARTICLES = [
     "url": "https://investing-guide.pages.dev/articles/PortfolioBuilding2026HowtoDiversifyYourI"
   },
   {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "Core investing principles: Overview and Key Points (August 2026)",
+    "description": "General information about Core investing principles as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Investing Basics",
+    "url": "https://investing-guide.pages.dev/articles/CoreinvestingprinciplesOverviewandKeyPoi"
+  },
+  {
     "site": "Pet Insurance Guide",
     "slug": "pet-insurance-guide",
     "title": "Pet Insurance 2026: Is It Worth It?",
@@ -566,6 +654,14 @@ export const ARTICLES = [
     "description": "Learn how to file pet insurance claims in 2026. Understand the claims process and how to get reimbursed.",
     "category": "Claims",
     "url": "https://pet-insurance-guide.pages.dev/articles/PetInsuranceClaims2026HowtoGetReimbursed"
+  },
+  {
+    "site": "Pet Insurance Guide",
+    "slug": "pet-insurance-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Pet Insurance Basics",
+    "url": "https://pet-insurance-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Estate Planning Guide",
@@ -608,6 +704,14 @@ export const ARTICLES = [
     "url": "https://estate-planning-guide.pages.dev/articles/Inheritance2026HowtoManageInheritedAsset"
   },
   {
+    "site": "Estate Planning Guide",
+    "slug": "estate-planning-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Estate Basics",
+    "url": "https://estate-planning-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Auto Loan Guide",
     "slug": "auto-loan-guide",
     "title": "Auto Loans 2026: How to Get the Best Financing",
@@ -646,6 +750,14 @@ export const ARTICLES = [
     "description": "Learn about refinancing auto loans in 2026. Understand the benefits, costs, and when refinancing makes sense.",
     "category": "Refinancing",
     "url": "https://auto-loan-guide.pages.dev/articles/RefinancingAutoLoans2026IsItRightforYou"
+  },
+  {
+    "site": "Auto Loan Guide",
+    "slug": "auto-loan-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Auto Loan Basics",
+    "url": "https://auto-loan-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Rental Guide",
@@ -688,6 +800,14 @@ export const ARTICLES = [
     "url": "https://rental-guide.pages.dev/articles/RentersInsurance2026WhyYouNeedIt"
   },
   {
+    "site": "Rental Guide",
+    "slug": "rental-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Finding",
+    "url": "https://rental-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Personal Loan Guide",
     "slug": "personal-loan-guide",
     "title": "Personal Loans 2026: What You Need to Know",
@@ -726,6 +846,14 @@ export const ARTICLES = [
     "description": "Learn how to borrow responsibly in 2026. Understand how to use loans wisely and avoid debt traps.",
     "category": "Borrowing",
     "url": "https://personal-loan-guide.pages.dev/articles/ResponsibleBorrowing2026HowtoAvoidDebtTr"
+  },
+  {
+    "site": "Personal Loan Guide",
+    "slug": "personal-loan-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Loan Basics",
+    "url": "https://personal-loan-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Banking Guide",
@@ -768,6 +896,14 @@ export const ARTICLES = [
     "url": "https://banking-guide.pages.dev/articles/BankingBasics2026UnderstandingFeesandAcc"
   },
   {
+    "site": "Banking Guide",
+    "slug": "banking-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Checking",
+    "url": "https://banking-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Financial Planning Guide",
     "slug": "financial-planning-guide",
     "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
@@ -806,6 +942,14 @@ export const ARTICLES = [
     "description": "Learn how to build net worth in 2026. Understand what net worth is and how to grow it.",
     "category": "Net Worth",
     "url": "https://financial-planning-guide.pages.dev/articles/BuildingNetWorth2026HowtoGrowYourWealth"
+  },
+  {
+    "site": "Financial Planning Guide",
+    "slug": "financial-planning-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Budgeting",
+    "url": "https://financial-planning-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Career Guide",
@@ -848,6 +992,14 @@ export const ARTICLES = [
     "url": "https://career-guide-dbn.pages.dev/articles/SalaryNegotiation2026HowtoGetPaidWhatYou"
   },
   {
+    "site": "Career Guide",
+    "slug": "career-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Job Search",
+    "url": "https://career-guide-dbn.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Home Improvement Guide",
     "slug": "home-improvement-guide",
     "title": "Home Improvement 2026: Projects That Add Value",
@@ -886,6 +1038,14 @@ export const ARTICLES = [
     "description": "Learn about DIY home improvement in 2026. Discover beginner-friendly projects and tips.",
     "category": "DIY",
     "url": "https://home-improvement-guide.pages.dev/articles/DIYHomeImprovement2026ProjectsforBeginne"
+  },
+  {
+    "site": "Home Improvement Guide",
+    "slug": "home-improvement-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Projects",
+    "url": "https://home-improvement-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "HSA Guide",
@@ -928,6 +1088,14 @@ export const ARTICLES = [
     "url": "https://hsa-guide.pages.dev/articles/MaximizingHSATaxSavings2026ACompleteGuid"
   },
   {
+    "site": "HSA Guide",
+    "slug": "hsa-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "HSA Basics",
+    "url": "https://hsa-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Travel Insurance Guide",
     "slug": "travel-insurance-guide",
     "title": "Travel Insurance 2026: Is It Worth It?",
@@ -966,6 +1134,14 @@ export const ARTICLES = [
     "description": "Learn how to file travel insurance claims in 2026. Understand the claims process and how to get reimbursed.",
     "category": "Claims",
     "url": "https://travel-insurance-guide.pages.dev/articles/TravelInsuranceClaims2026HowtoGetReimbur"
+  },
+  {
+    "site": "Travel Insurance Guide",
+    "slug": "travel-insurance-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Insurance Basics",
+    "url": "https://travel-insurance-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Gig Work Guide",
@@ -1008,6 +1184,14 @@ export const ARTICLES = [
     "url": "https://gig-work-guide.pages.dev/articles/GrowingYourGigBusiness2026FromSideHustle"
   },
   {
+    "site": "Gig Work Guide",
+    "slug": "gig-work-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Gig Basics",
+    "url": "https://gig-work-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Coupon Guide",
     "slug": "coupon-guide",
     "title": "Couponing Basics 2026: How to Start Saving",
@@ -1046,6 +1230,14 @@ export const ARTICLES = [
     "description": "Learn how to save when shopping online in 2026. Understand promo codes, cashback, and price comparison.",
     "category": "Online Shopping",
     "url": "https://coupon-guide.pages.dev/articles/OnlineShoppingSavings2026HowtoSaveWhenBu"
+  },
+  {
+    "site": "Coupon Guide",
+    "slug": "coupon-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Couponing",
+    "url": "https://coupon-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Subscription Guide",
@@ -1088,6 +1280,14 @@ export const ARTICLES = [
     "url": "https://subscription-guide-c84.pages.dev/articles/SubscriptionSavings2026HowtoGettheBestDe"
   },
   {
+    "site": "Subscription Guide",
+    "slug": "subscription-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Subscription Basics",
+    "url": "https://subscription-guide-c84.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Crypto Guide",
     "slug": "crypto-guide",
     "title": "Crypto Guide: Crypto Basics Guide 2026",
@@ -1126,6 +1326,14 @@ export const ARTICLES = [
     "description": "Learn about security for your crypto guide. Crypto security and wallets.",
     "category": "Security",
     "url": "https://crypto-guide-aor.pages.dev/articles/CryptoGuideSecurityGuide2026"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "Cryptocurrency basics: Overview and Key Points (August 2026)",
+    "description": "General information about Cryptocurrency basics as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Crypto Basics",
+    "url": "https://crypto-guide-aor.pages.dev/articles/CryptocurrencybasicsOverviewandKeyPoints"
   },
   {
     "site": "Forex Guide",
@@ -1168,6 +1376,14 @@ export const ARTICLES = [
     "url": "https://forex-guide.pages.dev/articles/ForexGuideEducationGuide2026"
   },
   {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "Forex trading basics: Overview and Key Points (August 2026)",
+    "description": "General information about Forex trading basics as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Forex Basics",
+    "url": "https://forex-guide.pages.dev/articles/ForextradingbasicsOverviewandKeyPointsAu"
+  },
+  {
     "site": "Real Estate Investing Guide",
     "slug": "real-estate-investing-guide",
     "title": "Real Estate Investing Guide: RE Basics Guide 2026",
@@ -1206,6 +1422,14 @@ export const ARTICLES = [
     "description": "Learn about financing for your real estate investing guide. Investment financing.",
     "category": "Financing",
     "url": "https://real-estate-investing-guide.pages.dev/articles/RealEstateInvestingGuideFinancingGuide20"
+  },
+  {
+    "site": "Real Estate Investing Guide",
+    "slug": "real-estate-investing-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "RE Basics",
+    "url": "https://real-estate-investing-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Dividend Guide",
@@ -1248,6 +1472,14 @@ export const ARTICLES = [
     "url": "https://dividend-guide-aip.pages.dev/articles/DividendGuidePortfolioGuide2026"
   },
   {
+    "site": "Dividend Guide",
+    "slug": "dividend-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Dividend Basics",
+    "url": "https://dividend-guide-aip.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Medical Billing Guide",
     "slug": "medical-billing-guide",
     "title": "Medical Billing Guide: Billing Basics Guide 2026",
@@ -1286,6 +1518,14 @@ export const ARTICLES = [
     "description": "Learn about costs for your medical billing guide. Reducing health costs.",
     "category": "Costs",
     "url": "https://medical-billing-guide.pages.dev/articles/MedicalBillingGuideCostsGuide2026"
+  },
+  {
+    "site": "Medical Billing Guide",
+    "slug": "medical-billing-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Billing Basics",
+    "url": "https://medical-billing-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Annuity Guide",
@@ -1328,6 +1568,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/AnnuityGuideRisksGuide2026"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Annuity Basics",
+    "url": "https://annuity-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -1366,6 +1614,14 @@ export const ARTICLES = [
     "description": "Learn about maximizing for your credit card rewards guide. Maximizing rewards.",
     "category": "Maximizing",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/CreditCardRewardsGuideMaximizingGuide202"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Rewards Basics",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Saving Strategies Guide",
@@ -1408,6 +1664,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/SavingStrategiesGuideGoalsGuide2026"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Saving Basics",
+    "url": "https://saving-strategies-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -1446,6 +1710,14 @@ export const ARTICLES = [
     "description": "Learn about borrowing for your home equity guide. Borrowing wisely.",
     "category": "Borrowing",
     "url": "https://home-equity-guide.pages.dev/articles/HomeEquityGuideBorrowingGuide2026"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Equity Basics",
+    "url": "https://home-equity-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Entrepreneur Guide",
@@ -1488,6 +1760,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/EntrepreneurGuideMistakesGuide2026"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Mindset",
+    "url": "https://entrepreneur-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -1526,6 +1806,14 @@ export const ARTICLES = [
     "description": "Learn about protection for your wealth management guide. Protecting wealth.",
     "category": "Protection",
     "url": "https://wealth-management-guide.pages.dev/articles/WealthManagementGuideProtectionGuide2026"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Wealth Basics",
+    "url": "https://wealth-management-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Charity Tax Guide",
@@ -1568,6 +1856,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/CharityTaxGuidePlanningGuide2026"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Giving Basics",
+    "url": "https://charity-tax-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -1606,6 +1902,14 @@ export const ARTICLES = [
     "description": "Learn about negotiation for your lease guide. Negotiating leases.",
     "category": "Negotiation",
     "url": "https://lease-guide.pages.dev/articles/LeaseGuideNegotiationGuide2026"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Lease Basics",
+    "url": "https://lease-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Financial Literacy Guide",
@@ -1648,6 +1952,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/FinancialLiteracyGuideSkillsGuide2026"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Money Basics",
+    "url": "https://financial-literacy-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -1686,6 +1998,14 @@ export const ARTICLES = [
     "description": "Learn about management for your insurance policy guide. Managing policies.",
     "category": "Management",
     "url": "https://insurance-policy-guide.pages.dev/articles/InsurancePolicyGuideManagementGuide2026"
+  },
+  {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Policy Basics",
+    "url": "https://insurance-policy-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Disability Insurance Guide",
