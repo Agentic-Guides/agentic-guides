@@ -178,31 +178,63 @@ def generate_from_template(site, category, topic):
 
     if lang == "en":
         # 英語版：FTC・YMYL対策（情報提供のみ・専門的助言ではない）
+        # 質向上: 具体的な確認項目・チェックリスト・FAQを追加（断定はしない）
         body = f"""<p><em>This article provides general information for reference purposes only and does not constitute professional legal, tax, medical, or financial advice. Rules and programs may change. Always verify current details with official sources or consult a qualified professional.</em></p>
 <h2>What should you know about {topic}?</h2>
 <p>When researching {topic}, it is helpful to understand the general concepts and current considerations as of {today}. {site_name} provides information to support your research.</p>
-<h2>Who may this information be relevant to?</h2>
+<h2>Key points to verify</h2>
+<ul>
+<li><strong>Eligibility:</strong> Confirm the specific requirements that apply to your situation, as these can vary by location and circumstances.</li>
+<li><strong>Current rules:</strong> Check the latest official guidelines, since programs and regulations are subject to change.</li>
+<li><strong>Costs and fees:</strong> Review any applicable costs, deadlines, and required documentation before proceeding.</li>
+<li><strong>Official sources:</strong> Always verify details with the relevant government agency or qualified professional.</li>
+</ul>
+<h2>Common questions about {topic}</h2>
+<h3>Who is this relevant to?</h3>
 <p>This topic is relevant to individuals who want to make informed decisions. Requirements and options can vary by situation and location, so it is important to review the details that apply to you.</p>
-<h2>How can you research this topic?</h2>
+<h3>How can you research this topic?</h3>
 <p>Start by reviewing official sources and understanding the basic options available. Compare relevant details and consider how they apply to your circumstances. Consulting a qualified professional is recommended for specific decisions.</p>
-<h2>What are important points to consider?</h2>
-<p>There are several factors to keep in mind, including current rules, eligibility, and costs. Because this involves financial or personal decisions, general information should not be the sole basis for action. Always verify with official sources.</p>"""
+<h3>What are important points to consider?</h3>
+<p>There are several factors to keep in mind, including current rules, eligibility, and costs. Because this involves financial or personal decisions, general information should not be the sole basis for action. Always verify with official sources.</p>
+<h2>Suggested next steps</h2>
+<ol>
+<li>Identify the official agency or source that governs {topic}.</li>
+<li>Review the current eligibility requirements and deadlines.</li>
+<li>Gather any required documents or information.</li>
+<li>Consult a qualified professional for advice specific to your situation.</li>
+</ol>"""
         return {
             "title": f"{topic}: Overview and Key Points ({today})",
-            "description": f"General information about {topic} as of {today}. Learn the key points and how to verify current details.",
+            "description": f"General information about {topic} as of {today}. Learn the key points, verification steps, and how to research current details.",
             "body": body,
         }
     else:
         # 日本語版：YMYL対策（情報提供のみ・専門的助言ではない）
+        # 質向上: 具体的な確認項目・チェックリスト・FAQを追加（断定はしない）
         body = f"""<p><em>本記事は一般的な情報提供を目的としており、法律・税務・医療・金融等の専門的助言を提供するものではありません。制度や手続きは変更される場合があります。必ず公式サイトや専門家にご確認ください。</em></p>
 <h2>{topic}について知っておくべきことは？</h2>
 <p>{topic}について調べる際、{today}時点の一般的な概念と確認すべき点を整理しました。{site_name}では、正確な判断に役立つ情報を提供しています。</p>
-<h2>この情報は誰に関係する？</h2>
+<h2>確認すべきポイント</h2>
+<ul>
+<li><strong>対象条件：</strong>ご自身の状況に当てはまる条件を、公式情報で必ず確認しましょう。</li>
+<li><strong>最新の制度：</strong>制度や手続きは変更される場合があるため、最新の公式ガイドラインを確認しましょう。</li>
+<li><strong>費用・締切・書類：</strong>必要な費用、締切、提出書類を事前に確認しましょう。</li>
+<li><strong>公式情報源：</strong>必ず、関連する公的機関や専門家に確認しましょう。</li>
+</ul>
+<h2>{topic}に関するよくある質問</h2>
+<h3>この情報は誰に関係する？</h3>
 <p>このテーマは、情報に基づいた判断をしたい方に関係します。制度や選択肢は状況や地域によって異なるため、ご自身に当てはまる内容を確認することが大切です。</p>
-<h2>このテーマを調べる方法は？</h2>
+<h3>このテーマを調べる方法は？</h3>
 <p>まず公式の情報源を確認し、利用できる選択肢の基本を理解しましょう。関連する詳細を比較し、ご自身の状況にどう当てはまるかを検討します。具体的な判断には専門家への相談をおすすめします。</p>
-<h2>確認すべき注意点は？</h2>
-<p>現行のルール、適用条件、費用など、確認すべき点がいくつかあります。金銭や個人に関わる判断の場合、一般的な情報だけを判断の根拠にせず、必ず公式情報で確認してください。</p>"""
+<h3>確認すべき注意点は？</h3>
+<p>現行のルール、適用条件、費用など、確認すべき点がいくつかあります。金銭や個人に関わる判断の場合、一般的な情報だけを判断の根拠にせず、必ず公式情報で確認してください。</p>
+<h2>次のステップの例</h2>
+<ol>
+<li>{topic}を管轄する公式機関や情報源を確認しましょう。</li>
+<li>最新の対象条件と締切を確認しましょう。</li>
+<li>必要な書類や情報を準備しましょう。</li>
+<li>ご自身の状況に応じた判断には、専門家に相談しましょう。</li>
+</ol>"""
         return {
             "title": f"{topic}｜{today}時点の概要と確認ポイント",
             "description": f"{topic}について、{today}時点の概要と確認すべきポイントを解説します。",

@@ -949,6 +949,25 @@
       "affiliate_tag": "advisor-20",
       "ad_sense_client": "ca-pub-2741071921044101",
       "cron_schedule": "0 8 * * *"
+    },
+    {
+      "name": "Dog Care Guide",
+      "slug": "dog-care-guide",
+      "project": "dog-care-guide",
+      "domain": "dog-care-guide.pages.dev",
+      "lang": "en",
+      "description": "Complete guide to dog care, training, health, and nutrition. Latest information for dog owners on feeding, grooming, exercise, and common health issues.",
+      "kicker": "Dog Care & Training Guide",
+      "categories": {
+        "Dog Health": "Dog health, diseases, and vet care",
+        "Dog Training": "Dog training, behavior, and obedience",
+        "Dog Nutrition": "Dog food, diet, and nutrition",
+        "Dog Grooming": "Grooming, bathing, and coat care",
+        "Puppy Care": "Puppy care, socialization, and first-year guide"
+      },
+      "affiliate_tag": "dogcare-20",
+      "ad_sense_client": "ca-pub-2741071921044101",
+      "cron_schedule": "0 8 * * *"
     }
   ]
 }

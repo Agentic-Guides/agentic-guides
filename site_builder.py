@@ -108,7 +108,10 @@ def build_article_html(site, a, all_articles=None):
             faq_items.append(f'{{"@type":"Question","name":{json.dumps(q)},"acceptedAnswer":{{"@type":"Answer","text":{json.dumps(ans_m.group(1))}}}}}')
     faq_json = f'{{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{",".join(faq_items)}]}}' if faq_items else ""
 
-    jsonld = f'''{{"@context":"https://schema.org","@graph":[{{"@type":"Article","headline":{json.dumps(title)},"description":{json.dumps(a.get("description",""))},"url":"https://{domain}/articles/{noext}","datePublished":"{date[:10]}","author":{{"@type":"Person","name":{json.dumps(site["name"])}}},"publisher":{{"@type":"Organization","name":{json.dumps(site["name"])}}}}}]}}'''
+    # AIエージェント向け JSON-LD 強化: dateModified(最新性)・mainEntityOfPage(出典)・articleSection(カテゴリ)
+    today_iso = datetime.now().strftime("%Y-%m-%d")
+    category_name = a.get("category", "")
+    jsonld = f'''{{"@context":"https://schema.org","@graph":[{{"@type":"Article","headline":{json.dumps(title)},"description":{json.dumps(a.get("description",""))},"url":"https://{domain}/articles/{noext}","datePublished":"{date[:10]}","dateModified":"{today_iso}","mainEntityOfPage":"https://{domain}/articles/{noext}","articleSection":{json.dumps(category_name)},"author":{{"@type":"Person","name":{json.dumps(site["name"])}}},"publisher":{{"@type":"Organization","name":{json.dumps(site["name"])}}}}}]}}'''
 
     canonical = f"https://{domain}/articles/{noext}"
 

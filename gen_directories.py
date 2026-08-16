@@ -15,42 +15,108 @@ os.chdir(BASE)
 NICHES = [
     # ペット
     ("dog-care-directory", "Dog Care Directory", "Curated directory of dog care resources, training, health, and products.", "Find Dog Care & Training Resources", {
-        "Dog Training": [{"title":"AKC Training","url":"https://www.akc.org/expert-advice/training/","desc":"American Kennel Club dog training guides."}],
-        "Dog Health": [{"title":"Vetstreet","url":"https://www.vetstreet.com/","desc":"Veterinary health information for dogs."}],
+        "Dog Training": [
+            {"title":"AKC Training","url":"https://www.akc.org/expert-advice/training/","desc":"Official American Kennel Club dog training guides. Step-by-step articles on obedience commands (sit, stay, come, heel), potty training, crate training, leash walking, and correcting common behavior problems like barking, jumping, and chewing. Authoritative source from the leading purebred dog registry in the US."},
+            {"title":"The Spruce Pets Training","url":"https://www.thesprucepets.com/dog-training-4162107","desc":"Comprehensive dog training resource with beginner-friendly tutorials. Covers positive reinforcement methods, clicker training, puppy socialization, and how to fix behavioral issues. Includes age-specific advice from puppyhood to senior dogs and practical step-by-step routines."},
+        ],
+        "Dog Health": [
+            {"title":"Vetstreet","url":"https://www.vetstreet.com/","desc":"Veterinary-reviewed dog health information. Articles on common canine diseases, symptoms to watch for, vaccination schedules, parasite prevention, dental care, and senior dog health. Written and reviewed by licensed veterinarians for accurate, reliable advice."},
+            {"title":"AKC Health Resources","url":"https://www.akc.org/expert-advice/health/","desc":"American Kennel Club health articles covering breed-specific health concerns, genetic testing, nutrition, weight management, and preventive care. Includes information on common conditions like hip dysplasia, allergies, and heart disease with signs to watch for."},
+        ],
     }),
     ("cat-care-directory", "Cat Care Directory", "Curated directory of cat care resources, health, and products.", "Find Cat Care & Health Resources", {
-        "Cat Health": [{"title":"Cornell Feline Health","url":"https://www.vet.cornell.edu/","desc":"Cornell University feline health center."}],
+        "Cat Health": [
+            {"title":"Cornell Feline Health Center","url":"https://www.vet.cornell.edu/","desc":"Cornell University's authoritative feline health resource. Research-backed articles on common cat diseases (FIV, feline leukemia, kidney disease), vaccination schedules, parasite prevention, and when to see a vet. Trusted by veterinarians worldwide for accurate, science-based cat health information."},
+            {"title":"International Cat Care","url":"https://icatcare.org/","desc":"Global feline welfare charity providing expert cat health advice. Covers cat behavior, nutrition, common illnesses, and preventive care. Includes clear guides on symptoms, treatments, and understanding your cat's needs at every life stage."},
+        ],
+        "Cat Nutrition": [
+            {"title":"PetMD Cat Nutrition","url":"https://www.petmd.com/cat/nutrition","desc":"Veterinary-reviewed cat nutrition guides. Explains wet vs dry food, portion sizes, age-specific dietary needs (kitten, adult, senior), and how to manage weight, allergies, and sensitive stomachs. Practical feeding advice from licensed veterinarians."},
+        ],
     }),
     # DIY・ホーム
     ("diy-home-directory", "DIY Home Improvement Directory", "Curated directory of DIY home improvement resources and guides.", "Find DIY & Home Improvement Resources", {
-        "DIY Guides": [{"title":"Family Handyman","url":"https://www.familyhandyman.com/","desc":"DIY home improvement projects and tips."}],
+        "DIY Guides": [
+            {"title":"Family Handyman","url":"https://www.familyhandyman.com/","desc":"Trusted DIY home improvement resource with step-by-step project guides. Covers repairs, renovations, woodworking, plumbing, electrical, and painting. Includes tool guides, cost estimates, and beginner-friendly tutorials for common household projects."},
+            {"title":"This Old House","url":"https://www.thisoldhouse.com/","desc":"Comprehensive home improvement and renovation guides from the iconic TV show. Covers DIY projects, home maintenance, tool reviews, and expert advice on everything from flooring to roofing. Practical, tested solutions for homeowners."},
+        ],
+        "Home Repair": [
+            {"title":"The Spruce Home Repair","url":"https://www.thespruce.com/home-repair-4162800","desc":"Beginner-friendly home repair guides covering common issues like leaky faucets, drywall repair, stuck doors, and basic electrical fixes. Clear step-by-step instructions with photos and tool lists for every project."},
+        ],
     }),
     ("gardening-directory", "Gardening Directory", "Curated directory of gardening resources, plant care, and landscaping.", "Find Gardening & Plant Care Resources", {
-        "Plant Care": [{"title":"Gardeners.com","url":"https://www.gardeners.com/","desc":"Gardening supplies and plant care guides."}],
+        "Plant Care": [
+            {"title":"Gardeners.com","url":"https://www.gardeners.com/","desc":"Gardening supplies and expert plant care guides. Covers vegetable and flower gardening, soil health, pest control, and seasonal planting calendars. Includes practical tips for beginners and experienced gardeners on growing healthy plants."},
+            {"title":"The Old Farmer's Almanac","url":"https://www.almanac.com/gardening","desc":"Classic gardening resource with planting calendars, frost dates, and growing guides. Covers vegetables, herbs, flowers, and fruit trees with region-specific advice. Trusted for accurate seasonal gardening information."},
+        ],
+        "Landscaping": [
+            {"title":"Better Homes & Gardens Landscaping","url":"https://www.bhg.com/gardening/landscaping/","desc":"Landscaping ideas and how-to guides. Covers garden design, hardscaping, lawn care, and outdoor living spaces. Includes inspiration photos and step-by-step projects for transforming your yard."},
+        ],
     }),
     # 料理
     ("cooking-directory", "Cooking & Recipes Directory", "Curated directory of cooking resources, recipes, and techniques.", "Find Cooking & Recipe Resources", {
-        "Recipes": [{"title":"Allrecipes","url":"https://www.allrecipes.com/","desc":"Millions of recipes from home cooks."}],
+        "Recipes": [
+            {"title":"Allrecipes","url":"https://www.allrecipes.com/","desc":"Millions of tested recipes from home cooks worldwide. Search by ingredient, cuisine, dietary need, or difficulty. Includes user ratings, reviews, and step-by-step instructions for every skill level."},
+            {"title":"Serious Eats","url":"https://www.seriouseats.com/","desc":"Science-based cooking resource with rigorously tested recipes and techniques. Covers everything from weeknight dinners to advanced culinary methods. Explains the why behind cooking for better results."},
+        ],
+        "Cooking Techniques": [
+            {"title":"The Kitchn","url":"https://www.thekitchn.com/","desc":"Practical cooking guides and kitchen tips. Covers basic techniques, meal prep, kitchen organization, and ingredient guides. Beginner-friendly articles that build confidence in the kitchen."},
+        ],
     }),
     ("baking-directory", "Baking Directory", "Curated directory of baking resources, recipes, and techniques.", "Find Baking & Dessert Resources", {
-        "Baking": [{"title":"King Arthur Baking","url":"https://www.kingarthurbaking.com/","desc":"Baking recipes and techniques."}],
+        "Baking": [
+            {"title":"King Arthur Baking","url":"https://www.kingarthurbaking.com/","desc":"Trusted baking resource with recipes, techniques, and ingredient guides. Covers bread, cakes, cookies, pastries, and sourdough. Includes troubleshooting tips and detailed instructions for bakers of all levels."},
+            {"title":"Sally's Baking Addiction","url":"https://sallysbakingaddiction.com/","desc":"Popular baking blog with reliable, tested dessert recipes. Covers cakes, cookies, pies, and breads with clear step-by-step instructions and helpful tips for consistent results."},
+        ],
+        "Bread Making": [
+            {"title":"The Perfect Loaf","url":"https://www.theperfectloaf.com/","desc":"Dedicated sourdough bread resource with detailed guides. Covers starter maintenance, dough hydration, proofing, and baking techniques. Includes beginner tutorials and advanced methods for artisan bread."},
+        ],
     }),
     # 旅行
     ("travel-directory", "Travel Directory", "Curated directory of travel resources, destinations, and planning.", "Find Travel & Destination Resources", {
-        "Destinations": [{"title":"Lonely Planet","url":"https://www.lonelyplanet.com/","desc":"Travel guides and destination information."}],
+        "Destinations": [
+            {"title":"Lonely Planet","url":"https://www.lonelyplanet.com/","desc":"Comprehensive travel guides and destination information. Covers attractions, itineraries, local tips, and practical travel advice for destinations worldwide. Trusted resource for trip planning and inspiration."},
+            {"title":"TripAdvisor","url":"https://www.tripadvisor.com/","desc":"User-generated travel reviews and recommendations. Covers hotels, restaurants, attractions, and activities with millions of traveler reviews. Useful for comparing options and planning trips."},
+        ],
+        "Travel Planning": [
+            {"title":"Nomadic Matt","url":"https://www.nomadicmatt.com/","desc":"Budget travel advice and planning guides. Covers money-saving tips, packing, itineraries, and destination guides. Practical advice for affordable travel from an experienced traveler."},
+        ],
     }),
     ("camping-directory", "Camping & Outdoors Directory", "Curated directory of camping and outdoor recreation resources.", "Find Camping & Outdoor Resources", {
-        "Camping": [{"title":"REI Expert Advice","url":"https://www.rei.com/learn","desc":"Camping and outdoor gear guides."}],
+        "Camping": [
+            {"title":"REI Expert Advice","url":"https://www.rei.com/learn","desc":"Outdoor retailer's expert advice on camping and gear. Covers tent setup, sleeping systems, camp cooking, safety, and gear selection. Includes detailed guides for beginners and experienced campers."},
+            {"title":"The Dyrt","url":"https://thedyrt.com/","desc":"Campground directory with user reviews and photos. Search thousands of campsites, read real camper experiences, and find the perfect spot. Includes tips on camping etiquette and planning."},
+        ],
+        "Outdoor Skills": [
+            {"title":"Outdoor Life","url":"https://www.outdoorlife.com/","desc":"Outdoor and survival skills resource. Covers camping, fishing, hunting, and wilderness survival techniques. Practical guides for outdoor enthusiasts of all levels."},
+        ],
     }),
     # 健康・フィットネス
     ("fitness-directory", "Fitness Directory", "Curated directory of fitness resources, workouts, and health.", "Find Fitness & Workout Resources", {
-        "Workouts": [{"title":"Bodybuilding.com","url":"https://www.bodybuilding.com/","desc":"Workout plans and fitness guides."}],
+        "Workouts": [
+            {"title":"Bodybuilding.com","url":"https://www.bodybuilding.com/","desc":"Comprehensive fitness resource with workout plans, exercise guides, and nutrition advice. Covers strength training, cardio, and bodybuilding with detailed exercise instructions and video demonstrations."},
+            {"title":"Nerd Fitness","url":"https://www.nerdfitness.com/","desc":"Beginner-friendly fitness coaching for all levels. Covers strength training, nutrition, and habit building with a supportive, non-intimidating approach. Great for people new to exercise."},
+        ],
+        "Fitness Plans": [
+            {"title":"ACE Fitness","url":"https://www.acefitness.org/resources/everyone/","desc":"American Council on Exercise resources with science-based workout plans and exercise library. Covers fitness assessments, program design, and healthy living tips from certified professionals."},
+        ],
     }),
     ("yoga-directory", "Yoga Directory", "Curated directory of yoga resources, poses, and practice.", "Find Yoga & Meditation Resources", {
-        "Yoga": [{"title":"Yoga Journal","url":"https://www.yogajournal.com/","desc":"Yoga poses, sequences, and practice guides."}],
+        "Yoga": [
+            {"title":"Yoga Journal","url":"https://www.yogajournal.com/","desc":"Authoritative yoga resource with pose guides, sequences, and practice advice. Covers beginner to advanced poses, breathing techniques, and meditation. Includes detailed instructions and benefits for each pose."},
+            {"title":"DoYou Yoga","url":"https://www.doyou.com/","desc":"Online yoga community with classes, tutorials, and articles. Covers yoga for beginners, specific poses, and wellness. Includes video classes and written guides for home practice."},
+        ],
+        "Meditation": [
+            {"title":"Headspace","url":"https://www.headspace.com/","desc":"Guided meditation and mindfulness resource. Covers meditation basics, stress reduction, sleep, and focus. Includes structured programs and techniques for building a consistent practice."},
+        ],
     }),
     ("nutrition-directory", "Nutrition Directory", "Curated directory of nutrition resources and healthy eating.", "Find Nutrition & Healthy Eating Resources", {
-        "Nutrition": [{"title":"EatRight","url":"https://www.eatright.org/","desc":"Academy of Nutrition and Dietetics."}],
+        "Nutrition": [
+            {"title":"EatRight","url":"https://www.eatright.org/","desc":"Academy of Nutrition and Dietetics official resource. Evidence-based nutrition information on healthy eating, weight management, and dietary guidelines. Trusted advice from registered dietitians."},
+            {"title":"Nutrition.gov","url":"https://www.nutrition.gov/","desc":"US government nutrition resource with science-based information. Covers healthy eating, food safety, dietary supplements, and nutrition for all life stages. Reliable, authoritative source."},
+        ],
+        "Healthy Eating": [
+            {"title":"Harvard Nutrition Source","url":"https://www.hsph.harvard.edu/nutritionsource/","desc":"Harvard School of Public Health nutrition resource. Research-backed articles on healthy eating, diet quality, and disease prevention. Includes the Healthy Eating Plate and evidence-based guidance."},
+        ],
     }),
     # 趣味
     ("photography-directory", "Photography Directory", "Curated directory of photography resources, techniques, and gear.", "Find Photography & Camera Resources", {
@@ -155,8 +221,14 @@ NICHES = [
     ("cybersecurity-directory", "Cybersecurity Directory", "Curated directory of cybersecurity resources and tools.", "Find Cybersecurity Resources", {
         "Security": [{"title":"Krebs on Security","url":"https://krebsonsecurity.com/","desc":"Cybersecurity news and guides."}],
     }),
-    ("ai-tools-directory", "AI Tools Directory", "Curated directory of AI tools and applications.", "Find AI Tools & Applications", {
-        "AI Tools": [{"title":"Futurepedia","url":"https://www.futurepedia.io/","desc":"Directory of AI tools."}],
+    ("ai-tools-directory", "AI Tools Directory", "Curated directory of AI tools, applications, and resources.", "Find AI Tools & Applications", {
+        "AI Tools": [
+            {"title":"Futurepedia","url":"https://www.futurepedia.io/","desc":"Large directory of AI tools organized by category and use case. Search thousands of AI applications for content creation, productivity, coding, and more. Includes descriptions, pricing, and reviews."},
+            {"title":"There's An AI For That","url":"https://theresanaiforthat.com/","desc":"Comprehensive AI tool database searchable by task. Find the best AI tool for any need, from writing and design to data analysis and automation. Includes comparisons and user ratings."},
+        ],
+        "AI Learning": [
+            {"title":"DeepLearning.AI","url":"https://www.deeplearning.ai/","desc":"Leading AI education platform with courses and resources. Covers machine learning, deep learning, and AI applications. Includes beginner-friendly courses and expert-led programs."},
+        ],
     }),
     # 自動車追加
     ("motorcycle-directory", "Motorcycle Directory", "Curated directory of motorcycle resources and maintenance.", "Find Motorcycle & Riding Resources", {
@@ -203,8 +275,14 @@ NICHES = [
     ("wedding-directory", "Wedding Directory", "Curated directory of wedding planning resources.", "Find Wedding & Event Resources", {
         "Wedding": [{"title":"The Knot","url":"https://www.theknot.com/","desc":"Wedding planning resources."}],
     }),
-    ("baby-directory", "Baby Directory", "Curated directory of baby care resources.", "Find Baby & Newborn Care Resources", {
-        "Baby": [{"title":"What to Expect","url":"https://www.whattoexpect.com/","desc":"Pregnancy and baby care guides."}],
+    ("baby-directory", "Baby & Parenting Directory", "Curated directory of baby care and parenting resources.", "Find Baby Care & Parenting Resources", {
+        "Baby Care": [
+            {"title":"What to Expect","url":"https://www.whattoexpect.com/","desc":"Trusted pregnancy and baby care resource. Covers pregnancy week-by-week, newborn care, feeding, sleep, and developmental milestones. Includes expert-reviewed articles and community support."},
+            {"title":"BabyCenter","url":"https://www.babycenter.com/","desc":"Comprehensive parenting resource with baby care guides. Covers feeding, sleep training, health, and development. Includes tools like growth trackers and expert advice for every stage."},
+        ],
+        "Parenting": [
+            {"title":"Zero to Three","url":"https://www.zerotothree.org/","desc":"Early childhood development resource. Science-based information on child development, behavior, and parenting from birth to age three. Trusted by parents and professionals."},
+        ],
     }),
     # ペット追加2
     ("reptile-directory", "Reptile Directory", "Curated directory of reptile care resources.", "Find Reptile & Exotic Pet Resources", {
@@ -217,8 +295,14 @@ NICHES = [
     ("furniture-directory", "Furniture Directory", "Curated directory of furniture and home decor resources.", "Find Furniture & Decor Resources", {
         "Furniture": [{"title":"Wayfair","url":"https://www.wayfair.com/","desc":"Furniture and home decor."}],
     }),
-    ("appliance-directory", "Appliance Directory", "Curated directory of home appliance resources.", "Find Appliance & Repair Resources", {
-        "Appliance": [{"title":"Repair Clinic","url":"https://www.repairclinic.com/","desc":"Appliance repair guides."}],
+    ("appliance-directory", "Appliance Directory", "Curated directory of appliance repair and maintenance resources.", "Find Appliance Repair & Care Resources", {
+        "Appliance Repair": [
+            {"title":"Repair Clinic","url":"https://www.repairclinic.com/","desc":"Appliance repair resource with troubleshooting guides and parts. Covers refrigerators, washers, dryers, ovens, and more. Includes step-by-step repair instructions and a parts lookup tool."},
+            {"title":"Appliance Repair Forum","url":"https://www.appliancerepair.net/","desc":"Community forum for appliance repair help. Ask questions and get answers from experienced technicians. Covers common appliance problems and DIY repair solutions."},
+        ],
+        "Appliance Care": [
+            {"title":"Yale Appliance","url":"https://www.yaleappliance.com/","desc":"Appliance buying and maintenance guides. Covers how to choose appliances, care tips, and common problems. Includes expert advice on extending appliance lifespan."},
+        ],
     }),
     # 料理追加2
     ("vegan-directory", "Vegan Directory", "Curated directory of vegan and plant-based resources.", "Find Vegan & Plant-Based Resources", {
@@ -228,8 +312,14 @@ NICHES = [
         "Gluten-Free": [{"title":"Gluten-Free Living","url":"https://glutenfreeliving.com/","desc":"Gluten-free recipes and guides."}],
     }),
     # 旅行追加2
-    ("beach-directory", "Beach Directory", "Curated directory of beach and coastal travel resources.", "Find Beach & Coastal Resources", {
-        "Beach": [{"title":"Beach.com","url":"https://www.beach.com/","desc":"Beach destinations and guides."}],
+    ("beach-directory", "Beach Directory", "Curated directory of beach destinations and travel resources.", "Find Beach & Coastal Resources", {
+        "Beach Destinations": [
+            {"title":"Beach.com","url":"https://www.beach.com/","desc":"Beach destination guides and travel inspiration. Covers top beaches worldwide, activities, and travel tips. Includes information on the best times to visit and what to expect."},
+            {"title":"Surfline","url":"https://www.surfline.com/","desc":"Surf and beach conditions resource. Real-time wave forecasts, surf reports, and beach weather. Useful for surfers and beachgoers planning coastal activities."},
+        ],
+        "Beach Safety": [
+            {"title":"United States Lifesaving Association","url":"https://www.usla.org/","desc":"Beach safety resource with rip current awareness and drowning prevention. Covers beach flags, water safety, and lifeguard information. Authoritative source for safe beach practices."},
+        ],
     }),
     ("ski-directory", "Ski Directory", "Curated directory of skiing and snowboarding resources.", "Find Ski & Snowboard Resources", {
         "Ski": [{"title":"Ski Magazine","url":"https://www.skimag.com/","desc":"Skiing destinations and gear."}],
@@ -341,16 +431,28 @@ NICHES = [
         "Tires": [{"title":"Tire Rack","url":"https://www.tirerack.com/","desc":"Tire reviews and guides."}],
     }),
     # 環境追加3
-    ("beekeeping-directory", "Beekeeping Directory", "Curated directory of beekeeping resources.", "Find Beekeeping & Apiary Resources", {
-        "Beekeeping": [{"title":"Bee Culture","url":"https://www.beeculture.com/","desc":"Beekeeping guides and resources."}],
+    ("beekeeping-directory", "Beekeeping Directory", "Curated directory of beekeeping resources and guides.", "Find Beekeeping & Hive Resources", {
+        "Beekeeping": [
+            {"title":"Bee Culture","url":"https://www.beeculture.com/","desc":"Leading beekeeping magazine with articles on hive management, honey production, and bee health. Covers beginner to advanced beekeeping techniques, equipment, and seasonal tasks."},
+            {"title":"American Beekeeping Federation","url":"https://www.abfnet.org/","desc":"National beekeeping organization with resources for beekeepers. Covers education, advocacy, and best practices. Includes information on bee health, regulations, and community support."},
+        ],
+        "Bee Health": [
+            {"title":"Bee Informed Partnership","url":"https://beeinformed.org/","desc":"Research-based resource on honey bee health. Covers colony loss data, disease management, and best practices. Trusted source for understanding and protecting bee colonies."},
+        ],
     }),
     # 音楽追加3
     ("ukulele-directory", "Ukulele Directory", "Curated directory of ukulele learning resources.", "Find Ukulele & String Resources", {
         "Ukulele": [{"title":"Ukulele Underground","url":"https://ukuleleunderground.com/","desc":"Ukulele lessons and community."}],
     }),
     # スポーツ追加3
-    ("basketball-directory", "Basketball Directory", "Curated directory of basketball resources.", "Find Basketball & Training Resources", {
-        "Basketball": [{"title":"Basketball For Coaches","url":"https://www.basketballforcoaches.com/","desc":"Basketball drills and coaching."}],
+    ("basketball-directory", "Basketball Directory", "Curated directory of basketball resources and training.", "Find Basketball & Training Resources", {
+        "Basketball Training": [
+            {"title":"Basketball For Coaches","url":"https://www.basketballforcoaches.com/","desc":"Comprehensive basketball coaching resource. Covers drills, plays, practice plans, and coaching strategies for all levels. Includes detailed diagrams and step-by-step instructions for skill development."},
+            {"title":"Pro Skills Basketball","url":"https://www.proskillsbasketball.com/","desc":"Basketball skill development resource. Covers shooting, dribbling, passing, and footwork with training programs. Includes drills and tips for players looking to improve their game."},
+        ],
+        "Basketball Rules": [
+            {"title":"NBA Official Rules","url":"https://official.nba.com/","desc":"Official NBA rules and regulations. Covers game rules, officiating, and rule changes. Authoritative source for understanding basketball rules and gameplay."},
+        ],
     }),
     # ビジネス追加3
     ("productivity-directory", "Productivity Directory", "Curated directory of productivity resources.", "Find Productivity & Time Management Resources", {

@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+"""dog-care-guide のシード記事"""
+ARTICLES = [
+    {"title": "Complete Dog Care Guide 2026: Nutrition, Health, and Training Basics", "category": "Dog Health",
+     "description": "A complete guide to caring for your dog in 2026: nutrition, grooming, exercise, and common health issues every owner should know.",
+     "body": "<p>Owning a dog is a rewarding experience, but it comes with responsibility. This guide covers the essentials of dog care: feeding, grooming, exercise, and recognizing common health problems.</p><h2>Nutrition</h2><p>Dogs need a balanced diet rich in protein, healthy fats, and essential vitamins. Choose high-quality dog food appropriate for your dog's age, size, and activity level. Always provide fresh water.</p><h2>Exercise</h2><p>Regular exercise keeps your dog physically and mentally healthy. Most dogs need at least 30 minutes of activity daily. Walks, playtime, and training sessions all count.</p><h2>Common Health Issues</h2><p>Watch for signs of illness like lethargy, loss of appetite, or unusual behavior. Regular vet checkups and vaccinations are essential for prevention.</p><p><strong>Always consult a veterinarian for specific health concerns.</strong></p>"},
+    {"title": "Dog Training Basics 2026: Obedience, Socialization, and Behavior", "category": "Dog Training",
+     "description": "Learn effective dog training methods in 2026: basic obedience, socialization, and addressing common behavioral problems.",
+     "body": "<p>Training your dog builds a strong bond and prevents behavioral issues. Start with basic commands and socialize your puppy early.</p><h2>Basic Commands</h2><p>Teach sit, stay, come, and down using positive reinforcement. Reward good behavior with treats and praise, and be consistent.</p><h2>Socialization</h2><p>Expose your puppy to different people, animals, and environments during the critical early weeks to prevent fear and aggression.</p><h2>Behavioral Problems</h2><p>Address barking, chewing, and jumping with patience and consistent training. Consult a professional trainer for persistent issues.</p>"},
+]

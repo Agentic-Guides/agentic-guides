@@ -64,7 +64,8 @@ def detect_lang(slug):
                 "annuity-guide", "credit-card-rewards-guide", "saving-strategies-guide", "home-equity-guide", "entrepreneur-guide",
                 "wealth-management-guide", "charity-tax-guide", "lease-guide", "financial-literacy-guide", "insurance-policy-guide",
                 "disability-insurance-guide", "unemployment-benefits-guide", "medicaid-guide", "tax-planning-guide", "emergency-fund-guide",
-                "financial-aid-guide", "retirement-income-tax-guide", "home-buying-guide", "insurance-claims-guide", "financial-advisor-guide"}
+                "financial-aid-guide", "retirement-income-tax-guide", "home-buying-guide", "insurance-claims-guide", "financial-advisor-guide",
+                "dog-care-guide"}
     if slug in en_slugs:
         return "en"
     return "ja"
@@ -136,6 +137,7 @@ if __name__ == "__main__":
             "home-buying-guide": "home_buying_guide_seed",
             "insurance-claims-guide": "insurance_claims_guide_seed",
             "financial-advisor-guide": "financial_advisor_guide_seed",
+            "dog-care-guide": "dog_care_guide_seed",
         }
         modname = seed_map.get(slug)
         if modname:
