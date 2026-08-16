@@ -1,1 +1,0 @@
-allow-agent-access: true
