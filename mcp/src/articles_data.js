@@ -1736,6 +1736,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Types",
+    "url": "https://annuity-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -1782,6 +1790,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
     "category": "Rewards Basics",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Cashback",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
   },
   {
     "site": "Saving Strategies Guide",
@@ -1832,6 +1848,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "High-Yield",
+    "url": "https://saving-strategies-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -1878,6 +1902,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
     "category": "Equity Basics",
     "url": "https://home-equity-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "HELOC",
+    "url": "https://home-equity-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
   },
   {
     "site": "Entrepreneur Guide",
@@ -1928,6 +1960,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Starting",
+    "url": "https://entrepreneur-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -1974,6 +2014,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
     "category": "Wealth Basics",
     "url": "https://wealth-management-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Advisors",
+    "url": "https://wealth-management-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
   },
   {
     "site": "Charity Tax Guide",
@@ -2024,6 +2072,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Deductions",
+    "url": "https://charity-tax-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -2070,6 +2126,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
     "category": "Lease Basics",
     "url": "https://lease-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Car",
+    "url": "https://lease-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
   },
   {
     "site": "Financial Literacy Guide",
@@ -2120,6 +2184,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Interest",
+    "url": "https://financial-literacy-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -2166,6 +2238,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of August 2026. Learn the key points and how to verify current details.",
     "category": "Policy Basics",
     "url": "https://insurance-policy-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "The Application and Process Overview: Overview and Key Points (August 2026)",
+    "description": "General information about The Application and Process Overview as of August 2026. Learn the key points and how to verify current details.",
+    "category": "Coverage",
+    "url": "https://insurance-policy-guide.pages.dev/articles/TheApplicationandProcessOverviewOverview"
   },
   {
     "site": "Disability Insurance Guide",
