@@ -20,9 +20,10 @@ def build_directory(site, categories):
     os.makedirs(os.path.join(d, "categories"), exist_ok=True)
 
     # カテゴリごとのページ
+    all_categories = list(categories.keys())
     for cat, links in categories.items():
         slug_cat = re.sub(r'[^a-z0-9]+', '-', cat.lower()).strip('-')
-        html = _build_category_page(site, cat, links)
+        html = _build_category_page(site, cat, links, all_categories)
         with open(os.path.join(d, "categories", f"{slug_cat}.html"), "w", encoding="utf-8") as f:
             f.write(html)
 
@@ -89,10 +90,17 @@ p{{margin-bottom:16px}}
 </body>
 </html>"""
 
-def _build_category_page(site, cat, links):
+def _build_category_page(site, cat, links, all_categories):
     items = ""
     for l in links:
         items += f'<div class="item"><h3><a href="{l["url"]}" rel="nofollow noopener">{l["title"]}</a></h3><p>{l["desc"]}</p></div>'
+    # 他のカテゴリへのリンク（AIエージェントが他のページも辿る仕掛け）
+    other_cats = ""
+    for other_cat in all_categories:
+        if other_cat != cat:
+            slug_other = re.sub(r'[^a-z0-9]+', '-', other_cat.lower()).strip('-')
+            other_cats += f'<li><a href="/categories/{slug_other}">{other_cat}</a></li>'
+    other_html = f'<div class="related"><h2>Explore Other Categories</h2><p>For a complete overview, explore these related categories:</p><ul>{other_cats}</ul></div>' if other_cats else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,6 +119,9 @@ h1{{font-size:26px;margin:20px 0;color:#1a6b3c}}
 h2{{font-size:22px;margin:20px 0 10px;color:#1a6b3c}}
 p{{margin-bottom:16px}}
 .item{{background:#fff;padding:20px;border-radius:12px;max-width:860px;margin:0 auto 15px;box-shadow:0 2px 8px rgba(0,0,0,.08)}}
+.related{{background:#e8f5e9;padding:20px;border-radius:12px;max-width:860px;margin:20px auto 0;border-left:4px solid #1a6b3c}}
+.related ul{{margin:10px 0 0 20px}}
+.related li{{margin-bottom:6px}}
 .site-header{{background:#1a6b3c;color:#fff;padding:30px 20px;text-align:center}}
 .site-header h1{{color:#fff;font-size:26px}}
 .site-footer{{background:#123a23;color:#c8e6c9;text-align:center;padding:30px 20px;margin-top:40px;font-size:14px}}
@@ -122,6 +133,7 @@ p{{margin-bottom:16px}}
 <h1>{cat}</h1>
 <p>Below are curated resources for {cat.lower()}. Each link points to an external site for reference.</p>
 {items}
+{other_html}
 </main>
 <footer class="site-footer"><p>© 2026 {site['name']} | This directory provides links to external resources for reference purposes only.</p></footer>
 </body>

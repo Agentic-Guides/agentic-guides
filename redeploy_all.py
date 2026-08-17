@@ -15,9 +15,7 @@ EN = ["grant-navigator","tax-filing-guide","mortgage-guide","side-hustle-hub","e
       "wealth-management-guide","charity-tax-guide","lease-guide","financial-literacy-guide","insurance-policy-guide",
       "disability-insurance-guide","unemployment-benefits-guide","medicaid-guide","tax-planning-guide","emergency-fund-guide",
       "financial-aid-guide","retirement-income-tax-guide","home-buying-guide","insurance-claims-guide","financial-advisor-guide"]
-JA = ["hojokin-nav","kakutei-guide","sumai-loan","fukugyo-master","kaigo-seido",
-      "sozoku-guide","hoken-guide","rogo-shikin","nenkin-guide","kosodate-shien"]
-ALL = EN + JA
+ALL = EN
 
 wrangler = os.path.expanduser("~/AppData/Roaming/npm/wrangler.cmd")
 if not os.path.exists(wrangler):

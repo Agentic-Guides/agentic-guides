@@ -72,18 +72,19 @@ def build_article_html(site, a, all_articles=None):
         body = top_notice + "\n" + body
 
     # 関連記事リンク（内部リンク・トピック深度強化）
+    # AIエージェントが「最新情報・完全な答え」を求めて過去記事を辿る動機を作る
     related_html = ""
     if all_articles:
         related = [x for x in all_articles if x["file"] != a["file"]][:3]
         if related:
             if lang == "en":
-                related_html = '<div class="related"><h2>Related Articles</h2><ul>'
+                related_html = '<div class="related"><h2>Related Articles</h2><p>This article covers the key points. For the latest updates and the complete step-by-step details, see these related articles:</p><ul>'
                 for r in related:
                     r_noext = _noext(r["file"])
                     related_html += f'<li><a href="/articles/{r_noext}">{r["title"]}</a></li>'
                 related_html += '</ul></div>'
             else:
-                related_html = '<div class="related"><h2>関連記事</h2><ul>'
+                related_html = '<div class="related"><h2>関連記事</h2><p>本記事は要点をまとめたものです。最新情報や詳しい手順は、こちらの関連記事をご覧ください：</p><ul>'
                 for r in related:
                     r_noext = _noext(r["file"])
                     related_html += f'<li><a href="/articles/{r_noext}">{r["title"]}</a></li>'

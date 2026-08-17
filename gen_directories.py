@@ -120,13 +120,31 @@ NICHES = [
     }),
     # 趣味
     ("photography-directory", "Photography Directory", "Curated directory of photography resources, techniques, and gear.", "Find Photography & Camera Resources", {
-        "Photography": [{"title":"DPReview","url":"https://www.dpreview.com/","desc":"Camera reviews and photography guides."}],
+        "Photography": [
+            {"title":"DPReview","url":"https://www.dpreview.com/","desc":"Comprehensive camera and photography resource. In-depth camera reviews, buying guides, and photography techniques. Covers gear comparisons, sample photos, and expert advice for photographers of all levels."},
+            {"title":"Digital Photography School","url":"https://digital-photography-school.com/","desc":"Beginner-friendly photography tutorials and tips. Covers camera settings, composition, lighting, and post-processing. Includes practical guides for improving your photography skills step by step."},
+        ],
+        "Camera Gear": [
+            {"title":"B&H Photo","url":"https://www.bhphotovideo.com/","desc":"Major photography equipment retailer with detailed product guides. Covers cameras, lenses, and accessories with expert reviews and buying advice. Useful for researching gear before purchase."},
+        ],
     }),
     ("knitting-directory", "Knitting & Crochet Directory", "Curated directory of knitting and crochet resources.", "Find Knitting & Crochet Resources", {
-        "Knitting": [{"title":"Ravelry","url":"https://www.ravelry.com/","desc":"Knitting and crochet patterns and community."}],
+        "Knitting": [
+            {"title":"Ravelry","url":"https://www.ravelry.com/","desc":"Largest knitting and crochet community with millions of patterns. Search by yarn, difficulty, and project type. Includes forums, project galleries, and tools for tracking your work."},
+            {"title":"KnittingHelp","url":"https://www.knittinghelp.com/","desc":"Free knitting tutorials with video demonstrations. Covers basic stitches, techniques, and pattern reading. Beginner-friendly resource for learning and improving knitting skills."},
+        ],
+        "Crochet": [
+            {"title":"The Spruce Crafts Crochet","url":"https://www.thesprucecrafts.com/crochet-4162801","desc":"Crochet patterns and tutorials for all skill levels. Covers basic stitches, projects, and techniques with clear instructions and photos. Great resource for beginners and experienced crocheters."},
+        ],
     }),
     ("woodworking-directory", "Woodworking Directory", "Curated directory of woodworking resources and projects.", "Find Woodworking & Craft Resources", {
-        "Woodworking": [{"title":"Wood Magazine","url":"https://www.woodmagazine.com/","desc":"Woodworking projects and techniques."}],
+        "Woodworking": [
+            {"title":"Wood Magazine","url":"https://www.woodmagazine.com/","desc":"Woodworking projects, plans, and techniques. Covers furniture building, joinery, finishing, and tool guides. Includes step-by-step project plans for woodworkers of all skill levels."},
+            {"title":"Fine Woodworking","url":"https://www.finewoodworking.com/","desc":"Advanced woodworking resource with expert techniques and detailed plans. Covers joinery, carving, finishing, and furniture design. Trusted by professional and serious hobbyist woodworkers."},
+        ],
+        "Woodworking Plans": [
+            {"title":"Ana White","url":"https://www.ana-white.com/","desc":"Free DIY furniture plans with step-by-step instructions. Covers beginner-friendly projects using common lumber. Includes cut lists, diagrams, and building tips for home woodworkers."},
+        ],
     }),
     # 教育・子育て
     ("parenting-directory", "Parenting Directory", "Curated directory of parenting resources and child development.", "Find Parenting & Child Care Resources", {
@@ -159,7 +177,13 @@ NICHES = [
     }),
     # ホーム追加
     ("interior-design-directory", "Interior Design Directory", "Curated directory of interior design resources and inspiration.", "Find Interior Design Resources", {
-        "Design": [{"title":"Houzz","url":"https://www.houzz.com/","desc":"Interior design ideas and professionals."}],
+        "Design": [
+            {"title":"Houzz","url":"https://www.houzz.com/","desc":"Interior design ideas and professional directory. Browse millions of photos, find design inspiration, and connect with professionals. Covers every room and design style."},
+            {"title":"Architectural Digest","url":"https://www.architecturaldigest.com/","desc":"High-end interior design and architecture inspiration. Covers designer homes, trends, and expert advice. Trusted source for sophisticated design ideas and industry insights."},
+        ],
+        "Design Tips": [
+            {"title":"The Spruce Interior Design","url":"https://www.thespruce.com/interior-design-4162802","desc":"Practical interior design tips and guides. Covers color schemes, furniture arrangement, lighting, and room makeovers. Beginner-friendly advice for decorating your home."},
+        ],
     }),
     ("cleaning-directory", "Cleaning Directory", "Curated directory of home cleaning resources and tips.", "Find Home Cleaning Resources", {
         "Cleaning": [{"title":"Good Housekeeping","url":"https://www.goodhousekeeping.com/","desc":"Home cleaning tips and guides."}],
@@ -172,14 +196,26 @@ NICHES = [
         "Grilling": [{"title":"AmazingRibs","url":"https://amazingribs.com/","desc":"BBQ and grilling science and recipes."}],
     }),
     ("coffee-directory", "Coffee Directory", "Curated directory of coffee resources, brewing, and beans.", "Find Coffee & Brewing Resources", {
-        "Coffee": [{"title":"Home-Barista","url":"https://www.home-barista.com/","desc":"Coffee brewing and espresso guides."}],
+        "Coffee": [
+            {"title":"Home-Barista","url":"https://www.home-barista.com/","desc":"Coffee brewing community and resource. Covers espresso, pour-over, and brewing techniques. Includes equipment reviews, troubleshooting, and expert advice for home coffee enthusiasts."},
+            {"title":"Perfect Daily Grind","url":"https://perfectdailygrind.com/","desc":"Coffee industry news and brewing guides. Covers coffee science, brewing methods, and specialty coffee trends. Trusted resource for understanding coffee quality and preparation."},
+        ],
+        "Brewing": [
+            {"title":"James Hoffmann","url":"https://www.jameshoffmann.co.uk/","desc":"Coffee expert with detailed brewing guides and reviews. Covers brewing techniques, equipment, and coffee science. Includes video tutorials and practical advice for better coffee."},
+        ],
     }),
     ("wine-directory", "Wine Directory", "Curated directory of wine resources and tasting.", "Find Wine & Tasting Resources", {
         "Wine": [{"title":"Wine Spectator","url":"https://www.winespectator.com/","desc":"Wine reviews and tasting guides."}],
     }),
     # 旅行追加
     ("hiking-directory", "Hiking Directory", "Curated directory of hiking trails and outdoor resources.", "Find Hiking & Trail Resources", {
-        "Hiking": [{"title":"AllTrails","url":"https://www.alltrails.com/","desc":"Hiking trails and outdoor guides."}],
+        "Hiking": [
+            {"title":"AllTrails","url":"https://www.alltrails.com/","desc":"Hiking trail directory with user reviews and maps. Search thousands of trails by difficulty, length, and location. Includes photos, GPS tracks, and trail conditions from real hikers."},
+            {"title":"REI Hiking Expert Advice","url":"https://www.rei.com/learn/expert-advice/hiking.html","desc":"Hiking gear and technique guides from REI. Covers trail planning, navigation, safety, and gear selection. Includes beginner-friendly advice for planning your first hike."},
+        ],
+        "Trail Guides": [
+            {"title":"The Hiking Project","url":"https://www.hikingproject.com/","desc":"Community-driven trail database with detailed trail information. Covers trail difficulty, elevation, and conditions. Includes maps and user-contributed trail reports."},
+        ],
     }),
     ("roadtrip-directory", "Road Trip Directory", "Curated directory of road trip planning resources.", "Find Road Trip & Travel Resources", {
         "Road Trip": [{"title":"Roadtrippers","url":"https://roadtrippers.com/","desc":"Road trip planning and routes."}],
@@ -192,7 +228,13 @@ NICHES = [
         "Mental Health": [{"title":"NAMI","url":"https://www.nami.org/","desc":"Mental health support and resources."}],
     }),
     ("meditation-directory", "Meditation Directory", "Curated directory of meditation and mindfulness resources.", "Find Meditation & Mindfulness Resources", {
-        "Meditation": [{"title":"Headspace","url":"https://www.headspace.com/","desc":"Meditation and mindfulness guides."}],
+        "Meditation": [
+            {"title":"Headspace","url":"https://www.headspace.com/","desc":"Guided meditation and mindfulness app with structured programs. Covers meditation basics, stress reduction, sleep, and focus. Includes beginner-friendly techniques for building a consistent practice."},
+            {"title":"Calm","url":"https://www.calm.com/","desc":"Meditation and sleep resource with guided sessions. Covers mindfulness, breathing exercises, and sleep stories. Includes programs for stress, anxiety, and relaxation."},
+        ],
+        "Mindfulness": [
+            {"title":"Mindful","url":"https://www.mindful.org/","desc":"Mindfulness resource with articles, guided practices, and research. Covers mindfulness techniques, stress management, and everyday applications. Trusted source for evidence-based mindfulness."},
+        ],
     }),
     # 趣味追加
     ("painting-directory", "Painting Directory", "Curated directory of painting and art resources.", "Find Painting & Art Resources", {
@@ -205,7 +247,13 @@ NICHES = [
         "Pottery": [{"title":"Ceramic Arts Network","url":"https://ceramicartsnetwork.org/","desc":"Pottery and ceramics techniques."}],
     }),
     ("sewing-directory", "Sewing Directory", "Curated directory of sewing and quilting resources.", "Find Sewing & Quilting Resources", {
-        "Sewing": [{"title":"Sewing.com","url":"https://www.sewing.com/","desc":"Sewing patterns and techniques."}],
+        "Sewing": [
+            {"title":"Sewing.com","url":"https://www.sewing.com/","desc":"Sewing patterns, tutorials, and techniques. Covers beginner to advanced sewing projects, fabric selection, and machine use. Includes step-by-step guides and community support."},
+            {"title":"Tilly and the Buttons","url":"https://www.tillyandthebuttons.com/","desc":"Beginner-friendly sewing patterns and tutorials. Covers garment making, sewing techniques, and pattern fitting. Includes clear instructions and helpful tips for home sewists."},
+        ],
+        "Quilting": [
+            {"title":"The Spruce Crafts Quilting","url":"https://www.thesprucecrafts.com/quilting-4162803","desc":"Quilting patterns and tutorials for all skill levels. Covers quilting basics, techniques, and projects with clear instructions. Great resource for beginners and experienced quilters."},
+        ],
     }),
     ("embroidery-directory", "Embroidery Directory", "Curated directory of embroidery resources.", "Find Embroidery & Needlework Resources", {
         "Embroidery": [{"title":"Needle 'n Thread","url":"https://www.needlenthread.com/","desc":"Embroidery techniques and tutorials."}],
@@ -246,14 +294,26 @@ NICHES = [
     }),
     # 音楽
     ("guitar-directory", "Guitar Directory", "Curated directory of guitar learning resources.", "Find Guitar & Music Resources", {
-        "Guitar": [{"title":"Justin Guitar","url":"https://www.justinguitar.com/","desc":"Free guitar lessons."}],
+        "Guitar": [
+            {"title":"Justin Guitar","url":"https://www.justinguitar.com/","desc":"Free guitar lessons for beginners and intermediate players. Covers chords, strumming, scales, and songs with structured courses. Includes video lessons and practice routines."},
+            {"title":"Ultimate Guitar","url":"https://www.ultimate-guitar.com/","desc":"Large database of guitar tabs, chords, and lessons. Search songs by artist or difficulty. Includes interactive tools and community resources for learning and playing."},
+        ],
+        "Guitar Lessons": [
+            {"title":"Fender Play","url":"https://www.fender.com/play","desc":"Structured online guitar lessons from Fender. Covers beginner to advanced techniques with video tutorials. Includes song-based learning and progress tracking."},
+        ],
     }),
     ("piano-directory", "Piano Directory", "Curated directory of piano learning resources.", "Find Piano & Keyboard Resources", {
         "Piano": [{"title":"Piano Marvel","url":"https://pianomarvel.com/","desc":"Piano learning software."}],
     }),
     # スポーツ
     ("running-directory", "Running Directory", "Curated directory of running and marathon resources.", "Find Running & Marathon Resources", {
-        "Running": [{"title":"Runner's World","url":"https://www.runnersworld.com/","desc":"Running training and gear guides."}],
+        "Running": [
+            {"title":"Runner's World","url":"https://www.runnersworld.com/","desc":"Running training plans, gear reviews, and expert advice. Covers marathon training, injury prevention, nutrition, and running techniques. Trusted resource for runners of all levels."},
+            {"title":"Hal Higdon","url":"https://www.halhigdon.com/","desc":"Renowned running coach with free training plans. Covers beginner to advanced marathon, half-marathon, and 5K programs. Includes detailed schedules and training advice."},
+        ],
+        "Running Plans": [
+            {"title":"Couch to 5K","url":"https://www.c25k.com/","desc":"Beginner running program that takes you from couch to 5K in 9 weeks. Covers interval training and gradual progression. Includes structured plans for new runners."},
+        ],
     }),
     ("cycling-directory", "Cycling Directory", "Curated directory of cycling resources.", "Find Cycling & Bike Resources", {
         "Cycling": [{"title":"Bicycling","url":"https://www.bicycling.com/","desc":"Cycling training and gear."}],
