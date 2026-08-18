@@ -367,6 +367,30 @@ Allow: /
 Sitemap: https://{site['domain']}/sitemap.xml
 '''
 
+def build_llms_txt(site, articles):
+    """AIエージェントがサイト構造を理解するための llms.txt を生成（EmDash技術応用）"""
+    domain = site["domain"]
+    name = site["name"]
+    desc = site.get("description", f"{name} — practical guides and reference information.")
+    lines = []
+    lines.append(f"# {name}")
+    lines.append("")
+    lines.append(f"> {desc}")
+    lines.append("")
+    lines.append(f"# {name}")
+    lines.append("")
+    lines.append(f"- [{name}](https://{domain}/): {desc}")
+    lines.append(f"- [All articles](https://{domain}/index.html): Complete list of articles")
+    lines.append(f"- [Statistics](https://{domain}/statistics.html): Site statistics and data")
+    lines.append(f"- [Author](https://{domain}/author.html): About the author")
+    lines.append("")
+    lines.append("## Articles")
+    lines.append("")
+    for a in articles:
+        title = a.get("title", a.get("file", ""))
+        lines.append(f"- [{title}](https://{domain}/articles/{a['file']})")
+    return "\n".join(lines) + "\n"
+
 def build_legal_pages(site):
     """Privacy Policy / Terms of Service / Cookie Policy を生成（米国向け必須）"""
     lang = site.get("lang", "ja")
@@ -565,6 +589,10 @@ def write_site_files(slug, articles, lang="ja"):
     # robots.txt
     with open(os.path.join(d, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(build_robots(site))
+
+    # llms.txt（AIエージェント向けサイト構造宣言）
+    with open(os.path.join(d, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(build_llms_txt(site, articles))
 
     # Content Signals
     with open(os.path.join(d, "contentsignals.txt"), "w", encoding="utf-8") as f:

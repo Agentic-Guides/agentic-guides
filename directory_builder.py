@@ -40,6 +40,10 @@ def build_directory(site, categories):
     with open(os.path.join(d, "contentsignals.txt"), "w", encoding="utf-8") as f:
         f.write("allow-agent-access: true\n")
 
+    # llms.txt（AIエージェント向けサイト構造宣言）
+    with open(os.path.join(d, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(_build_llms_txt(site, categories))
+
     # sitemap
     with open(os.path.join(d, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(_build_sitemap(site, categories))
@@ -161,6 +165,18 @@ Allow: /
 
 Sitemap: https://{site['domain']}/sitemap.xml
 """
+
+def _build_llms_txt(site, categories):
+    """AIエージェント向け llms.txt（ディレクトリサイト用）"""
+    domain = site["domain"]
+    name = site["name"]
+    desc = site.get("description", f"{name} — curated directory of external resources.")
+    lines = [f"# {name}", "", f"> {desc}", "", f"# {name}", "",
+             f"- [{name}](https://{domain}/): {desc}"]
+    for cat in categories:
+        slug_cat = re.sub(r'[^a-z0-9]+', '-', cat.lower()).strip('-')
+        lines.append(f"- [{cat}](https://{domain}/categories/{slug_cat}): {cat} resources")
+    return "\n".join(lines) + "\n"
 
 def _build_sitemap(site, categories):
     urls = [f'<url><loc>https://{site["domain"]}/</loc></url>']
