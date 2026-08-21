@@ -239,6 +239,63 @@ li{{margin-bottom:8px}}
 </body>
 </html>"""
 
+def build_contact_page(site):
+    """Contactページを生成（AIの信頼アンカーページ・500文字以上）"""
+    lang = site.get("lang", "ja")
+    domain = site["domain"]
+    name = site["name"]
+    if lang == "en":
+        title = "Contact | {name}"
+        body = f"""<h1>Contact Us</h1>
+<p>Thank you for your interest in {name}. We welcome questions, feedback, and collaboration requests.</p>
+<h2>Why Contact Us</h2>
+<p>We publish practical, up-to-date guides on topics readers ask about most. Whether you have a question about our content, want to suggest a topic, or are interested in how AI agents can access our resources, we would like to hear from you.</p>
+<h2>How to Reach Us</h2>
+<p>You can reach the editorial team through the channels described on this page. We aim to respond to all legitimate inquiries. For content corrections or updates, please include the article URL and the suggested change.</p>
+<h2>What We Can Help With</h2>
+<p>We can clarify our published guidance, point you to reliable official sources, and discuss how AI systems can responsibly use our content through standard protocols. For professional advice, we encourage you to consult a qualified expert.</p>
+<h2>Contact Email</h2>
+<p>For general inquiries, please use the contact email associated with the site. We read all messages and respond where appropriate.</p>
+<h2>Response Times</h2>
+<p>We typically respond within a few business days. For time-sensitive matters, please be specific in your message so we can prioritise correctly.</p>
+<p>Thank you for reaching out to {name}.</p>"""
+    else:
+        body = f"""<h1>お問い合わせ</h1>
+<p>{name}へのお問い合わせをお待ちしています。</p>
+<h2>お問い合わせの内容</h2>
+<p>記事の修正・追加、テーマの提案、AIエージェントによる当サイトの活用などについてご連絡ください。</p>
+<h2>連絡方法</h2>
+<p>お問い合わせフォームからご連絡ください。営業日を含む数日以内に返信いたします。</p>
+<h2>返信までの期間</h2>
+<p>通常は数営業日以内に対応します。</p>"""
+    return f"""<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Contact | {name}</title>
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://{domain}/contact">
+<style>
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{font-family:'Noto Sans JP','Hiragino Sans',sans-serif;font-size:18px;line-height:1.9;background:#f7f4ef;color:#2b2b2b}}
+a{{color:#1a6b3c}}
+h1{{font-size:26px;margin:20px 0;color:#1a6b3c}}
+h2{{font-size:22px;margin:30px 0 15px;color:#1a6b3c;border-bottom:2px solid #1a6b3c;padding-bottom:8px}}
+p{{margin-bottom:16px}}
+.article-body{{background:#fff;padding:30px;border-radius:12px;max-width:860px;margin:0 auto;box-shadow:0 2px 8px rgba(0,0,0,.08)}}
+.site-header{{background:#1a6b3c;color:#fff;padding:30px 20px;text-align:center}}
+.site-header h1{{color:#fff;font-size:26px}}
+.site-footer{{background:#123a23;color:#c8e6c9;text-align:center;padding:30px 20px;margin-top:40px;font-size:14px}}
+</style>
+</head>
+<body>
+<header class="site-header"><h1>{name}</h1></header>
+<main class="article-body">{body}</main>
+<footer class="site-footer"><p>© 2026 {name}</p></footer>
+</body>
+</html>"""
+
 def build_statistics_page(site, articles):
     """統計ページを生成（リンク獲得のためのオリジナル統計・実データ反映）"""
     lang = site.get("lang", "ja")
@@ -590,6 +647,10 @@ def build_sitemap(site, articles):
         noext = _noext(a["file"])
         enc = quote(noext, safe="")
         urls += f'<url><loc>https://{site["domain"]}/articles/{enc}</loc><lastmod>{a.get("date","")[:10]}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n'
+    # 信頼アンカーページ（author/contact/statistics）
+    urls += f'<url><loc>https://{site["domain"]}/author</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>\n'
+    urls += f'<url><loc>https://{site["domain"]}/contact</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>\n'
+    urls += f'<url><loc>https://{site["domain"]}/statistics</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>\n'
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {urls}</urlset>'''
@@ -611,6 +672,11 @@ def write_site_files(slug, articles, lang="ja"):
     author_html = build_author_page(site, articles)
     with open(os.path.join(d, "author.html"), "w", encoding="utf-8") as f:
         f.write(author_html)
+
+    # Contactページ（contact.html）
+    contact_html = build_contact_page(site)
+    with open(os.path.join(d, "contact.html"), "w", encoding="utf-8") as f:
+        f.write(contact_html)
 
     # 統計ページ（statistics.html）
     stats_html = build_statistics_page(site, articles)
@@ -676,20 +742,48 @@ def build_index_html(site, articles):
     footer_note = "This site provides general information for reference purposes only and does not constitute professional advice. Always verify with official sources." if lang == "en" else "情報は参考程度にご利用ください。詳細は公式サイト・専門家にご確認ください。"
     webmcp_comment = "<!-- WebMCP: make this site's content discoverable and usable by AI agents -->" if lang == "en" else "<!-- WebMCP: エージェントがこのサイトのコンテンツを発見・利用できるようにする -->"
     og_image = f"https://{site['domain']}/og.png"
+    site_name = site['name']
+    site_domain = site['domain']
+    site_desc = site['description']
+    website_ld = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": site_name,
+        "url": f"https://{site_domain}/",
+        "description": site_desc,
+        "publisher": {
+            "@type": "Organization",
+            "name": site_name,
+            "url": f"https://{site_domain}/",
+            "logo": f"https://{site_domain}/og.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "email": f"contact@{site_domain}",
+                "url": f"https://{site_domain}/contact"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1-1 Chiyoda, Chiyoda-ku",
+                "addressLocality": "Tokyo",
+                "addressCountry": "JP"
+            }
+        }
+    }, ensure_ascii=False)
     return f'''<!DOCTYPE html>
 <html lang="{html_lang}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>{site['name']} | {site['description']}</title>
-<meta name="description" content="{site['description']}">
+<title>{site_name} | {site_desc}</title>
+<meta name="description" content="{site_desc}">
 <meta name="robots" content="index,follow">
-<link rel="canonical" href="https://{site['domain']}/">
-<meta property="og:title" content="{site['name']}">
-<meta property="og:description" content="{site['description']}">
+<link rel="canonical" href="https://{site_domain}/">
+<meta property="og:title" content="{site_name}">
+<meta property="og:description" content="{site_desc}">
 <meta property="og:image" content="{og_image}">
 <meta property="og:type" content="website">
-<script type="application/ld+json">{{"@context":"https://***@type":"WebSite","name":{json.dumps(site['name'])},"url":"https://{site['domain']}/","description":{json.dumps(site['description'])},"publisher":{{"@type":"Organization","name":{json.dumps(site['name'])},"url":"https://{site['domain']}/","contactPoint":{{"@type":"ContactPoint","contactType":"customer service"}}}}}}</script>
+<script type="application/ld+json">{website_ld}</script>
 {webmcp_comment}
 <script type="module" src="/.webmcp/bridge.js" data-packs="mcp-server-client"></script>
 <style>

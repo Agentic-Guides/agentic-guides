@@ -41,29 +41,6 @@ GENERIC_TOPICS_EN = [
 ]
 
 # 日本語サイト用テーマ
-GENERIC_TOPICS_JA = [
-    "基本事項と最新の動向",
-    "申請・利用の手続きの流れ",
-    "よくある質問と確認ポイント",
-    "費用・負担の考え方",
-    "注意点と確認すべき情報",
-    "比較・選択のポイント",
-    "制度改正の最新状況",
-    "初心者が知っておくべき基礎",
-    "よくある失敗と回避方法",
-    "初めての方向けステップガイド",
-    "必要書類の準備方法",
-    "受給資格の条件を解説",
-    "申請から完了までの期間",
-    "却下された場合の対処法",
-    "更新・維持の要件",
-    "税金への影響と注意点",
-    "給付を最大化する方法",
-    "都道府県・地域による違い",
-    "実際の事例とシナリオ",
-    "参考リソースと相談窓口",
-]
-
 # 英語サイト固有テーマ（英語のみ）
 SITE_TOPICS_EN = {
     "grant-navigator": {
@@ -107,60 +84,6 @@ SITE_TOPICS_EN = {
     "forex-guide": {
         "Forex Basics": ["Forex trading basics", "Understanding currency pairs"],
         "Risk": ["Forex trading risks", "Risk management methods"],
-    },
-}
-
-# 日本語サイト固有テーマ（日本語のみ）
-SITE_TOPICS_JA = {
-    "hojokin-nav": {
-        "事業者向け": ["中小企業向け補助金の概要", "事業計画書の作成ポイント", "補助金申請の流れ"],
-        "個人向け": ["個人向け給付金の種類", "生活支援制度の申請方法"],
-        "自治体": ["自治体の補助金制度", "地域の助成金の確認方法"],
-    },
-    "kakutei-guide": {
-        "確定申告": ["確定申告の提出期限", "確定申告に必要な書類"],
-        "節税": ["節税の基本", "経費として認められるもの"],
-        "青色申告": ["青色申告のメリット", "複式簿記の基本"],
-    },
-    "sumai-loan": {
-        "住宅ローン": ["住宅ローンの種類", "住宅ローンの選び方"],
-        "金利": ["金利タイプの比較", "金利動向の確認方法"],
-        "住宅減税": ["住宅ローン減税の概要", "住宅購入時の税制優遇"],
-    },
-    "fukugyo-master": {
-        "副業入門": ["副業の始め方", "副業を選ぶポイント"],
-        "在宅ワーク": ["在宅ワークの種類", "リモートワークの始め方"],
-        "確定申告": ["副業の確定申告", "副業の税金の考え方"],
-    },
-    "kaigo-seido": {
-        "介護保険": ["介護保険の基礎", "介護保険の加入者"],
-        "要介護認定": ["要介護認定の流れ", "認定調査の内容"],
-        "介護費用": ["介護費用の考え方", "負担軽減制度"],
-    },
-    "sozoku-guide": {
-        "相続基礎": ["相続人の範囲", "相続分の考え方"],
-        "相続税": ["相続税の基礎控除", "相続税の申告手続き"],
-        "遺言書": ["遺言書の種類", "遺言書の書き方"],
-    },
-    "hoken-guide": {
-        "生命保険": ["生命保険の種類", "保障内容の考え方"],
-        "医療保険": ["医療保険の保障内容", "入院給付金の考え方"],
-        "保険の基礎": ["保険料の仕組み", "保険の用語解説"],
-    },
-    "rogo-shikin": {
-        "老後資金": ["老後資金の必要額", "老後資金の準備方法"],
-        "年金": ["公的年金の仕組み", "年金の受給要件"],
-        "iDeCo": ["iDeCoの仕組み", "iDeCoの節税効果"],
-    },
-    "nenkin-guide": {
-        "年金基礎": ["公的年金の種類", "年金の加入の仕組み"],
-        "受給手続き": ["年金の受給手続き", "必要書類の準備"],
-        "国民年金": ["国民年金の保険料", "保険料免除制度"],
-    },
-    "kosodate-shien": {
-        "児童手当": ["児童手当の支給額", "児童手当の申請方法"],
-        "保育": ["保育園の入園手続き", "保育料の考え方"],
-        "教育資金": ["教育資金の必要額", "学資保険の選び方"],
     },
 }
 
@@ -247,12 +170,8 @@ def get_topic(site, category, used_topics):
     slug = site["slug"]
     lang = site.get("lang", "ja")
 
-    if lang == "en":
-        site_topics = SITE_TOPICS_EN.get(slug, {})
-        generic = GENERIC_TOPICS_EN
-    else:
-        site_topics = SITE_TOPICS_JA.get(slug, {})
-        generic = GENERIC_TOPICS_JA
+    site_topics = SITE_TOPICS_EN.get(slug, {})
+    generic = GENERIC_TOPICS_EN
 
     # カテゴリのテーマ + 汎用テーマをフラットリストにする
     cat_topics = site_topics.get(category, []) if category in site_topics else []
@@ -357,7 +276,7 @@ def push_to_github(slug, article_title):
 
 
 if __name__ == "__main__":
-    slug = sys.argv[1] if len(sys.argv) > 1 else "hojokin-nav"
+    slug = sys.argv[1] if len(sys.argv) > 1 else "grant-navigator"
     lang = detect_lang(slug)
     site = sb.get_site(slug, lang=lang)
     categories = list(site["categories"].keys())

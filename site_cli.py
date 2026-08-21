@@ -54,39 +54,16 @@ def deploy(slug):
         print(f"⚠️ デプロイ失敗: {result.stderr}")
 
 def detect_lang(slug):
-    """サイトの言語を判定"""
-    en_slugs = {"grant-navigator", "tax-filing-guide", "mortgage-guide", "side-hustle-hub", "elder-care-guide",
-                "insurance-guide", "credit-score-guide", "student-loan-guide", "retirement-guide", "small-business-guide",
-                "investing-guide", "pet-insurance-guide", "estate-planning-guide", "auto-loan-guide", "rental-guide",
-                "personal-loan-guide", "banking-guide", "financial-planning-guide", "career-guide", "home-improvement-guide",
-                "hsa-guide", "travel-insurance-guide", "gig-work-guide", "coupon-guide", "subscription-guide",
-                "crypto-guide", "forex-guide", "real-estate-investing-guide", "dividend-guide", "medical-billing-guide",
-                "annuity-guide", "credit-card-rewards-guide", "saving-strategies-guide", "home-equity-guide", "entrepreneur-guide",
-                "wealth-management-guide", "charity-tax-guide", "lease-guide", "financial-literacy-guide", "insurance-policy-guide",
-                "disability-insurance-guide", "unemployment-benefits-guide", "medicaid-guide", "tax-planning-guide", "emergency-fund-guide",
-                "financial-aid-guide", "retirement-income-tax-guide", "home-buying-guide", "insurance-claims-guide", "financial-advisor-guide",
-                "dog-care-guide"}
-    if slug in en_slugs:
-        return "en"
-    return "ja"
+    """サイトの言語を判定（全サイト英語）"""
+    return "en"
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "all"
-    slug = sys.argv[2] if len(sys.argv) > 2 else "hojokin-nav"
+    slug = sys.argv[2] if len(sys.argv) > 2 else "grant-navigator"
 
     if cmd in ("seed", "all"):
         # シードを動的に読み込み
         seed_map = {
-            "hojokin-nav": "hojokin_nav_seed",
-            "kakutei-guide": "kakutei_guide_seed",
-            "sumai-loan": "sumai_loan_seed",
-            "fukugyo-master": "fukugyo_master_seed",
-            "kaigo-seido": "kaigo_seido_seed",
-            "sozoku-guide": "sozoku_guide_seed",
-            "hoken-guide": "hoken_guide_seed",
-            "rogo-shikin": "rogo_shikin_seed",
-            "nenkin-guide": "nenkin_guide_seed",
-            "kosodate-shien": "kosodate_shien_seed",
             "grant-navigator": "grant_navigator_seed",
             "tax-filing-guide": "tax_filing_guide_seed",
             "mortgage-guide": "mortgage_guide_seed",
