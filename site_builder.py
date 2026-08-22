@@ -401,27 +401,54 @@ th{{background:#e8f5e9}}
 </html>"""
 
 def build_robots(site):
-    """AIエージェントがクロールできるよう robots.txt を生成"""
+    """AIエージェント（検索・要約）は許可、学習用クローラーはDisallow（Bot Preference Sync思想）"""
+    domain = site["domain"]
     return f'''User-agent: *
 Allow: /
 
-# AIエージェントを許可
-User-agent: GPTBot
+# ===== 検索・エージェント（Allow）=====
+User-agent: Googlebot
 Allow: /
-
+User-agent: Bingbot
+Allow: /
 User-agent: ClaudeBot
 Allow: /
-
+User-agent: Claude-Web
+Allow: /
+User-agent: Anthropic-AI
+Allow: /
 User-agent: PerplexityBot
 Allow: /
-
+User-agent: Perplexity-User
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
 User-agent: Google-Extended
 Allow: /
 
+# ===== 学習トレーニング（Disallow：無料学習をブロック）=====
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
 User-agent: CCBot
-Allow: /
+Disallow: /
+User-agent: Meta-ExternalAgent
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: Amazonbot
+Disallow: /
+User-agent: CohereAI
+Disallow: /
+User-agent: YouBot
+Disallow: /
+User-agent: AI2Bot
+Disallow: /
+User-agent: MistralAI
+Disallow: /
 
-Sitemap: https://{site['domain']}/sitemap.xml
+Sitemap: https://{domain}/sitemap.xml
 '''
 
 def build_llms_txt(site, articles):
