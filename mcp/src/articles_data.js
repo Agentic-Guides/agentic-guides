@@ -3248,6 +3248,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Comparison",
+    "url": "https://annuity-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -3350,6 +3358,14 @@ export const ARTICLES = [
     "description": "General information about What Beginners Should Know as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Points",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Bonuses",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
     "site": "Saving Strategies Guide",
@@ -3456,6 +3472,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tips",
+    "url": "https://saving-strategies-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -3558,6 +3582,14 @@ export const ARTICLES = [
     "description": "General information about What Beginners Should Know as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Loans",
     "url": "https://home-equity-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Refinancing",
+    "url": "https://home-equity-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
     "site": "Entrepreneur Guide",
@@ -3664,6 +3696,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Funding",
+    "url": "https://entrepreneur-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -3766,6 +3806,14 @@ export const ARTICLES = [
     "description": "General information about What Beginners Should Know as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Allocation",
     "url": "https://wealth-management-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning",
+    "url": "https://wealth-management-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
     "site": "Charity Tax Guide",
@@ -3872,6 +3920,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Nonprofits",
+    "url": "https://charity-tax-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -3974,6 +4030,14 @@ export const ARTICLES = [
     "description": "General information about What Beginners Should Know as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Equipment",
     "url": "https://lease-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Commercial",
+    "url": "https://lease-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
     "site": "Financial Literacy Guide",
@@ -4080,6 +4144,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Education",
+    "url": "https://financial-literacy-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -4184,6 +4256,14 @@ export const ARTICLES = [
     "url": "https://insurance-policy-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
   },
   {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "Common Mistakes to Avoid: Overview and Key Points (August 2026)",
+    "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims",
+    "url": "https://insurance-policy-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
     "site": "Disability Insurance Guide",
     "slug": "disability-insurance-guide",
     "title": "Disability Insurance Guide: Disability Basics Guide 2026",
@@ -4280,6 +4360,14 @@ export const ARTICLES = [
     "url": "https://disability-insurance-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
   },
   {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "What Beginners Should Know: Overview and Key Points (August 2026)",
+    "description": "General information about What Beginners Should Know as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Long-Term",
+    "url": "https://disability-insurance-guide.pages.dev/articles/WhatBeginnersShouldKnowOverviewandKeyPoi"
+  },
+  {
     "site": "Unemployment Benefits Guide",
     "slug": "unemployment-benefits-guide",
     "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
@@ -4366,6 +4454,14 @@ export const ARTICLES = [
     "description": "General information about Comparing and Choosing Your Options as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Benefits Basics",
     "url": "https://unemployment-benefits-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Eligibility",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
   },
   {
     "site": "Medicaid Guide",
@@ -4456,6 +4552,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Eligibility",
+    "url": "https://medicaid-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -4542,6 +4646,14 @@ export const ARTICLES = [
     "description": "General information about Comparing and Choosing Your Options as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Planning Basics",
     "url": "https://tax-planning-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Strategies",
+    "url": "https://tax-planning-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
   },
   {
     "site": "Emergency Fund Guide",
@@ -4632,6 +4744,14 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Amount",
+    "url": "https://emergency-fund-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -4718,6 +4838,14 @@ export const ARTICLES = [
     "description": "General information about Comparing and Choosing Your Options as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Aid Basics",
     "url": "https://financial-aid-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "FAFSA",
+    "url": "https://financial-aid-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -4808,6 +4936,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "401k",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -4894,6 +5030,14 @@ export const ARTICLES = [
     "description": "General information about Comparing and Choosing Your Options as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Buying Basics",
     "url": "https://home-buying-guide-728.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Process",
+    "url": "https://home-buying-guide-728.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
   },
   {
     "site": "Insurance Claims Guide",
@@ -4984,6 +5128,14 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Auto",
+    "url": "https://insurance-claims-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -5070,5 +5222,13 @@ export const ARTICLES = [
     "description": "General information about Comparing and Choosing Your Options as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Advisor Basics",
     "url": "https://financial-advisor-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Types",
+    "url": "https://financial-advisor-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
   }
 ];
