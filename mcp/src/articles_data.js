@@ -216,6 +216,14 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/RenewalandMaintenanceRequirementsOvervie"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Tax Implications You Should Know: Overview and Key Points (August 2026)",
+    "description": "General information about Tax Implications You Should Know as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Energy",
+    "url": "https://grant-navigator.pages.dev/articles/TaxImplicationsYouShouldKnowOverviewandK"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -326,6 +334,14 @@ export const ARTICLES = [
     "description": "General information about Frequently Asked Questions and Key Points as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Retirement",
     "url": "https://tax-filing-guide.pages.dev/articles/FrequentlyAskedQuestionsandKeyPointsOver"
+  },
+  {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "Cost and Budget Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Cost and Budget Considerations as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "e-Filing",
+    "url": "https://tax-filing-guide.pages.dev/articles/CostandBudgetConsiderationsOverviewandKe"
   },
   {
     "site": "Mortgage Guide",
@@ -440,6 +456,14 @@ export const ARTICLES = [
     "url": "https://mortgage-guide.pages.dev/articles/FrequentlyAskedQuestionsandKeyPointsOver"
   },
   {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "Cost and Budget Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Cost and Budget Considerations as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Refinance",
+    "url": "https://mortgage-guide.pages.dev/articles/CostandBudgetConsiderationsOverviewandKe"
+  },
+  {
     "site": "Side Hustle Hub",
     "slug": "side-hustle-hub",
     "title": "How to Start a Side Hustle in 2026: Complete Guide for Beginners",
@@ -550,6 +574,14 @@ export const ARTICLES = [
     "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Taxes",
     "url": "https://side-hustle-hub.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
+    "site": "Side Hustle Hub",
+    "slug": "side-hustle-hub",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Clients",
+    "url": "https://side-hustle-hub.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
     "site": "Elder Care Guide",
@@ -664,6 +696,14 @@ export const ARTICLES = [
     "url": "https://elder-care-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
+    "site": "Elder Care Guide",
+    "slug": "elder-care-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Family Care",
+    "url": "https://elder-care-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
     "site": "Insurance Guide",
     "slug": "insurance-guide",
     "title": "How to Choose Health Insurance in 2026: Complete Guide",
@@ -774,6 +814,14 @@ export const ARTICLES = [
     "description": "General information about Important Points and What to Verify as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Home Insurance",
     "url": "https://insurance-guide-x35.pages.dev/articles/ImportantPointsandWhattoVerifyOverviewan"
+  },
+  {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "Comparing and Choosing Your Options: Overview and Key Points (August 2026)",
+    "description": "General information about Comparing and Choosing Your Options as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Insurance Basics",
+    "url": "https://insurance-guide-x35.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
   },
   {
     "site": "Credit Score Guide",
@@ -888,6 +936,14 @@ export const ARTICLES = [
     "url": "https://credit-score-guide.pages.dev/articles/ImportantPointsandWhattoVerifyOverviewan"
   },
   {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "Comparing and Choosing Your Options: Overview and Key Points (August 2026)",
+    "description": "General information about Comparing and Choosing Your Options as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Debt Management",
+    "url": "https://credit-score-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
+  },
+  {
     "site": "Student Loan Guide",
     "slug": "student-loan-guide",
     "title": "Student Loans 2026: Federal vs Private Loans Explained",
@@ -998,6 +1054,14 @@ export const ARTICLES = [
     "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Refinancing",
     "url": "https://student-loan-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
+    "site": "Student Loan Guide",
+    "slug": "student-loan-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Financial Aid",
+    "url": "https://student-loan-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
     "site": "Retirement Guide",
@@ -1112,6 +1176,14 @@ export const ARTICLES = [
     "url": "https://retirement-guide.pages.dev/articles/HowbenefitsarecalculatedOverviewandKeyPo"
   },
   {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "Cost and Budget Considerations: Overview and Key Points (August 2026)",
+    "description": "General information about Cost and Budget Considerations as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement Income",
+    "url": "https://retirement-guide.pages.dev/articles/CostandBudgetConsiderationsOverviewandKe"
+  },
+  {
     "site": "Small Business Guide",
     "slug": "small-business-guide",
     "title": "How to Start a Small Business in 2026: Complete Guide",
@@ -1222,6 +1294,14 @@ export const ARTICLES = [
     "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Marketing",
     "url": "https://small-business-guide-bgu.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
+    "site": "Small Business Guide",
+    "slug": "small-business-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://small-business-guide-bgu.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
     "site": "Investing Guide",
@@ -1344,6 +1424,14 @@ export const ARTICLES = [
     "url": "https://investing-guide.pages.dev/articles/CostandBudgetConsiderationsOverviewandKe"
   },
   {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "Important Points and What to Verify: Overview and Key Points (August 2026)",
+    "description": "General information about Important Points and What to Verify as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Investing Basics",
+    "url": "https://investing-guide.pages.dev/articles/ImportantPointsandWhattoVerifyOverviewan"
+  },
+  {
     "site": "Pet Insurance Guide",
     "slug": "pet-insurance-guide",
     "title": "Pet Insurance 2026: Is It Worth It?",
@@ -1462,6 +1550,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Claims",
     "url": "https://pet-insurance-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Pet Insurance Guide",
+    "slug": "pet-insurance-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Pet Insurance Basics",
+    "url": "https://pet-insurance-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "Estate Planning Guide",
@@ -1584,6 +1680,14 @@ export const ARTICLES = [
     "url": "https://estate-planning-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "Estate Planning Guide",
+    "slug": "estate-planning-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Estate Basics",
+    "url": "https://estate-planning-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Auto Loan Guide",
     "slug": "auto-loan-guide",
     "title": "Auto Loans 2026: How to Get the Best Financing",
@@ -1702,6 +1806,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Refinancing",
     "url": "https://auto-loan-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Auto Loan Guide",
+    "slug": "auto-loan-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Auto Loan Basics",
+    "url": "https://auto-loan-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "Rental Guide",
@@ -1824,6 +1936,14 @@ export const ARTICLES = [
     "url": "https://rental-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "Rental Guide",
+    "slug": "rental-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Finding",
+    "url": "https://rental-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Personal Loan Guide",
     "slug": "personal-loan-guide",
     "title": "Personal Loans 2026: What You Need to Know",
@@ -1942,6 +2062,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Borrowing",
     "url": "https://personal-loan-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Personal Loan Guide",
+    "slug": "personal-loan-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Loan Basics",
+    "url": "https://personal-loan-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "Banking Guide",
@@ -2064,6 +2192,14 @@ export const ARTICLES = [
     "url": "https://banking-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "Banking Guide",
+    "slug": "banking-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Checking",
+    "url": "https://banking-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Financial Planning Guide",
     "slug": "financial-planning-guide",
     "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
@@ -2182,6 +2318,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Net Worth",
     "url": "https://financial-planning-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Financial Planning Guide",
+    "slug": "financial-planning-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Budgeting",
+    "url": "https://financial-planning-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "Career Guide",
@@ -2304,6 +2448,14 @@ export const ARTICLES = [
     "url": "https://career-guide-dbn.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "Career Guide",
+    "slug": "career-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Job Search",
+    "url": "https://career-guide-dbn.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Home Improvement Guide",
     "slug": "home-improvement-guide",
     "title": "Home Improvement 2026: Projects That Add Value",
@@ -2422,6 +2574,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "DIY",
     "url": "https://home-improvement-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Home Improvement Guide",
+    "slug": "home-improvement-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Projects",
+    "url": "https://home-improvement-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "HSA Guide",
@@ -2544,6 +2704,14 @@ export const ARTICLES = [
     "url": "https://hsa-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "HSA Guide",
+    "slug": "hsa-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "HSA Basics",
+    "url": "https://hsa-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Travel Insurance Guide",
     "slug": "travel-insurance-guide",
     "title": "Travel Insurance 2026: Is It Worth It?",
@@ -2662,6 +2830,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Claims",
     "url": "https://travel-insurance-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Travel Insurance Guide",
+    "slug": "travel-insurance-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Insurance Basics",
+    "url": "https://travel-insurance-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "Gig Work Guide",
@@ -2784,6 +2960,14 @@ export const ARTICLES = [
     "url": "https://gig-work-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "Gig Work Guide",
+    "slug": "gig-work-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Gig Basics",
+    "url": "https://gig-work-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Coupon Guide",
     "slug": "coupon-guide",
     "title": "Couponing Basics 2026: How to Start Saving",
@@ -2902,6 +3086,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Online Shopping",
     "url": "https://coupon-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Coupon Guide",
+    "slug": "coupon-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Couponing",
+    "url": "https://coupon-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "Subscription Guide",
@@ -3024,6 +3216,14 @@ export const ARTICLES = [
     "url": "https://subscription-guide-c84.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "Subscription Guide",
+    "slug": "subscription-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Subscription Basics",
+    "url": "https://subscription-guide-c84.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Crypto Guide",
     "slug": "crypto-guide",
     "title": "Crypto Guide: Crypto Basics Guide 2026",
@@ -3142,6 +3342,14 @@ export const ARTICLES = [
     "description": "General information about Types of wallets as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Security",
     "url": "https://crypto-guide-aor.pages.dev/articles/TypesofwalletsOverviewandKeyPointsAugust"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "Important Points and What to Verify: Overview and Key Points (August 2026)",
+    "description": "General information about Important Points and What to Verify as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Crypto Basics",
+    "url": "https://crypto-guide-aor.pages.dev/articles/ImportantPointsandWhattoVerifyOverviewan"
   },
   {
     "site": "Forex Guide",
@@ -3264,6 +3472,14 @@ export const ARTICLES = [
     "url": "https://forex-guide.pages.dev/articles/ComparingandChoosingYourOptionsOverviewa"
   },
   {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "Latest Policy Updates: Overview and Key Points (August 2026)",
+    "description": "General information about Latest Policy Updates as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Forex Basics",
+    "url": "https://forex-guide.pages.dev/articles/LatestPolicyUpdatesOverviewandKeyPointsA"
+  },
+  {
     "site": "Real Estate Investing Guide",
     "slug": "real-estate-investing-guide",
     "title": "Real Estate Investing Guide: RE Basics Guide 2026",
@@ -3382,6 +3598,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Financing",
     "url": "https://real-estate-investing-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Real Estate Investing Guide",
+    "slug": "real-estate-investing-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "RE Basics",
+    "url": "https://real-estate-investing-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "Dividend Guide",
@@ -3504,6 +3728,14 @@ export const ARTICLES = [
     "url": "https://dividend-guide-aip.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "Dividend Guide",
+    "slug": "dividend-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Dividend Basics",
+    "url": "https://dividend-guide-aip.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Medical Billing Guide",
     "slug": "medical-billing-guide",
     "title": "Medical Billing Guide: Billing Basics Guide 2026",
@@ -3622,6 +3854,14 @@ export const ARTICLES = [
     "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Costs",
     "url": "https://medical-billing-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
+    "site": "Medical Billing Guide",
+    "slug": "medical-billing-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Billing Basics",
+    "url": "https://medical-billing-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
     "site": "Annuity Guide",
@@ -3752,6 +3992,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Types",
+    "url": "https://annuity-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -3878,6 +4126,14 @@ export const ARTICLES = [
     "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rewards Basics",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Cashback",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
   },
   {
     "site": "Saving Strategies Guide",
@@ -4008,6 +4264,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "High-Yield",
+    "url": "https://saving-strategies-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -4134,6 +4398,14 @@ export const ARTICLES = [
     "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Equity Basics",
     "url": "https://home-equity-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "HELOC",
+    "url": "https://home-equity-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
   },
   {
     "site": "Entrepreneur Guide",
@@ -4264,6 +4536,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Starting",
+    "url": "https://entrepreneur-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -4390,6 +4670,14 @@ export const ARTICLES = [
     "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Wealth Basics",
     "url": "https://wealth-management-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Advisors",
+    "url": "https://wealth-management-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
   },
   {
     "site": "Charity Tax Guide",
@@ -4520,6 +4808,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Deductions",
+    "url": "https://charity-tax-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -4646,6 +4942,14 @@ export const ARTICLES = [
     "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Lease Basics",
     "url": "https://lease-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Car",
+    "url": "https://lease-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
   },
   {
     "site": "Financial Literacy Guide",
@@ -4776,6 +5080,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Interest",
+    "url": "https://financial-literacy-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -4904,6 +5216,14 @@ export const ARTICLES = [
     "url": "https://insurance-policy-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
   },
   {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "Eligibility Requirements Explained: Overview and Key Points (August 2026)",
+    "description": "General information about Eligibility Requirements Explained as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Coverage",
+    "url": "https://insurance-policy-guide.pages.dev/articles/EligibilityRequirementsExplainedOverview"
+  },
+  {
     "site": "Disability Insurance Guide",
     "slug": "disability-insurance-guide",
     "title": "Disability Insurance Guide: Disability Basics Guide 2026",
@@ -5024,6 +5344,14 @@ export const ARTICLES = [
     "url": "https://disability-insurance-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "How to Prepare the Required Documents: Overview and Key Points (August 2026)",
+    "description": "General information about How to Prepare the Required Documents as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Disability Basics",
+    "url": "https://disability-insurance-guide.pages.dev/articles/HowtoPreparetheRequiredDocumentsOverview"
+  },
+  {
     "site": "Unemployment Benefits Guide",
     "slug": "unemployment-benefits-guide",
     "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
@@ -5134,6 +5462,14 @@ export const ARTICLES = [
     "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Amounts",
     "url": "https://unemployment-benefits-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rights",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
     "site": "Medicaid Guide",
@@ -5248,6 +5584,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "CHIP",
+    "url": "https://medicaid-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -5358,6 +5702,14 @@ export const ARTICLES = [
     "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Year-Round",
     "url": "https://tax-planning-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement",
+    "url": "https://tax-planning-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
     "site": "Emergency Fund Guide",
@@ -5472,6 +5824,14 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Using",
+    "url": "https://emergency-fund-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -5582,6 +5942,14 @@ export const ARTICLES = [
     "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Work-Study",
     "url": "https://financial-aid-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning",
+    "url": "https://financial-aid-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -5696,6 +6064,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Strategies",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -5806,6 +6182,14 @@ export const ARTICLES = [
     "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Preparation",
     "url": "https://home-buying-guide-728.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Closing",
+    "url": "https://home-buying-guide-728.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   },
   {
     "site": "Insurance Claims Guide",
@@ -5920,6 +6304,14 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Appeals",
+    "url": "https://insurance-claims-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -6030,5 +6422,13 @@ export const ARTICLES = [
     "description": "General information about Common Mistakes to Avoid as of August 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Choosing",
     "url": "https://financial-advisor-guide.pages.dev/articles/CommonMistakestoAvoidOverviewandKeyPoint"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "Step-by-Step Guide for First-Timers: Overview and Key Points (August 2026)",
+    "description": "General information about Step-by-Step Guide for First-Timers as of August 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Working",
+    "url": "https://financial-advisor-guide.pages.dev/articles/Step-by-StepGuideforFirst-TimersOverview"
   }
 ];
