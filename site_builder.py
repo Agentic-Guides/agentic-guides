@@ -451,6 +451,22 @@ Disallow: /
 Sitemap: https://{domain}/sitemap.xml
 '''
 
+def build_mcp_json(site):
+    """AIエージェントがサイトのMCPサーバーを発見するための .well-known/mcp.json を生成。
+    既存の Agentic Guides MCP サーバーを宣言し、77サイト全部が1つのMCPサーバーに繋がる導線を作る。"""
+    domain = site["domain"]
+    name = site["name"]
+    desc = site.get("description", f"{name} — practical guides and reference information.")
+    return json.dumps({
+        "name": f"agentic-guides-{domain.split('.')[0]}",
+        "description": f"{name} — {desc}",
+        "servers": [{
+            "url": "https://agentic-guides-mcp.pickaxe.workers.dev/mcp",
+            "description": "Agentic Guides MCP server — search articles and list sites across the network"
+        }]
+    }, indent=2, ensure_ascii=False)
+
+
 def build_llms_txt(site, articles):
     """AIエージェントがサイト構造を理解するための llms.txt を生成（EmDash技術応用）"""
     domain = site["domain"]
@@ -722,6 +738,12 @@ def write_site_files(slug, articles, lang="ja"):
     # llms.txt（AIエージェント向けサイト構造宣言）
     with open(os.path.join(d, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(build_llms_txt(site, articles))
+
+    # .well-known/mcp.json（AIエージェントがMCPサーバーを発見するための宣言）
+    wk = os.path.join(d, ".well-known")
+    os.makedirs(wk, exist_ok=True)
+    with open(os.path.join(wk, "mcp.json"), "w", encoding="utf-8") as f:
+        f.write(build_mcp_json(site))
 
     # Content Signals
     with open(os.path.join(d, "contentsignals.txt"), "w", encoding="utf-8") as f:
