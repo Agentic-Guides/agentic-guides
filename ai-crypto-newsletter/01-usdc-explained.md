@@ -73,8 +73,17 @@ And if you ever want to get into crypto, USDC is the **safest place to start** �
 
 ---
 
-*This is educational content, not financial advice. Crypto involves risk. Do your own research before buying anything.*
+## Important Disclaimer
+
+**Educational purposes only.** This newsletter provides general information for educational purposes only. It is **not** investment, financial, legal, or tax advice, and it is **not** a recommendation to buy, sell, or hold any asset. Nothing here is personalized to your situation.
+
+**Crypto involves significant risk**, including the possible loss of your entire investment. Past performance does not guarantee future results. Do not make any decisions based solely on this content — always do your own research and consult a qualified financial, tax, or legal professional before taking any action.
+
+**No guarantees.** We make no representations about the accuracy, completeness, or suitability of any information provided. You alone are responsible for your own financial decisions and their outcomes.
+
+*Note: Regulations and laws vary by jurisdiction and change over time. This content may be subject to different rules in different countries.*
 
 ---
 
 *Want more plain-English explanations of AI and crypto? Subscribe — it's free, and it takes 3 minutes to read.*
+
