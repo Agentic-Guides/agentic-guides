@@ -312,6 +312,14 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Housing",
+    "url": "https://grant-navigator.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -520,6 +528,14 @@ export const ARTICLES = [
     "url": "https://tax-filing-guide.pages.dev/articles/RenewalandMaintenanceRequirementsOvervie"
   },
   {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "Tax Implications You Should Know: Overview and Key Points (September 2026)",
+    "description": "General information about Tax Implications You Should Know as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Deductions",
+    "url": "https://tax-filing-guide.pages.dev/articles/TaxImplicationsYouShouldKnowOverviewandK"
+  },
+  {
     "site": "Mortgage Guide",
     "slug": "mortgage-guide",
     "title": "How to Choose a Mortgage in 2026: Fixed vs Adjustable Rates",
@@ -726,6 +742,14 @@ export const ARTICLES = [
     "description": "General information about Renewal and Maintenance Requirements as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Mortgage Basics",
     "url": "https://mortgage-guide.pages.dev/articles/RenewalandMaintenanceRequirementsOvervie"
+  },
+  {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "Tax Implications You Should Know: Overview and Key Points (September 2026)",
+    "description": "General information about Tax Implications You Should Know as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rates",
+    "url": "https://mortgage-guide.pages.dev/articles/TaxImplicationsYouShouldKnowOverviewandK"
   },
   {
     "site": "Side Hustle Hub",
@@ -944,6 +968,14 @@ export const ARTICLES = [
     "url": "https://side-hustle-hub.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Side Hustle Hub",
+    "slug": "side-hustle-hub",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Skills",
+    "url": "https://side-hustle-hub.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Elder Care Guide",
     "slug": "elder-care-guide",
     "title": "Medicare Basics 2026: How to Enroll and What It Covers",
@@ -1150,6 +1182,14 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Medicare",
     "url": "https://elder-care-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Elder Care Guide",
+    "slug": "elder-care-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Long-Term Care",
+    "url": "https://elder-care-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
     "site": "Insurance Guide",
@@ -1360,6 +1400,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/HowtoMaximizeYourBenefitsOverviewandKeyP"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "State-by-State Differences: Overview and Key Points (September 2026)",
+    "description": "General information about State-by-State Differences as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Life Insurance",
+    "url": "https://insurance-guide-x35.pages.dev/articles/State-by-StateDifferencesOverviewandKeyP"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -1566,6 +1614,14 @@ export const ARTICLES = [
     "description": "General information about How to Maximize Your Benefits as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Credit Basics",
     "url": "https://credit-score-guide.pages.dev/articles/HowtoMaximizeYourBenefitsOverviewandKeyP"
+  },
+  {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "State-by-State Differences: Overview and Key Points (September 2026)",
+    "description": "General information about State-by-State Differences as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Improve Credit",
+    "url": "https://credit-score-guide.pages.dev/articles/State-by-StateDifferencesOverviewandKeyP"
   },
   {
     "site": "Student Loan Guide",
@@ -1776,6 +1832,14 @@ export const ARTICLES = [
     "url": "https://student-loan-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
   },
   {
+    "site": "Student Loan Guide",
+    "slug": "student-loan-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Repayment",
+    "url": "https://student-loan-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
     "site": "Retirement Guide",
     "slug": "retirement-guide",
     "title": "Retirement Planning 2026: How to Start Saving for Retirement",
@@ -1984,6 +2048,14 @@ export const ARTICLES = [
     "url": "https://retirement-guide.pages.dev/articles/RenewalandMaintenanceRequirementsOvervie"
   },
   {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "Tax Implications You Should Know: Overview and Key Points (September 2026)",
+    "description": "General information about Tax Implications You Should Know as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "401k",
+    "url": "https://retirement-guide.pages.dev/articles/TaxImplicationsYouShouldKnowOverviewandK"
+  },
+  {
     "site": "Small Business Guide",
     "slug": "small-business-guide",
     "title": "How to Start a Small Business in 2026: Complete Guide",
@@ -2190,6 +2262,14 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Starting",
     "url": "https://small-business-guide-bgu.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Small Business Guide",
+    "slug": "small-business-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Funding",
+    "url": "https://small-business-guide-bgu.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
     "site": "Investing Guide",
@@ -2408,6 +2488,14 @@ export const ARTICLES = [
     "url": "https://investing-guide.pages.dev/articles/TaxImplicationsYouShouldKnowOverviewandK"
   },
   {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "How to Maximize Your Benefits: Overview and Key Points (September 2026)",
+    "description": "General information about How to Maximize Your Benefits as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Bonds",
+    "url": "https://investing-guide.pages.dev/articles/HowtoMaximizeYourBenefitsOverviewandKeyP"
+  },
+  {
     "site": "Pet Insurance Guide",
     "slug": "pet-insurance-guide",
     "title": "Pet Insurance 2026: Is It Worth It?",
@@ -2622,6 +2710,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Coverage",
     "url": "https://pet-insurance-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Pet Insurance Guide",
+    "slug": "pet-insurance-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Costs",
+    "url": "https://pet-insurance-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Estate Planning Guide",
@@ -2840,6 +2936,14 @@ export const ARTICLES = [
     "url": "https://estate-planning-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Estate Planning Guide",
+    "slug": "estate-planning-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Trusts",
+    "url": "https://estate-planning-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Auto Loan Guide",
     "slug": "auto-loan-guide",
     "title": "Auto Loans 2026: How to Get the Best Financing",
@@ -3054,6 +3158,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rates",
     "url": "https://auto-loan-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Auto Loan Guide",
+    "slug": "auto-loan-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Financing",
+    "url": "https://auto-loan-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Rental Guide",
@@ -3272,6 +3384,14 @@ export const ARTICLES = [
     "url": "https://rental-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Rental Guide",
+    "slug": "rental-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tenant Rights",
+    "url": "https://rental-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Personal Loan Guide",
     "slug": "personal-loan-guide",
     "title": "Personal Loans 2026: What You Need to Know",
@@ -3486,6 +3606,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rates",
     "url": "https://personal-loan-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Personal Loan Guide",
+    "slug": "personal-loan-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Lenders",
+    "url": "https://personal-loan-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Banking Guide",
@@ -3704,6 +3832,14 @@ export const ARTICLES = [
     "url": "https://banking-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Banking Guide",
+    "slug": "banking-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "CDs",
+    "url": "https://banking-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Financial Planning Guide",
     "slug": "financial-planning-guide",
     "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
@@ -3918,6 +4054,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Saving",
     "url": "https://financial-planning-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Financial Planning Guide",
+    "slug": "financial-planning-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Goals",
+    "url": "https://financial-planning-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Career Guide",
@@ -4136,6 +4280,14 @@ export const ARTICLES = [
     "url": "https://career-guide-dbn.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Career Guide",
+    "slug": "career-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Interview",
+    "url": "https://career-guide-dbn.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Home Improvement Guide",
     "slug": "home-improvement-guide",
     "title": "Home Improvement 2026: Projects That Add Value",
@@ -4350,6 +4502,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Financing",
     "url": "https://home-improvement-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Home Improvement Guide",
+    "slug": "home-improvement-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Energy",
+    "url": "https://home-improvement-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "HSA Guide",
@@ -4568,6 +4728,14 @@ export const ARTICLES = [
     "url": "https://hsa-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "HSA Guide",
+    "slug": "hsa-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Investing",
+    "url": "https://hsa-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Travel Insurance Guide",
     "slug": "travel-insurance-guide",
     "title": "Travel Insurance 2026: Is It Worth It?",
@@ -4782,6 +4950,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Coverage",
     "url": "https://travel-insurance-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Travel Insurance Guide",
+    "slug": "travel-insurance-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Costs",
+    "url": "https://travel-insurance-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Gig Work Guide",
@@ -5000,6 +5176,14 @@ export const ARTICLES = [
     "url": "https://gig-work-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Gig Work Guide",
+    "slug": "gig-work-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Earning",
+    "url": "https://gig-work-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Coupon Guide",
     "slug": "coupon-guide",
     "title": "Couponing Basics 2026: How to Start Saving",
@@ -5214,6 +5398,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Deals",
     "url": "https://coupon-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Coupon Guide",
+    "slug": "coupon-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Cashback",
+    "url": "https://coupon-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Subscription Guide",
@@ -5432,6 +5624,14 @@ export const ARTICLES = [
     "url": "https://subscription-guide-c84.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Subscription Guide",
+    "slug": "subscription-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Cutting",
+    "url": "https://subscription-guide-c84.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Crypto Guide",
     "slug": "crypto-guide",
     "title": "Crypto Guide: Crypto Basics Guide 2026",
@@ -5646,6 +5846,14 @@ export const ARTICLES = [
     "description": "General information about Tax Implications You Should Know as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Trading",
     "url": "https://crypto-guide-aor.pages.dev/articles/TaxImplicationsYouShouldKnowOverviewandK"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "How to Maximize Your Benefits: Overview and Key Points (September 2026)",
+    "description": "General information about How to Maximize Your Benefits as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Investing",
+    "url": "https://crypto-guide-aor.pages.dev/articles/HowtoMaximizeYourBenefitsOverviewandKeyP"
   },
   {
     "site": "Forex Guide",
@@ -5864,6 +6072,14 @@ export const ARTICLES = [
     "url": "https://forex-guide.pages.dev/articles/State-by-StateDifferencesOverviewandKeyP"
   },
   {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "Real-World Examples and Scenarios: Overview and Key Points (September 2026)",
+    "description": "General information about Real-World Examples and Scenarios as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Platforms",
+    "url": "https://forex-guide.pages.dev/articles/Real-WorldExamplesandScenariosOverviewan"
+  },
+  {
     "site": "Real Estate Investing Guide",
     "slug": "real-estate-investing-guide",
     "title": "Real Estate Investing Guide: RE Basics Guide 2026",
@@ -6078,6 +6294,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rental",
     "url": "https://real-estate-investing-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Real Estate Investing Guide",
+    "slug": "real-estate-investing-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "REITs",
+    "url": "https://real-estate-investing-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Dividend Guide",
@@ -6296,6 +6520,14 @@ export const ARTICLES = [
     "url": "https://dividend-guide-aip.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Dividend Guide",
+    "slug": "dividend-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "DRIP",
+    "url": "https://dividend-guide-aip.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Medical Billing Guide",
     "slug": "medical-billing-guide",
     "title": "Medical Billing Guide: Billing Basics Guide 2026",
@@ -6510,6 +6742,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Claims",
     "url": "https://medical-billing-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Medical Billing Guide",
+    "slug": "medical-billing-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Bills",
+    "url": "https://medical-billing-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Annuity Guide",
@@ -6736,6 +6976,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Comparison",
+    "url": "https://annuity-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -6958,6 +7206,14 @@ export const ARTICLES = [
     "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Points",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Bonuses",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
   },
   {
     "site": "Saving Strategies Guide",
@@ -7184,6 +7440,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tips",
+    "url": "https://saving-strategies-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -7406,6 +7670,14 @@ export const ARTICLES = [
     "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Loans",
     "url": "https://home-equity-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Refinancing",
+    "url": "https://home-equity-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
   },
   {
     "site": "Entrepreneur Guide",
@@ -7632,6 +7904,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Funding",
+    "url": "https://entrepreneur-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -7854,6 +8134,14 @@ export const ARTICLES = [
     "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Allocation",
     "url": "https://wealth-management-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning",
+    "url": "https://wealth-management-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
   },
   {
     "site": "Charity Tax Guide",
@@ -8080,6 +8368,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Nonprofits",
+    "url": "https://charity-tax-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -8302,6 +8598,14 @@ export const ARTICLES = [
     "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Equipment",
     "url": "https://lease-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Commercial",
+    "url": "https://lease-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
   },
   {
     "site": "Financial Literacy Guide",
@@ -8528,6 +8832,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Education",
+    "url": "https://financial-literacy-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -8752,6 +9064,14 @@ export const ARTICLES = [
     "url": "https://insurance-policy-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims",
+    "url": "https://insurance-policy-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
+  },
+  {
     "site": "Disability Insurance Guide",
     "slug": "disability-insurance-guide",
     "title": "Disability Insurance Guide: Disability Basics Guide 2026",
@@ -8968,6 +9288,14 @@ export const ARTICLES = [
     "url": "https://disability-insurance-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Long-Term",
+    "url": "https://disability-insurance-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Unemployment Benefits Guide",
     "slug": "unemployment-benefits-guide",
     "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
@@ -9174,6 +9502,14 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Benefits Basics",
     "url": "https://unemployment-benefits-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Eligibility",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
     "site": "Medicaid Guide",
@@ -9384,6 +9720,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Eligibility",
+    "url": "https://medicaid-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -9590,6 +9934,14 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Planning Basics",
     "url": "https://tax-planning-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Strategies",
+    "url": "https://tax-planning-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
     "site": "Emergency Fund Guide",
@@ -9800,6 +10152,14 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Amount",
+    "url": "https://emergency-fund-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -10006,6 +10366,14 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Aid Basics",
     "url": "https://financial-aid-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "FAFSA",
+    "url": "https://financial-aid-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -10224,6 +10592,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Social Security",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -10430,6 +10806,14 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Buying Basics",
     "url": "https://home-buying-guide-728.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Process",
+    "url": "https://home-buying-guide-728.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
     "site": "Insurance Claims Guide",
@@ -10640,6 +11024,14 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Auto",
+    "url": "https://insurance-claims-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -10846,5 +11238,13 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Advisor Basics",
     "url": "https://financial-advisor-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Types",
+    "url": "https://financial-advisor-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   }
 ];
