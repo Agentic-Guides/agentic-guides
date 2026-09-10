@@ -344,6 +344,14 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/HowThisComparestoOtherOptionsOverviewand"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "The Top Priorities for This Year: Overview and Key Points (September 2026)",
+    "description": "General information about The Top Priorities for This Year as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Startup",
+    "url": "https://grant-navigator.pages.dev/articles/TheTopPrioritiesforThisYearOverviewandKe"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -584,6 +592,14 @@ export const ARTICLES = [
     "url": "https://tax-filing-guide.pages.dev/articles/Real-WorldExamplesandScenariosOverviewan"
   },
   {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "Resources and Where to Get Help: Overview and Key Points (September 2026)",
+    "description": "General information about Resources and Where to Get Help as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tax Filing",
+    "url": "https://tax-filing-guide.pages.dev/articles/ResourcesandWheretoGetHelpOverviewandKey"
+  },
+  {
     "site": "Mortgage Guide",
     "slug": "mortgage-guide",
     "title": "How to Choose a Mortgage in 2026: Fixed vs Adjustable Rates",
@@ -822,6 +838,14 @@ export const ARTICLES = [
     "description": "General information about Real-World Examples and Scenarios as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Refinance",
     "url": "https://mortgage-guide.pages.dev/articles/Real-WorldExamplesandScenariosOverviewan"
+  },
+  {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "Resources and Where to Get Help: Overview and Key Points (September 2026)",
+    "description": "General information about Resources and Where to Get Help as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Mortgage Basics",
+    "url": "https://mortgage-guide.pages.dev/articles/ResourcesandWheretoGetHelpOverviewandKey"
   },
   {
     "site": "Side Hustle Hub",
@@ -1072,6 +1096,14 @@ export const ARTICLES = [
     "url": "https://side-hustle-hub.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Side Hustle Hub",
+    "slug": "side-hustle-hub",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Remote Work",
+    "url": "https://side-hustle-hub.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Elder Care Guide",
     "slug": "elder-care-guide",
     "title": "Medicare Basics 2026: How to Enroll and What It Covers",
@@ -1310,6 +1342,14 @@ export const ARTICLES = [
     "description": "General information about Common Questions From First-Timers as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Family Care",
     "url": "https://elder-care-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
+  },
+  {
+    "site": "Elder Care Guide",
+    "slug": "elder-care-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Medicare",
+    "url": "https://elder-care-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
     "site": "Insurance Guide",
@@ -1552,6 +1592,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Health Insurance",
+    "url": "https://insurance-guide-x35.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -1790,6 +1838,14 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Debt Management",
     "url": "https://credit-score-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Credit Basics",
+    "url": "https://credit-score-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
     "site": "Student Loan Guide",
@@ -2032,6 +2088,14 @@ export const ARTICLES = [
     "url": "https://student-loan-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
   },
   {
+    "site": "Student Loan Guide",
+    "slug": "student-loan-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Loan Basics",
+    "url": "https://student-loan-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
     "site": "Retirement Guide",
     "slug": "retirement-guide",
     "title": "Retirement Planning 2026: How to Start Saving for Retirement",
@@ -2272,6 +2336,14 @@ export const ARTICLES = [
     "url": "https://retirement-guide.pages.dev/articles/Real-WorldExamplesandScenariosOverviewan"
   },
   {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "Resources and Where to Get Help: Overview and Key Points (September 2026)",
+    "description": "General information about Resources and Where to Get Help as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement Basics",
+    "url": "https://retirement-guide.pages.dev/articles/ResourcesandWheretoGetHelpOverviewandKey"
+  },
+  {
     "site": "Small Business Guide",
     "slug": "small-business-guide",
     "title": "How to Start a Small Business in 2026: Complete Guide",
@@ -2510,6 +2582,14 @@ export const ARTICLES = [
     "description": "General information about Common Questions From First-Timers as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Taxes",
     "url": "https://small-business-guide-bgu.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
+  },
+  {
+    "site": "Small Business Guide",
+    "slug": "small-business-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Starting",
+    "url": "https://small-business-guide-bgu.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
     "site": "Investing Guide",
@@ -2760,6 +2840,14 @@ export const ARTICLES = [
     "url": "https://investing-guide.pages.dev/articles/ResourcesandWheretoGetHelpOverviewandKey"
   },
   {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "How the Process Works End to End: Overview and Key Points (September 2026)",
+    "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Stocks",
+    "url": "https://investing-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
     "site": "Pet Insurance Guide",
     "slug": "pet-insurance-guide",
     "title": "Pet Insurance 2026: Is It Worth It?",
@@ -3006,6 +3094,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Pet Insurance Basics",
     "url": "https://pet-insurance-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Pet Insurance Guide",
+    "slug": "pet-insurance-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Coverage",
+    "url": "https://pet-insurance-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "Estate Planning Guide",
@@ -3256,6 +3352,14 @@ export const ARTICLES = [
     "url": "https://estate-planning-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Estate Planning Guide",
+    "slug": "estate-planning-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Wills",
+    "url": "https://estate-planning-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Auto Loan Guide",
     "slug": "auto-loan-guide",
     "title": "Auto Loans 2026: How to Get the Best Financing",
@@ -3502,6 +3606,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Auto Loan Basics",
     "url": "https://auto-loan-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Auto Loan Guide",
+    "slug": "auto-loan-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rates",
+    "url": "https://auto-loan-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "Rental Guide",
@@ -3752,6 +3864,14 @@ export const ARTICLES = [
     "url": "https://rental-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Rental Guide",
+    "slug": "rental-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Leases",
+    "url": "https://rental-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Personal Loan Guide",
     "slug": "personal-loan-guide",
     "title": "Personal Loans 2026: What You Need to Know",
@@ -3998,6 +4118,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Loan Basics",
     "url": "https://personal-loan-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Personal Loan Guide",
+    "slug": "personal-loan-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rates",
+    "url": "https://personal-loan-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "Banking Guide",
@@ -4248,6 +4376,14 @@ export const ARTICLES = [
     "url": "https://banking-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Banking Guide",
+    "slug": "banking-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Savings",
+    "url": "https://banking-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Financial Planning Guide",
     "slug": "financial-planning-guide",
     "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
@@ -4494,6 +4630,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Budgeting",
     "url": "https://financial-planning-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Financial Planning Guide",
+    "slug": "financial-planning-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Saving",
+    "url": "https://financial-planning-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "Career Guide",
@@ -4744,6 +4888,14 @@ export const ARTICLES = [
     "url": "https://career-guide-dbn.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Career Guide",
+    "slug": "career-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Resume",
+    "url": "https://career-guide-dbn.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Home Improvement Guide",
     "slug": "home-improvement-guide",
     "title": "Home Improvement 2026: Projects That Add Value",
@@ -4990,6 +5142,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Projects",
     "url": "https://home-improvement-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Home Improvement Guide",
+    "slug": "home-improvement-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Financing",
+    "url": "https://home-improvement-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "HSA Guide",
@@ -5240,6 +5400,14 @@ export const ARTICLES = [
     "url": "https://hsa-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "HSA Guide",
+    "slug": "hsa-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Contributions",
+    "url": "https://hsa-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Travel Insurance Guide",
     "slug": "travel-insurance-guide",
     "title": "Travel Insurance 2026: Is It Worth It?",
@@ -5486,6 +5654,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Insurance Basics",
     "url": "https://travel-insurance-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Travel Insurance Guide",
+    "slug": "travel-insurance-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Coverage",
+    "url": "https://travel-insurance-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "Gig Work Guide",
@@ -5736,6 +5912,14 @@ export const ARTICLES = [
     "url": "https://gig-work-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Gig Work Guide",
+    "slug": "gig-work-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Platforms",
+    "url": "https://gig-work-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Coupon Guide",
     "slug": "coupon-guide",
     "title": "Couponing Basics 2026: How to Start Saving",
@@ -5982,6 +6166,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Couponing",
     "url": "https://coupon-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Coupon Guide",
+    "slug": "coupon-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Deals",
+    "url": "https://coupon-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "Subscription Guide",
@@ -6232,6 +6424,14 @@ export const ARTICLES = [
     "url": "https://subscription-guide-c84.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Subscription Guide",
+    "slug": "subscription-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Management",
+    "url": "https://subscription-guide-c84.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Crypto Guide",
     "slug": "crypto-guide",
     "title": "Crypto Guide: Crypto Basics Guide 2026",
@@ -6478,6 +6678,14 @@ export const ARTICLES = [
     "description": "General information about Resources and Where to Get Help as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Crypto Basics",
     "url": "https://crypto-guide-aor.pages.dev/articles/ResourcesandWheretoGetHelpOverviewandKey"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "How the Process Works End to End: Overview and Key Points (September 2026)",
+    "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Trading",
+    "url": "https://crypto-guide-aor.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
   },
   {
     "site": "Forex Guide",
@@ -6728,6 +6936,14 @@ export const ARTICLES = [
     "url": "https://forex-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Strategies",
+    "url": "https://forex-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Real Estate Investing Guide",
     "slug": "real-estate-investing-guide",
     "title": "Real Estate Investing Guide: RE Basics Guide 2026",
@@ -6974,6 +7190,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "RE Basics",
     "url": "https://real-estate-investing-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Real Estate Investing Guide",
+    "slug": "real-estate-investing-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rental",
+    "url": "https://real-estate-investing-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "Dividend Guide",
@@ -7224,6 +7448,14 @@ export const ARTICLES = [
     "url": "https://dividend-guide-aip.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Dividend Guide",
+    "slug": "dividend-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Stocks",
+    "url": "https://dividend-guide-aip.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Medical Billing Guide",
     "slug": "medical-billing-guide",
     "title": "Medical Billing Guide: Billing Basics Guide 2026",
@@ -7470,6 +7702,14 @@ export const ARTICLES = [
     "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Billing Basics",
     "url": "https://medical-billing-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
+    "site": "Medical Billing Guide",
+    "slug": "medical-billing-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims",
+    "url": "https://medical-billing-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
     "site": "Annuity Guide",
@@ -7728,6 +7968,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Income",
+    "url": "https://annuity-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -7982,6 +8230,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Cashback",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Points",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Saving Strategies Guide",
@@ -8240,6 +8496,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Automation",
+    "url": "https://saving-strategies-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -8494,6 +8758,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "HELOC",
     "url": "https://home-equity-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Loans",
+    "url": "https://home-equity-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Entrepreneur Guide",
@@ -8752,6 +9024,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Scaling",
+    "url": "https://entrepreneur-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -9006,6 +9286,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Advisors",
     "url": "https://wealth-management-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Allocation",
+    "url": "https://wealth-management-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Charity Tax Guide",
@@ -9264,6 +9552,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "DAF",
+    "url": "https://charity-tax-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -9518,6 +9814,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Car",
     "url": "https://lease-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Equipment",
+    "url": "https://lease-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Financial Literacy Guide",
@@ -9776,6 +10080,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Habits",
+    "url": "https://financial-literacy-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -10032,6 +10344,14 @@ export const ARTICLES = [
     "url": "https://insurance-policy-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Riders",
+    "url": "https://insurance-policy-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Disability Insurance Guide",
     "slug": "disability-insurance-guide",
     "title": "Disability Insurance Guide: Disability Basics Guide 2026",
@@ -10280,6 +10600,14 @@ export const ARTICLES = [
     "url": "https://disability-insurance-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Short-Term",
+    "url": "https://disability-insurance-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Unemployment Benefits Guide",
     "slug": "unemployment-benefits-guide",
     "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
@@ -10518,6 +10846,14 @@ export const ARTICLES = [
     "description": "General information about Common Questions From First-Timers as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rights",
     "url": "https://unemployment-benefits-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Benefits Basics",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
     "site": "Medicaid Guide",
@@ -10760,6 +11096,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Medicaid Basics",
+    "url": "https://medicaid-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -10998,6 +11342,14 @@ export const ARTICLES = [
     "description": "General information about Common Questions From First-Timers as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Retirement",
     "url": "https://tax-planning-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning Basics",
+    "url": "https://tax-planning-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
     "site": "Emergency Fund Guide",
@@ -11240,6 +11592,14 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Fund Basics",
+    "url": "https://emergency-fund-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -11478,6 +11838,14 @@ export const ARTICLES = [
     "description": "General information about Common Questions From First-Timers as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Planning",
     "url": "https://financial-aid-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Aid Basics",
+    "url": "https://financial-aid-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -11728,6 +12096,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Who Qualifies and Who Does Not: Overview and Key Points (September 2026)",
+    "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "401k",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -11966,6 +12342,14 @@ export const ARTICLES = [
     "description": "General information about Common Questions From First-Timers as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Closing",
     "url": "https://home-buying-guide-728.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Buying Basics",
+    "url": "https://home-buying-guide-728.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   },
   {
     "site": "Insurance Claims Guide",
@@ -12208,6 +12592,14 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims Basics",
+    "url": "https://insurance-claims-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -12446,5 +12838,13 @@ export const ARTICLES = [
     "description": "General information about Common Questions From First-Timers as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Working",
     "url": "https://financial-advisor-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "The Hidden Costs Most People Miss: Overview and Key Points (September 2026)",
+    "description": "General information about The Hidden Costs Most People Miss as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Advisor Basics",
+    "url": "https://financial-advisor-guide.pages.dev/articles/TheHiddenCostsMostPeopleMissOverviewandK"
   }
 ];
