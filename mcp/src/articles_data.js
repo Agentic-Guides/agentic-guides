@@ -360,6 +360,14 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/WhattheFinePrintReallySaysOverviewandKey"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "A Clear Path From Applying to Receiving: Overview and Key Points (September 2026)",
+    "description": "General information about A Clear Path From Applying to Receiving as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Business Grants",
+    "url": "https://grant-navigator.pages.dev/articles/AClearPathFromApplyingtoReceivingOvervie"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -616,6 +624,14 @@ export const ARTICLES = [
     "url": "https://tax-filing-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
   },
   {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Freelancer",
+    "url": "https://tax-filing-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
     "site": "Mortgage Guide",
     "slug": "mortgage-guide",
     "title": "How to Choose a Mortgage in 2026: Fixed vs Adjustable Rates",
@@ -870,6 +886,14 @@ export const ARTICLES = [
     "description": "General information about How the Process Works End to End as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rates",
     "url": "https://mortgage-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
+  },
+  {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tax Credits",
+    "url": "https://mortgage-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
     "site": "Side Hustle Hub",
@@ -1136,6 +1160,14 @@ export const ARTICLES = [
     "url": "https://side-hustle-hub.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Side Hustle Hub",
+    "slug": "side-hustle-hub",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://side-hustle-hub.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Elder Care Guide",
     "slug": "elder-care-guide",
     "title": "Medicare Basics 2026: How to Enroll and What It Covers",
@@ -1390,6 +1422,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Long-Term Care",
     "url": "https://elder-care-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Elder Care Guide",
+    "slug": "elder-care-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Care Services",
+    "url": "https://elder-care-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Insurance Guide",
@@ -1648,6 +1688,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Auto Insurance",
+    "url": "https://insurance-guide-x35.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -1902,6 +1950,14 @@ export const ARTICLES = [
     "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Improve Credit",
     "url": "https://credit-score-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "A Quick Reference for Busy Readers: Overview and Key Points (September 2026)",
+    "description": "General information about A Quick Reference for Busy Readers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Credit Cards",
+    "url": "https://credit-score-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
   },
   {
     "site": "Student Loan Guide",
@@ -2160,6 +2216,14 @@ export const ARTICLES = [
     "url": "https://student-loan-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Student Loan Guide",
+    "slug": "student-loan-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Forgiveness",
+    "url": "https://student-loan-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Retirement Guide",
     "slug": "retirement-guide",
     "title": "Retirement Planning 2026: How to Start Saving for Retirement",
@@ -2416,6 +2480,14 @@ export const ARTICLES = [
     "url": "https://retirement-guide.pages.dev/articles/HowtheProcessWorksEndtoEndOverviewandKey"
   },
   {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "Key Terms Explained Simply: Overview and Key Points (September 2026)",
+    "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "IRA",
+    "url": "https://retirement-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
     "site": "Small Business Guide",
     "slug": "small-business-guide",
     "title": "How to Start a Small Business in 2026: Complete Guide",
@@ -2670,6 +2742,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Funding",
     "url": "https://small-business-guide-bgu.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Small Business Guide",
+    "slug": "small-business-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Legal",
+    "url": "https://small-business-guide-bgu.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Investing Guide",
@@ -2936,6 +3016,14 @@ export const ARTICLES = [
     "url": "https://investing-guide.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
   },
   {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "ETFs",
+    "url": "https://investing-guide.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
+  },
+  {
     "site": "Pet Insurance Guide",
     "slug": "pet-insurance-guide",
     "title": "Pet Insurance 2026: Is It Worth It?",
@@ -3198,6 +3286,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Costs",
     "url": "https://pet-insurance-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Pet Insurance Guide",
+    "slug": "pet-insurance-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Choosing",
+    "url": "https://pet-insurance-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "Estate Planning Guide",
@@ -3464,6 +3560,14 @@ export const ARTICLES = [
     "url": "https://estate-planning-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Estate Planning Guide",
+    "slug": "estate-planning-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Probate",
+    "url": "https://estate-planning-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Auto Loan Guide",
     "slug": "auto-loan-guide",
     "title": "Auto Loans 2026: How to Get the Best Financing",
@@ -3726,6 +3830,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Financing",
     "url": "https://auto-loan-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Auto Loan Guide",
+    "slug": "auto-loan-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Leasing",
+    "url": "https://auto-loan-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "Rental Guide",
@@ -3992,6 +4104,14 @@ export const ARTICLES = [
     "url": "https://rental-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Rental Guide",
+    "slug": "rental-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Moving",
+    "url": "https://rental-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Personal Loan Guide",
     "slug": "personal-loan-guide",
     "title": "Personal Loans 2026: What You Need to Know",
@@ -4254,6 +4374,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Lenders",
     "url": "https://personal-loan-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Personal Loan Guide",
+    "slug": "personal-loan-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Debt Consolidation",
+    "url": "https://personal-loan-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "Banking Guide",
@@ -4520,6 +4648,14 @@ export const ARTICLES = [
     "url": "https://banking-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Banking Guide",
+    "slug": "banking-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Online Banking",
+    "url": "https://banking-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Financial Planning Guide",
     "slug": "financial-planning-guide",
     "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
@@ -4782,6 +4918,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Goals",
     "url": "https://financial-planning-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Financial Planning Guide",
+    "slug": "financial-planning-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Money Management",
+    "url": "https://financial-planning-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "Career Guide",
@@ -5048,6 +5192,14 @@ export const ARTICLES = [
     "url": "https://career-guide-dbn.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Career Guide",
+    "slug": "career-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Career Growth",
+    "url": "https://career-guide-dbn.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Home Improvement Guide",
     "slug": "home-improvement-guide",
     "title": "Home Improvement 2026: Projects That Add Value",
@@ -5310,6 +5462,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Energy",
     "url": "https://home-improvement-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Home Improvement Guide",
+    "slug": "home-improvement-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning",
+    "url": "https://home-improvement-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "HSA Guide",
@@ -5576,6 +5736,14 @@ export const ARTICLES = [
     "url": "https://hsa-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "HSA Guide",
+    "slug": "hsa-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Withdrawals",
+    "url": "https://hsa-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Travel Insurance Guide",
     "slug": "travel-insurance-guide",
     "title": "Travel Insurance 2026: Is It Worth It?",
@@ -5838,6 +6006,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Costs",
     "url": "https://travel-insurance-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Travel Insurance Guide",
+    "slug": "travel-insurance-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Choosing",
+    "url": "https://travel-insurance-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "Gig Work Guide",
@@ -6104,6 +6280,14 @@ export const ARTICLES = [
     "url": "https://gig-work-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Gig Work Guide",
+    "slug": "gig-work-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://gig-work-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Coupon Guide",
     "slug": "coupon-guide",
     "title": "Couponing Basics 2026: How to Start Saving",
@@ -6366,6 +6550,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Cashback",
     "url": "https://coupon-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Coupon Guide",
+    "slug": "coupon-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Strategies",
+    "url": "https://coupon-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "Subscription Guide",
@@ -6632,6 +6824,14 @@ export const ARTICLES = [
     "url": "https://subscription-guide-c84.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Subscription Guide",
+    "slug": "subscription-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Streaming",
+    "url": "https://subscription-guide-c84.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Crypto Guide",
     "slug": "crypto-guide",
     "title": "Crypto Guide: Crypto Basics Guide 2026",
@@ -6894,6 +7094,14 @@ export const ARTICLES = [
     "description": "General information about Key Terms Explained Simply as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Investing",
     "url": "https://crypto-guide-aor.pages.dev/articles/KeyTermsExplainedSimplyOverviewandKeyPoi"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "What Changes Took Effect Recently: Overview and Key Points (September 2026)",
+    "description": "General information about What Changes Took Effect Recently as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://crypto-guide-aor.pages.dev/articles/WhatChangesTookEffectRecentlyOverviewand"
   },
   {
     "site": "Forex Guide",
@@ -7160,6 +7368,14 @@ export const ARTICLES = [
     "url": "https://forex-guide.pages.dev/articles/AQuickReferenceforBusyReadersOverviewand"
   },
   {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "Common Questions From First-Timers: Overview and Key Points (September 2026)",
+    "description": "General information about Common Questions From First-Timers as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Risk",
+    "url": "https://forex-guide.pages.dev/articles/CommonQuestionsFromFirst-TimersOverviewa"
+  },
+  {
     "site": "Real Estate Investing Guide",
     "slug": "real-estate-investing-guide",
     "title": "Real Estate Investing Guide: RE Basics Guide 2026",
@@ -7422,6 +7638,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "REITs",
     "url": "https://real-estate-investing-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Real Estate Investing Guide",
+    "slug": "real-estate-investing-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Flipping",
+    "url": "https://real-estate-investing-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "Dividend Guide",
@@ -7688,6 +7912,14 @@ export const ARTICLES = [
     "url": "https://dividend-guide-aip.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Dividend Guide",
+    "slug": "dividend-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Income",
+    "url": "https://dividend-guide-aip.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Medical Billing Guide",
     "slug": "medical-billing-guide",
     "title": "Medical Billing Guide: Billing Basics Guide 2026",
@@ -7950,6 +8182,14 @@ export const ARTICLES = [
     "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Bills",
     "url": "https://medical-billing-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
+    "site": "Medical Billing Guide",
+    "slug": "medical-billing-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Negotiation",
+    "url": "https://medical-billing-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
     "site": "Annuity Guide",
@@ -8224,6 +8464,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Risks",
+    "url": "https://annuity-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -8494,6 +8742,14 @@ export const ARTICLES = [
     "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Bonuses",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Maximizing",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
   },
   {
     "site": "Saving Strategies Guide",
@@ -8768,6 +9024,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Goals",
+    "url": "https://saving-strategies-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -9038,6 +9302,14 @@ export const ARTICLES = [
     "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Refinancing",
     "url": "https://home-equity-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Borrowing",
+    "url": "https://home-equity-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
   },
   {
     "site": "Entrepreneur Guide",
@@ -9312,6 +9584,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Mistakes",
+    "url": "https://entrepreneur-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -9582,6 +9862,14 @@ export const ARTICLES = [
     "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Planning",
     "url": "https://wealth-management-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Protection",
+    "url": "https://wealth-management-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
   },
   {
     "site": "Charity Tax Guide",
@@ -9856,6 +10144,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning",
+    "url": "https://charity-tax-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -10126,6 +10422,14 @@ export const ARTICLES = [
     "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Commercial",
     "url": "https://lease-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Negotiation",
+    "url": "https://lease-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
   },
   {
     "site": "Financial Literacy Guide",
@@ -10400,6 +10704,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Skills",
+    "url": "https://financial-literacy-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -10672,6 +10984,14 @@ export const ARTICLES = [
     "url": "https://insurance-policy-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
   },
   {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "What to Do When Things Go Wrong: Overview and Key Points (September 2026)",
+    "description": "General information about What to Do When Things Go Wrong as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Management",
+    "url": "https://insurance-policy-guide.pages.dev/articles/WhattoDoWhenThingsGoWrongOverviewandKeyP"
+  },
+  {
     "site": "Disability Insurance Guide",
     "slug": "disability-insurance-guide",
     "title": "Disability Insurance Guide: Disability Basics Guide 2026",
@@ -10936,6 +11256,14 @@ export const ARTICLES = [
     "url": "https://disability-insurance-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "SSDI",
+    "url": "https://disability-insurance-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Unemployment Benefits Guide",
     "slug": "unemployment-benefits-guide",
     "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
@@ -11190,6 +11518,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Eligibility",
     "url": "https://unemployment-benefits-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Applying",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Medicaid Guide",
@@ -11448,6 +11784,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Coverage",
+    "url": "https://medicaid-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -11702,6 +12046,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Strategies",
     "url": "https://tax-planning-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Credits",
+    "url": "https://tax-planning-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Emergency Fund Guide",
@@ -11960,6 +12312,14 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Where",
+    "url": "https://emergency-fund-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -12214,6 +12574,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "FAFSA",
     "url": "https://financial-aid-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Grants",
+    "url": "https://financial-aid-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -12480,6 +12848,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "What Documents You Need and Why: Overview and Key Points (September 2026)",
+    "description": "General information about What Documents You Need and Why as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "RMDs",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/WhatDocumentsYouNeedandWhyOverviewandKey"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -12734,6 +13110,14 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Process",
     "url": "https://home-buying-guide-728.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Costs",
+    "url": "https://home-buying-guide-728.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   },
   {
     "site": "Insurance Claims Guide",
@@ -12992,6 +13376,14 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Home",
+    "url": "https://insurance-claims-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -13246,5 +13638,13 @@ export const ARTICLES = [
     "description": "General information about Who Qualifies and Who Does Not as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Types",
     "url": "https://financial-advisor-guide.pages.dev/articles/WhoQualifiesandWhoDoesNotOverviewandKeyP"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "The Timeline From Start to Finish: Overview and Key Points (September 2026)",
+    "description": "General information about The Timeline From Start to Finish as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Fees",
+    "url": "https://financial-advisor-guide.pages.dev/articles/TheTimelineFromStarttoFinishOverviewandK"
   }
 ];
