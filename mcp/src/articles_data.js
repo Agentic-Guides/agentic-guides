@@ -456,6 +456,22 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/HowtoSpeedUptheProcessOverviewandKeyPoin"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "What the Fine Print Excludes: Overview and Key Points (September 2026)",
+    "description": "General information about What the Fine Print Excludes as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Energy",
+    "url": "https://grant-navigator.pages.dev/articles/WhattheFinePrintExcludesOverviewandKeyPo"
+  },
+  {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Real Numbers and What They Mean for You: Overview and Key Points (September 2026)",
+    "description": "General information about Real Numbers and What They Mean for You as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Startup",
+    "url": "https://grant-navigator.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -808,6 +824,14 @@ export const ARTICLES = [
     "url": "https://tax-filing-guide.pages.dev/articles/WhattheFinePrintReallySaysOverviewandKey"
   },
   {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "A Clear Path From Applying to Receiving: Overview and Key Points (September 2026)",
+    "description": "General information about A Clear Path From Applying to Receiving as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "e-Filing",
+    "url": "https://tax-filing-guide.pages.dev/articles/AClearPathFromApplyingtoReceivingOvervie"
+  },
+  {
     "site": "Mortgage Guide",
     "slug": "mortgage-guide",
     "title": "How to Choose a Mortgage in 2026: Fixed vs Adjustable Rates",
@@ -1158,6 +1182,14 @@ export const ARTICLES = [
     "description": "General information about What the Fine Print Really Says as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Down Payment",
     "url": "https://mortgage-guide.pages.dev/articles/WhattheFinePrintReallySaysOverviewandKey"
+  },
+  {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "A Clear Path From Applying to Receiving: Overview and Key Points (September 2026)",
+    "description": "General information about A Clear Path From Applying to Receiving as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Refinance",
+    "url": "https://mortgage-guide.pages.dev/articles/AClearPathFromApplyingtoReceivingOvervie"
   },
   {
     "site": "Side Hustle Hub",
@@ -1520,6 +1552,14 @@ export const ARTICLES = [
     "url": "https://side-hustle-hub.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Side Hustle Hub",
+    "slug": "side-hustle-hub",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Getting Started",
+    "url": "https://side-hustle-hub.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Elder Care Guide",
     "slug": "elder-care-guide",
     "title": "Medicare Basics 2026: How to Enroll and What It Covers",
@@ -1870,6 +1910,14 @@ export const ARTICLES = [
     "description": "General information about What Changed This Year and Why It Matters as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Care Costs",
     "url": "https://elder-care-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
+  },
+  {
+    "site": "Elder Care Guide",
+    "slug": "elder-care-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Family Care",
+    "url": "https://elder-care-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
     "site": "Insurance Guide",
@@ -2224,6 +2272,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/HowtoGettheMostOutofThisProgramOverviewa"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "What the Requirements Mean in Practice: Overview and Key Points (September 2026)",
+    "description": "General information about What the Requirements Mean in Practice as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Insurance Basics",
+    "url": "https://insurance-guide-x35.pages.dev/articles/WhattheRequirementsMeaninPracticeOvervie"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -2574,6 +2630,14 @@ export const ARTICLES = [
     "description": "General information about How to Get the Most Out of This Program as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Credit Reports",
     "url": "https://credit-score-guide.pages.dev/articles/HowtoGettheMostOutofThisProgramOverviewa"
+  },
+  {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "What the Requirements Mean in Practice: Overview and Key Points (September 2026)",
+    "description": "General information about What the Requirements Mean in Practice as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Debt Management",
+    "url": "https://credit-score-guide.pages.dev/articles/WhattheRequirementsMeaninPracticeOvervie"
   },
   {
     "site": "Student Loan Guide",
@@ -2928,6 +2992,14 @@ export const ARTICLES = [
     "url": "https://student-loan-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
   },
   {
+    "site": "Student Loan Guide",
+    "slug": "student-loan-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Financial Aid",
+    "url": "https://student-loan-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
     "site": "Retirement Guide",
     "slug": "retirement-guide",
     "title": "Retirement Planning 2026: How to Start Saving for Retirement",
@@ -3280,6 +3352,14 @@ export const ARTICLES = [
     "url": "https://retirement-guide.pages.dev/articles/WhattheFinePrintReallySaysOverviewandKey"
   },
   {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "A Clear Path From Applying to Receiving: Overview and Key Points (September 2026)",
+    "description": "General information about A Clear Path From Applying to Receiving as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement Income",
+    "url": "https://retirement-guide.pages.dev/articles/AClearPathFromApplyingtoReceivingOvervie"
+  },
+  {
     "site": "Small Business Guide",
     "slug": "small-business-guide",
     "title": "How to Start a Small Business in 2026: Complete Guide",
@@ -3630,6 +3710,14 @@ export const ARTICLES = [
     "description": "General information about What Changed This Year and Why It Matters as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Marketing",
     "url": "https://small-business-guide-bgu.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
+  },
+  {
+    "site": "Small Business Guide",
+    "slug": "small-business-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://small-business-guide-bgu.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
     "site": "Investing Guide",
@@ -3992,6 +4080,14 @@ export const ARTICLES = [
     "url": "https://investing-guide.pages.dev/articles/AClearPathFromApplyingtoReceivingOvervie"
   },
   {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "How to Get the Most Out of This Program: Overview and Key Points (September 2026)",
+    "description": "General information about How to Get the Most Out of This Program as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Investing Basics",
+    "url": "https://investing-guide.pages.dev/articles/HowtoGettheMostOutofThisProgramOverviewa"
+  },
+  {
     "site": "Pet Insurance Guide",
     "slug": "pet-insurance-guide",
     "title": "Pet Insurance 2026: Is It Worth It?",
@@ -4350,6 +4446,14 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Claims",
     "url": "https://pet-insurance-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Pet Insurance Guide",
+    "slug": "pet-insurance-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Pet Insurance Basics",
+    "url": "https://pet-insurance-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
     "site": "Estate Planning Guide",
@@ -4712,6 +4816,14 @@ export const ARTICLES = [
     "url": "https://estate-planning-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Estate Planning Guide",
+    "slug": "estate-planning-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Estate Basics",
+    "url": "https://estate-planning-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Auto Loan Guide",
     "slug": "auto-loan-guide",
     "title": "Auto Loans 2026: How to Get the Best Financing",
@@ -5070,6 +5182,14 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Refinancing",
     "url": "https://auto-loan-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Auto Loan Guide",
+    "slug": "auto-loan-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Auto Loan Basics",
+    "url": "https://auto-loan-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
     "site": "Rental Guide",
@@ -5432,6 +5552,14 @@ export const ARTICLES = [
     "url": "https://rental-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Rental Guide",
+    "slug": "rental-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Finding",
+    "url": "https://rental-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Personal Loan Guide",
     "slug": "personal-loan-guide",
     "title": "Personal Loans 2026: What You Need to Know",
@@ -5790,6 +5918,14 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Borrowing",
     "url": "https://personal-loan-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Personal Loan Guide",
+    "slug": "personal-loan-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Loan Basics",
+    "url": "https://personal-loan-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
     "site": "Banking Guide",
@@ -6152,6 +6288,14 @@ export const ARTICLES = [
     "url": "https://banking-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Banking Guide",
+    "slug": "banking-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Checking",
+    "url": "https://banking-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Financial Planning Guide",
     "slug": "financial-planning-guide",
     "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
@@ -6510,6 +6654,14 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Net Worth",
     "url": "https://financial-planning-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Financial Planning Guide",
+    "slug": "financial-planning-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Budgeting",
+    "url": "https://financial-planning-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
     "site": "Career Guide",
@@ -6872,6 +7024,14 @@ export const ARTICLES = [
     "url": "https://career-guide-dbn.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Career Guide",
+    "slug": "career-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Job Search",
+    "url": "https://career-guide-dbn.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Home Improvement Guide",
     "slug": "home-improvement-guide",
     "title": "Home Improvement 2026: Projects That Add Value",
@@ -7230,6 +7390,14 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "DIY",
     "url": "https://home-improvement-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Home Improvement Guide",
+    "slug": "home-improvement-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Projects",
+    "url": "https://home-improvement-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
     "site": "HSA Guide",
@@ -7592,6 +7760,22 @@ export const ARTICLES = [
     "url": "https://hsa-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "HSA Guide",
+    "slug": "hsa-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "HSA Basics",
+    "url": "https://hsa-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
+    "site": "HSA Guide",
+    "slug": "hsa-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Contributions",
+    "url": "https://hsa-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
+  },
+  {
     "site": "Travel Insurance Guide",
     "slug": "travel-insurance-guide",
     "title": "Travel Insurance 2026: Is It Worth It?",
@@ -7950,6 +8134,14 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Claims",
     "url": "https://travel-insurance-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Travel Insurance Guide",
+    "slug": "travel-insurance-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Insurance Basics",
+    "url": "https://travel-insurance-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
     "site": "Gig Work Guide",
@@ -8312,6 +8504,22 @@ export const ARTICLES = [
     "url": "https://gig-work-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Gig Work Guide",
+    "slug": "gig-work-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Gig Basics",
+    "url": "https://gig-work-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
+    "site": "Gig Work Guide",
+    "slug": "gig-work-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Platforms",
+    "url": "https://gig-work-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
+  },
+  {
     "site": "Coupon Guide",
     "slug": "coupon-guide",
     "title": "Couponing Basics 2026: How to Start Saving",
@@ -8670,6 +8878,22 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Online Shopping",
     "url": "https://coupon-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Coupon Guide",
+    "slug": "coupon-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Couponing",
+    "url": "https://coupon-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
+    "site": "Coupon Guide",
+    "slug": "coupon-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Deals",
+    "url": "https://coupon-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
   },
   {
     "site": "Subscription Guide",
@@ -9032,6 +9256,14 @@ export const ARTICLES = [
     "url": "https://subscription-guide-c84.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Subscription Guide",
+    "slug": "subscription-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Subscription Basics",
+    "url": "https://subscription-guide-c84.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Crypto Guide",
     "slug": "crypto-guide",
     "title": "Crypto Guide: Crypto Basics Guide 2026",
@@ -9390,6 +9622,22 @@ export const ARTICLES = [
     "description": "General information about A Clear Path From Applying to Receiving as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Security",
     "url": "https://crypto-guide-aor.pages.dev/articles/AClearPathFromApplyingtoReceivingOvervie"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "How to Get the Most Out of This Program: Overview and Key Points (September 2026)",
+    "description": "General information about How to Get the Most Out of This Program as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Crypto Basics",
+    "url": "https://crypto-guide-aor.pages.dev/articles/HowtoGettheMostOutofThisProgramOverviewa"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "What the Requirements Mean in Practice: Overview and Key Points (September 2026)",
+    "description": "General information about What the Requirements Mean in Practice as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Trading",
+    "url": "https://crypto-guide-aor.pages.dev/articles/WhattheRequirementsMeaninPracticeOvervie"
   },
   {
     "site": "Forex Guide",
@@ -9752,6 +10000,22 @@ export const ARTICLES = [
     "url": "https://forex-guide.pages.dev/articles/WhattheRequirementsMeaninPracticeOvervie"
   },
   {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "Where Most People Get Stuck and How to Fix It: Overview and Key Points (September 2026)",
+    "description": "General information about Where Most People Get Stuck and How to Fix It as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Forex Basics",
+    "url": "https://forex-guide.pages.dev/articles/WhereMostPeopleGetStuckandHowtoFixItOver"
+  },
+  {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "How Much It Really Costs: Overview and Key Points (September 2026)",
+    "description": "General information about How Much It Really Costs as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Strategies",
+    "url": "https://forex-guide.pages.dev/articles/HowMuchItReallyCostsOverviewandKeyPoints"
+  },
+  {
     "site": "Real Estate Investing Guide",
     "slug": "real-estate-investing-guide",
     "title": "Real Estate Investing Guide: RE Basics Guide 2026",
@@ -10110,6 +10374,22 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Financing",
     "url": "https://real-estate-investing-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Real Estate Investing Guide",
+    "slug": "real-estate-investing-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "RE Basics",
+    "url": "https://real-estate-investing-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
+    "site": "Real Estate Investing Guide",
+    "slug": "real-estate-investing-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rental",
+    "url": "https://real-estate-investing-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
   },
   {
     "site": "Dividend Guide",
@@ -10472,6 +10752,14 @@ export const ARTICLES = [
     "url": "https://dividend-guide-aip.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Dividend Guide",
+    "slug": "dividend-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Dividend Basics",
+    "url": "https://dividend-guide-aip.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Medical Billing Guide",
     "slug": "medical-billing-guide",
     "title": "Medical Billing Guide: Billing Basics Guide 2026",
@@ -10830,6 +11118,14 @@ export const ARTICLES = [
     "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Costs",
     "url": "https://medical-billing-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Medical Billing Guide",
+    "slug": "medical-billing-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Billing Basics",
+    "url": "https://medical-billing-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
     "site": "Annuity Guide",
@@ -11200,6 +11496,30 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Types",
+    "url": "https://annuity-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
+  },
+  {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "The Checklist Before You Submit: Overview and Key Points (September 2026)",
+    "description": "General information about The Checklist Before You Submit as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Income",
+    "url": "https://annuity-guide.pages.dev/articles/TheChecklistBeforeYouSubmitOverviewandKe"
+  },
+  {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "What Happens After You Apply: Overview and Key Points (September 2026)",
+    "description": "General information about What Happens After You Apply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Comparison",
+    "url": "https://annuity-guide.pages.dev/articles/WhatHappensAfterYouApplyOverviewandKeyPo"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -11566,6 +11886,30 @@ export const ARTICLES = [
     "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rewards Basics",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Cashback",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "The Checklist Before You Submit: Overview and Key Points (September 2026)",
+    "description": "General information about The Checklist Before You Submit as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Points",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/TheChecklistBeforeYouSubmitOverviewandKe"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "What Happens After You Apply: Overview and Key Points (September 2026)",
+    "description": "General information about What Happens After You Apply as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Bonuses",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/WhatHappensAfterYouApplyOverviewandKeyPo"
   },
   {
     "site": "Saving Strategies Guide",
@@ -11936,6 +12280,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "High-Yield",
+    "url": "https://saving-strategies-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -12302,6 +12654,14 @@ export const ARTICLES = [
     "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Equity Basics",
     "url": "https://home-equity-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "HELOC",
+    "url": "https://home-equity-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
   },
   {
     "site": "Entrepreneur Guide",
@@ -12672,6 +13032,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Starting",
+    "url": "https://entrepreneur-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -13038,6 +13406,14 @@ export const ARTICLES = [
     "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Wealth Basics",
     "url": "https://wealth-management-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Advisors",
+    "url": "https://wealth-management-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
   },
   {
     "site": "Charity Tax Guide",
@@ -14872,6 +15248,22 @@ export const ARTICLES = [
     "url": "https://disability-insurance-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Disability Basics",
+    "url": "https://disability-insurance-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "How Long You Should Expect to Wait: Overview and Key Points (September 2026)",
+    "description": "General information about How Long You Should Expect to Wait as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Short-Term",
+    "url": "https://disability-insurance-guide.pages.dev/articles/HowLongYouShouldExpecttoWaitOverviewandK"
+  },
+  {
     "site": "Unemployment Benefits Guide",
     "slug": "unemployment-benefits-guide",
     "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
@@ -15222,6 +15614,14 @@ export const ARTICLES = [
     "description": "General information about What Changed This Year and Why It Matters as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Amounts",
     "url": "https://unemployment-benefits-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rights",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
     "site": "Medicaid Guide",
@@ -15576,6 +15976,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "CHIP",
+    "url": "https://medicaid-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -15926,6 +16334,14 @@ export const ARTICLES = [
     "description": "General information about What Changed This Year and Why It Matters as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Year-Round",
     "url": "https://tax-planning-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement",
+    "url": "https://tax-planning-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
     "site": "Emergency Fund Guide",
@@ -16280,6 +16696,22 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Using",
+    "url": "https://emergency-fund-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Fund Basics",
+    "url": "https://emergency-fund-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -16630,6 +17062,14 @@ export const ARTICLES = [
     "description": "General information about What Changed This Year and Why It Matters as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Work-Study",
     "url": "https://financial-aid-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning",
+    "url": "https://financial-aid-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -16992,6 +17432,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tax Basics",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -17342,6 +17790,14 @@ export const ARTICLES = [
     "description": "General information about What Changed This Year and Why It Matters as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Preparation",
     "url": "https://home-buying-guide-728.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Closing",
+    "url": "https://home-buying-guide-728.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   },
   {
     "site": "Insurance Claims Guide",
@@ -17696,6 +18152,22 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Appeals",
+    "url": "https://insurance-claims-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
+  },
+  {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "What Nobody Tells You Before You Begin: Overview and Key Points (September 2026)",
+    "description": "General information about What Nobody Tells You Before You Begin as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims Basics",
+    "url": "https://insurance-claims-guide.pages.dev/articles/WhatNobodyTellsYouBeforeYouBeginOverview"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -18046,5 +18518,13 @@ export const ARTICLES = [
     "description": "General information about What Changed This Year and Why It Matters as of September 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Choosing",
     "url": "https://financial-advisor-guide.pages.dev/articles/WhatChangedThisYearandWhyItMattersOvervi"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "The Quick Guide to Getting Started Today: Overview and Key Points (September 2026)",
+    "description": "General information about The Quick Guide to Getting Started Today as of September 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Working",
+    "url": "https://financial-advisor-guide.pages.dev/articles/TheQuickGuidetoGettingStartedTodayOvervi"
   }
 ];
