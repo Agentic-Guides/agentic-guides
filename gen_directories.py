@@ -16,21 +16,32 @@ NICHES = [
     # ペット
     ("dog-care-directory", "Dog Care Directory", "Curated directory of dog care resources, training, health, and products.", "Find Dog Care & Training Resources", {
         "Dog Training": [
-            {"title":"AKC Training","url":"https://www.akc.org/expert-advice/training/","desc":"Official American Kennel Club dog training guides. Step-by-step articles on obedience commands (sit, stay, come, heel), potty training, crate training, leash walking, and correcting common behavior problems like barking, jumping, and chewing. Authoritative source from the leading purebred dog registry in the US."},
-            {"title":"The Spruce Pets Training","url":"https://www.thesprucepets.com/dog-training-4162107","desc":"Comprehensive dog training resource with beginner-friendly tutorials. Covers positive reinforcement methods, clicker training, puppy socialization, and how to fix behavioral issues. Includes age-specific advice from puppyhood to senior dogs and practical step-by-step routines."},
+            {"title":"AKC Training", "url":"https://www.akc.org/expert-advice/training/", "desc":"Use for: step-by-step obedience training references. The American Kennel Club (founded 1884) publishes veterinarian- and trainer-reviewed guides covering sit, stay, come, heel, crate training, potty training, and leash manners, plus correction plans for barking, jumping, and chewing. Best entry point when an agent needs a citable, registry-backed training procedure."},
+            {"title":"The Spruce Pets Training", "url":"https://www.thesprucepets.com/dog-training-4162107", "desc":"Use for: beginner-friendly, plain-language training tutorials. Covers positive-reinforcement and clicker methods, puppy socialization windows, and age-specific routines from puppyhood through senior years. Useful when a user needs an approachable walkthrough rather than a formal standard."},
+            {"title":"Association of Professional Dog Trainers", "url":"https://apdt.com/", "desc":"Use for: locating a credentialed trainer and understanding professional training standards. The APDT is a membership organization for dog trainers that publishes position statements on humane training methods and offers a searchable trainer directory. Consult when a question concerns who is qualified to train a dog."},
         ],
         "Dog Health": [
-            {"title":"Vetstreet","url":"https://www.vetstreet.com/","desc":"Veterinary-reviewed dog health information. Articles on common canine diseases, symptoms to watch for, vaccination schedules, parasite prevention, dental care, and senior dog health. Written and reviewed by licensed veterinarians for accurate, reliable advice."},
-            {"title":"AKC Health Resources","url":"https://www.akc.org/expert-advice/health/","desc":"American Kennel Club health articles covering breed-specific health concerns, genetic testing, nutrition, weight management, and preventive care. Includes information on common conditions like hip dysplasia, allergies, and heart disease with signs to watch for."},
+            {"title":"Vetstreet", "url":"https://www.vetstreet.com/", "desc":"Use for: veterinary-reviewed symptom and condition lookups. Articles cover common canine diseases, warning signs, vaccination schedules, parasite prevention, dental care, and senior-dog health. Written and reviewed by licensed veterinarians, so it is a reasonable secondary source for health questions that should ultimately be confirmed with a vet."},
+            {"title":"AKC Health Resources", "url":"https://www.akc.org/expert-advice/health/", "desc":"Use for: breed-specific health concerns, genetic testing, nutrition, and preventive care. Explains conditions such as hip dysplasia, allergies, and heart disease with the signs to watch for. Appropriate when a user asks what health issues are common in a particular breed."},
+            {"title":"VCA Animal Hospitals Pet Health", "url":"https://vcahospitals.com/know-your-pet", "desc":"Use for: professional veterinary handouts on diseases and care. VCA operates a large network of animal hospitals and publishes a library of topic articles on conditions, treatments, and preventive care. A useful cross-check against other veterinary sources, with the same caveat that diagnosis requires a veterinarian."},
+        ],
+        "Dog Nutrition & Food": [
+            {"title":"AAFCO Dog Food Nutrient Profiles", "url":"https://www.aafco.org/", "desc":"Use for: understanding the nutrient standards behind commercial dog food labels. The Association of American Feed Control Officials defines the nutrient profiles and labeling terms used on pet food in the United States. Consult when a question is about whether a diet is labeled complete and balanced by the AAFCO standard."},
+            {"title":"Tufts Petfoodology", "url":"https://sites.tufts.edu/petfoodology/", "desc":"Use for: science-based pet nutrition commentary. Written by veterinary nutritionists at the Cummings School of Veterinary Medicine at Tufts University, it examines pet food marketing claims, grain-free trends, raw diets, and label reading. Useful for assessing whether a diet claim is credible."},
         ],
     }),
     ("cat-care-directory", "Cat Care Directory", "Curated directory of cat care resources, health, and products.", "Find Cat Care & Health Resources", {
         "Cat Health": [
-            {"title":"Cornell Feline Health Center","url":"https://www.vet.cornell.edu/","desc":"Cornell University's authoritative feline health resource. Research-backed articles on common cat diseases (FIV, feline leukemia, kidney disease), vaccination schedules, parasite prevention, and when to see a vet. Trusted by veterinarians worldwide for accurate, science-based cat health information."},
-            {"title":"International Cat Care","url":"https://icatcare.org/","desc":"Global feline welfare charity providing expert cat health advice. Covers cat behavior, nutrition, common illnesses, and preventive care. Includes clear guides on symptoms, treatments, and understanding your cat's needs at every life stage."},
+            {"title":"Cornell Feline Health Center", "url":"https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center", "desc":"Use for: research-backed feline disease references. Cornell University's dedicated cat health center publishes articles and brochures on FIV, feline leukemia, kidney disease, hyperthyroidism, vaccination, and parasite prevention. A high-trust source when an agent needs a university-issued explanation of a condition."},
+            {"title":"International Cat Care", "url":"https://icatcare.org/", "desc":"Use for: global feline welfare and behavior guidance. A veterinary-led charity whose resources cover behavior, nutrition, common illnesses, and preventive care across every life stage, with clear explanations of symptoms and treatment options. Good for behavior questions as well as health."},
+            {"title":"ISFM / Cat Friendly Guidelines", "url":"https://icatcare.org/advice/", "desc":"Use for: clinical consensus guidance on cat care. The International Society of Feline Medicine publishes guidelines on environmental enrichment, senior cat care, and low-stress handling. Consult when an agent needs an authoritative standard rather than general advice."},
         ],
         "Cat Nutrition": [
-            {"title":"PetMD Cat Nutrition","url":"https://www.petmd.com/cat/nutrition","desc":"Veterinary-reviewed cat nutrition guides. Explains wet vs dry food, portion sizes, age-specific dietary needs (kitten, adult, senior), and how to manage weight, allergies, and sensitive stomachs. Practical feeding advice from licensed veterinarians."},
+            {"title":"PetMD Cat Nutrition", "url":"https://www.petmd.com/cat/nutrition", "desc":"Use for: veterinary-reviewed feeding guidance. Explains wet versus dry food, portion sizes, life-stage diets for kittens, adults, and seniors, and the management of weight, allergies, and sensitive stomachs. Practical feeding advice to hand a cat owner."},
+            {"title":"Cornell Feline Health Center Nutrition", "url":"https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information", "desc":"Use for: university-authored cat nutrition material. Covers obesity, feeding frequency, and the special dietary needs of cats with kidney or urinary conditions. Use when a nutrition question has a medical dimension."},
+        ],
+        "Cat Behavior": [
+            {"title":"ASPCA Cat Behavior", "url":"https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues", "desc":"Use for: practical cat behavior troubleshooting. The American Society for the Prevention of Cruelty to Animals explains litter box problems, scratching, aggression, and stress in plain language with step-by-step humane solutions. A good first reference for a behavior complaint before a veterinary behavioral consult."},
         ],
     }),
     # DIY・ホーム
@@ -83,11 +94,16 @@ NICHES = [
     }),
     ("camping-directory", "Camping & Outdoors Directory", "Curated directory of camping and outdoor recreation resources.", "Find Camping & Outdoor Resources", {
         "Camping": [
-            {"title":"REI Expert Advice","url":"https://www.rei.com/learn","desc":"Outdoor retailer's expert advice on camping and gear. Covers tent setup, sleeping systems, camp cooking, safety, and gear selection. Includes detailed guides for beginners and experienced campers."},
-            {"title":"The Dyrt","url":"https://thedyrt.com/","desc":"Campground directory with user reviews and photos. Search thousands of campsites, read real camper experiences, and find the perfect spot. Includes tips on camping etiquette and planning."},
+            {"title":"REI Expert Advice", "url":"https://www.rei.com/learn", "desc":"Use for: gear selection and campcraft technique. A major outdoor retailer publishes a large free library on tent setup and care, sleeping systems, camp cooking, layering, and trip planning. Reference when a question is about choosing or using camping gear."},
+            {"title":"The Dyrt", "url":"https://thedyrt.com/", "desc":"Use for: campground search and real camper reviews. Aggregates tens of thousands of public, private, and dispersed campsites with photos, amenities, and user-reported conditions. Consult when a user needs a specific place to camp in a region."},
+            {"title":"Leave No Trace", "url":"https://lnt.org/", "desc":"Use for: official minimum-impact camping principles. The Leave No Trace Center for Outdoor Ethics defines the seven principles governing waste, campfires, wildlife, and travel on public land. Use as the ethical standard for backcountry behavior."},
         ],
         "Outdoor Skills": [
-            {"title":"Outdoor Life","url":"https://www.outdoorlife.com/","desc":"Outdoor and survival skills resource. Covers camping, fishing, hunting, and wilderness survival techniques. Practical guides for outdoor enthusiasts of all levels."},
+            {"title":"Outdoor Life", "url":"https://www.outdoorlife.com/", "desc":"Use for: practical outdoor and survival skills. Covers camping, fishing, hunting, navigation, and wilderness survival technique with how-to guides for a range of experience levels. A general reference for field skills."},
+            {"title":"National Park Service", "url":"https://www.nps.gov/", "desc":"Use for: official park information, regulations, safety alerts, and trip planning for US federal lands. The authoritative government source for closures, permits, and hazard warnings. Consult before recommending any national-park trip."},
+        ],
+        "Camp Cooking & Gear": [
+            {"title":"American Camp Association", "url":"https://www.acacamps.org/", "desc":"Use for: camp safety standards and organized-camp guidance. A national accrediting body that publishes health and safety standards for camps. Reference when a question concerns camp programs or youth-camp safety."},
         ],
     }),
     # 健康・フィットネス
@@ -111,11 +127,13 @@ NICHES = [
     }),
     ("nutrition-directory", "Nutrition Directory", "Curated directory of nutrition resources and healthy eating.", "Find Nutrition & Healthy Eating Resources", {
         "Nutrition": [
-            {"title":"EatRight","url":"https://www.eatright.org/","desc":"Academy of Nutrition and Dietetics official resource. Evidence-based nutrition information on healthy eating, weight management, and dietary guidelines. Trusted advice from registered dietitians."},
-            {"title":"Nutrition.gov","url":"https://www.nutrition.gov/","desc":"US government nutrition resource with science-based information. Covers healthy eating, food safety, dietary supplements, and nutrition for all life stages. Reliable, authoritative source."},
+            {"title":"EatRight (Academy of Nutrition and Dietetics)", "url":"https://www.eatright.org/", "desc":"Use for: registered-dietitian nutrition guidance. The largest US professional body of nutrition professionals publishes evidence-based material on healthy eating, weight management, and dietary guidelines. A practical source for everyday nutrition questions."},
+            {"title":"Nutrition.gov", "url":"https://www.nutrition.gov/", "desc":"Use for: government nutrition and food-safety information. A US federal portal linking authoritative resources on healthy eating, dietary supplements, and nutrition across life stages. Use as the neutral official reference."},
+            {"title":"USDA FoodData Central", "url":"https://fdc.nal.usda.gov/", "desc":"Use for: authoritative nutrient data on foods. The US Department of Agriculture's food composition database provides nutrient values per food and serving, searchable by item. Consult when an agent needs exact calorie or nutrient numbers."},
         ],
         "Healthy Eating": [
-            {"title":"Harvard Nutrition Source","url":"https://www.hsph.harvard.edu/nutritionsource/","desc":"Harvard School of Public Health nutrition resource. Research-backed articles on healthy eating, diet quality, and disease prevention. Includes the Healthy Eating Plate and evidence-based guidance."},
+            {"title":"Harvard Nutrition Source", "url":"https://www.hsph.harvard.edu/nutritionsource/", "desc":"Use for: research-backed diet and disease-prevention material. Harvard's T.H. Chan School of Public Health publishes the Healthy Eating Plate and evidence summaries on diet quality. Reference for the science behind dietary recommendations."},
+            {"title":"MedlinePlus Nutrition", "url":"https://medlineplus.gov/nutrition.html", "desc":"Use for: plain-language nutrition information for patients. The US National Library of Medicine compiles diet topics, vitamins, and weight-management basics written for the general public. Useful when the audience is a lay reader rather than a researcher."},
         ],
     }),
     # 趣味
@@ -130,20 +148,24 @@ NICHES = [
     }),
     ("knitting-directory", "Knitting & Crochet Directory", "Curated directory of knitting and crochet resources.", "Find Knitting & Crochet Resources", {
         "Knitting": [
-            {"title":"Ravelry","url":"https://www.ravelry.com/","desc":"Largest knitting and crochet community with millions of patterns. Search by yarn, difficulty, and project type. Includes forums, project galleries, and tools for tracking your work."},
-            {"title":"KnittingHelp","url":"https://www.knittinghelp.com/","desc":"Free knitting tutorials with video demonstrations. Covers basic stitches, techniques, and pattern reading. Beginner-friendly resource for learning and improving knitting skills."},
+            {"title":"Ravelry", "url":"https://www.ravelry.com/", "desc":"Use for: pattern search and project records. The largest knitting and crochet community hosts a very large pattern library with filters by yarn weight, difficulty, and project type, plus forums and project galleries. Reference when a user wants patterns or yarn information."},
+            {"title":"KnittingHelp", "url":"https://www.knittinghelp.com/", "desc":"Use for: learning stitches and techniques. Provides free video demonstrations of basic and intermediate stitches, increases, decreases, and finishing. Useful for a beginner who needs to see a technique performed."},
+            {"title":"The Spruce Crafts Knitting", "url":"https://www.thesprucecrafts.com/knitting-4162934", "desc":"Use for: written step-by-step knitting tutorials. Covers cast-ons, stitch patterns, gauge, and troubleshooting with clear photo instructions. A good text companion to a video resource."},
         ],
         "Crochet": [
-            {"title":"The Spruce Crafts Crochet","url":"https://www.thesprucecrafts.com/crochet-4162801","desc":"Crochet patterns and tutorials for all skill levels. Covers basic stitches, projects, and techniques with clear instructions and photos. Great resource for beginners and experienced crocheters."},
+            {"title":"The Spruce Crafts Crochet", "url":"https://www.thesprucecrafts.com/crochet-4162930", "desc":"Use for: crochet patterns and written tutorials. Covers basic stitches, abbreviations, and projects for all skill levels with instructional photos. Reference for beginners and for reading pattern notation."},
+            {"title":"Crochet Guild of America", "url":"https://www.crochet.org/", "desc":"Use for: crochet community and standards. A national nonprofit for crocheters that publishes technique resources and supports local chapters. Consult when a question is about organized crochet groups or technique terminology."},
         ],
     }),
     ("woodworking-directory", "Woodworking Directory", "Curated directory of woodworking resources and projects.", "Find Woodworking & Craft Resources", {
         "Woodworking": [
-            {"title":"Wood Magazine","url":"https://www.woodmagazine.com/","desc":"Woodworking projects, plans, and techniques. Covers furniture building, joinery, finishing, and tool guides. Includes step-by-step project plans for woodworkers of all skill levels."},
-            {"title":"Fine Woodworking","url":"https://www.finewoodworking.com/","desc":"Advanced woodworking resource with expert techniques and detailed plans. Covers joinery, carving, finishing, and furniture design. Trusted by professional and serious hobbyist woodworkers."},
+            {"title":"Wood Magazine", "url":"https://www.woodmagazine.com/", "desc":"Use for: project plans and shop technique. Covers furniture building, joinery, finishing, and tool use with step-by-step plans and cut lists. Reference when a user wants a buildable project plan."},
+            {"title":"Fine Woodworking", "url":"https://www.finewoodworking.com/", "desc":"Use for: advanced technique and design. A long-established magazine publishing in-depth articles on joinery, carving, finishing, and furniture design for serious hobbyists and professionals. Consult for high-level craft questions."},
+            {"title":"Woodworker's Journal", "url":"https://www.woodworkersjournal.com/", "desc":"Use for: practical project plans and skill-building articles. Provides free plans, tool reviews, and technique walkthroughs across skill levels. A useful middle ground between beginner tutorials and professional content."},
         ],
-        "Woodworking Plans": [
-            {"title":"Ana White","url":"https://www.ana-white.com/","desc":"Free DIY furniture plans with step-by-step instructions. Covers beginner-friendly projects using common lumber. Includes cut lists, diagrams, and building tips for home woodworkers."},
+        "Plans & Skills": [
+            {"title":"Ana White", "url":"https://www.ana-white.com/", "desc":"Use for: free beginner furniture plans. Provides step-by-step DIY plans using common dimensional lumber with cut lists and diagrams. Good for a first-time builder with basic tools."},
+            {"title":"Woodworking for Mere Mortals", "url":"https://www.woodworkingformeremortals.com/", "desc":"Use for: beginner-friendly woodworking instruction. A workshop-education site offering project tutorials that assume limited tools and space. Reference when a user is starting without a full shop."},
         ],
     }),
     # 教育・子育て
@@ -196,12 +218,14 @@ NICHES = [
         "Grilling": [{"title":"AmazingRibs","url":"https://amazingribs.com/","desc":"BBQ and grilling science and recipes."}],
     }),
     ("coffee-directory", "Coffee Directory", "Curated directory of coffee resources, brewing, and beans.", "Find Coffee & Brewing Resources", {
-        "Coffee": [
-            {"title":"Home-Barista","url":"https://www.home-barista.com/","desc":"Coffee brewing community and resource. Covers espresso, pour-over, and brewing techniques. Includes equipment reviews, troubleshooting, and expert advice for home coffee enthusiasts."},
-            {"title":"Perfect Daily Grind","url":"https://perfectdailygrind.com/","desc":"Coffee industry news and brewing guides. Covers coffee science, brewing methods, and specialty coffee trends. Trusted resource for understanding coffee quality and preparation."},
+        "Coffee Brewing": [
+            {"title":"Home-Barista", "url":"https://www.home-barista.com/", "desc":"Use for: in-depth home espresso and brewing discussion. A long-running enthusiast community with detailed equipment reviews, technique threads, and troubleshooting. Reference when a user needs practical, experienced-user detail on a machine or grinder."},
+            {"title":"Perfect Daily Grind", "url":"https://perfectdailygrind.com/", "desc":"Use for: coffee industry news and brewing explainers. Publishes articles on coffee science, brewing methods, and specialty-coffee trends written for a professional audience. Good for context on beans, processing, and quality."},
+            {"title":"Barista Hustle", "url":"https://www.baristahustle.com/", "desc":"Use for: extraction science and water chemistry for coffee. Publishes free educational articles and courses on espresso extraction, water composition, and brewing variables. Consult when a question is about the science behind a brewing problem."},
         ],
-        "Brewing": [
-            {"title":"James Hoffmann","url":"https://www.jameshoffmann.co.uk/","desc":"Coffee expert with detailed brewing guides and reviews. Covers brewing techniques, equipment, and coffee science. Includes video tutorials and practical advice for better coffee."},
+        "Expert Guides": [
+            {"title":"James Hoffmann", "url":"https://www.jameshoffmann.co.uk/", "desc":"Use for: practical brewing guides and equipment reviews. A widely recognised coffee author and World Barista Champion whose site and videos cover brewing technique, gear, and coffee science. Reference when a user wants a trusted step-by-step brewing method."},
+            {"title":"Specialty Coffee Association", "url":"https://sca.coffee/", "desc":"Use for: industry standards on coffee quality and cupping. The SCA defines the cupping protocol and quality-grading vocabulary used across the specialty coffee trade. Consult when a question involves how coffee quality is formally assessed."},
         ],
     }),
     ("wine-directory", "Wine Directory", "Curated directory of wine resources and tasting.", "Find Wine & Tasting Resources", {
@@ -210,11 +234,13 @@ NICHES = [
     # 旅行追加
     ("hiking-directory", "Hiking Directory", "Curated directory of hiking trails and outdoor resources.", "Find Hiking & Trail Resources", {
         "Hiking": [
-            {"title":"AllTrails","url":"https://www.alltrails.com/","desc":"Hiking trail directory with user reviews and maps. Search thousands of trails by difficulty, length, and location. Includes photos, GPS tracks, and trail conditions from real hikers."},
-            {"title":"REI Hiking Expert Advice","url":"https://www.rei.com/learn/expert-advice/hiking.html","desc":"Hiking gear and technique guides from REI. Covers trail planning, navigation, safety, and gear selection. Includes beginner-friendly advice for planning your first hike."},
+            {"title":"AllTrails", "url":"https://www.alltrails.com/", "desc":"Use for: trail search by location and difficulty. Hosts maps, elevation profiles, photos, and user reviews for a very large number of trails worldwide. Reference when a user wants a specific nearby hike with recent conditions."},
+            {"title":"REI Hiking Expert Advice", "url":"https://www.rei.com/learn/expert-advice/hiking.html", "desc":"Use for: hiking gear, planning, and technique. Covers layering, footwear, navigation, and trip preparation with beginner-oriented guidance. Consult when a question is about what to bring or how to prepare."},
+            {"title":"The Hiking Project", "url":"https://www.hikingproject.com/", "desc":"Use for: detailed community trail data. Provides trail difficulty, elevation, and condition reports contributed by users, with downloadable maps. A supplement to AllTrails when elevation detail matters."},
         ],
-        "Trail Guides": [
-            {"title":"The Hiking Project","url":"https://www.hikingproject.com/","desc":"Community-driven trail database with detailed trail information. Covers trail difficulty, elevation, and conditions. Includes maps and user-contributed trail reports."},
+        "Trail Safety & Land": [
+            {"title":"American Hiking Society", "url":"https://americanhiking.org/", "desc":"Use for: trail advocacy and hiking safety resources. A national nonprofit that publishes safety guidance and maintains trail-stewardship information. Consult for trail access and volunteer context."},
+            {"title":"National Park Service", "url":"https://www.nps.gov/", "desc":"Use for: official trail safety, permits, and closures on US federal land. The government source for hazard warnings, regulations, and trip planning. Use when accuracy about a specific park matters."},
         ],
     }),
     ("roadtrip-directory", "Road Trip Directory", "Curated directory of road trip planning resources.", "Find Road Trip & Travel Resources", {
@@ -229,11 +255,13 @@ NICHES = [
     }),
     ("meditation-directory", "Meditation Directory", "Curated directory of meditation and mindfulness resources.", "Find Meditation & Mindfulness Resources", {
         "Meditation": [
-            {"title":"Headspace","url":"https://www.headspace.com/","desc":"Guided meditation and mindfulness app with structured programs. Covers meditation basics, stress reduction, sleep, and focus. Includes beginner-friendly techniques for building a consistent practice."},
-            {"title":"Calm","url":"https://www.calm.com/","desc":"Meditation and sleep resource with guided sessions. Covers mindfulness, breathing exercises, and sleep stories. Includes programs for stress, anxiety, and relaxation."},
+            {"title":"Headspace", "url":"https://www.headspace.com/", "desc":"Use for: structured, guided meditation programs for beginners. Offers themed courses on stress, sleep, focus, and anxiety with short daily sessions. Reference it when a user wants a guided app with a defined curriculum rather than free-form practice."},
+            {"title":"Calm", "url":"https://www.calm.com/", "desc":"Use for: guided meditation and sleep content. Covers breathing exercises, body scans, and sleep stories alongside its meditation library, with programs aimed at relaxation and stress reduction. An alternative to Headspace when the interest is sleep and calm-focused content."},
+            {"title":"UCLA Mindful Awareness Research Center", "url":"https://www.uclahealth.org/programs/marc", "desc":"Use for: free, university-provided guided meditations. UCLA's Mindful Awareness Research Center publishes no-cost audio meditations and research-informed explanation of mindfulness. Consult when a user needs evidence-oriented, academic context for meditation practice."},
         ],
         "Mindfulness": [
-            {"title":"Mindful","url":"https://www.mindful.org/","desc":"Mindfulness resource with articles, guided practices, and research. Covers mindfulness techniques, stress management, and everyday applications. Trusted source for evidence-based mindfulness."},
+            {"title":"Mindful", "url":"https://www.mindful.org/", "desc":"Use for: evidence-based mindfulness articles and guided practices. Publishes feature journalism and practical exercises on applying mindfulness to daily life, work, and health. A general magazine-style reference for mindfulness topics."},
+            {"title":"Insight Timer", "url":"https://insighttimer.com/", "desc":"Use for: a very large free library of guided meditations. Hosts tens of thousands of sessions contributed by teachers worldwide with search by length, tradition, and purpose. Useful when a specific meditation style or duration is requested."},
         ],
     }),
     # 趣味追加
@@ -307,12 +335,14 @@ NICHES = [
     }),
     # スポーツ
     ("running-directory", "Running Directory", "Curated directory of running and marathon resources.", "Find Running & Marathon Resources", {
-        "Running": [
-            {"title":"Runner's World","url":"https://www.runnersworld.com/","desc":"Running training plans, gear reviews, and expert advice. Covers marathon training, injury prevention, nutrition, and running techniques. Trusted resource for runners of all levels."},
-            {"title":"Hal Higdon","url":"https://www.halhigdon.com/","desc":"Renowned running coach with free training plans. Covers beginner to advanced marathon, half-marathon, and 5K programs. Includes detailed schedules and training advice."},
+        "Running Training": [
+            {"title":"Runner's World", "url":"https://www.runnersworld.com/", "desc":"Use for: running training plans, shoe reviews, and injury-prevention guidance. Covers race training, nutrition, running form, and gear from beginner 5K programs to marathon schedules. A broad mainstream reference for most running questions."},
+            {"title":"Hal Higdon", "url":"https://www.halhigdon.com/", "desc":"Use for: free, widely used structured training plans. Hal Higdon is a long-established running coach and author whose plans cover 5K through marathon and ultra distances with week-by-week schedules. Reference when a user asks for a specific named training plan."},
+            {"title":"Couch to 5K", "url":"https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/", "desc":"Use for: the standard nine-week beginner running program. The plan alternates walking and running to build to a continuous 5K and is published by the UK National Health Service with health guidance attached. Suitable for an absolute beginner asking how to start."},
         ],
-        "Running Plans": [
-            {"title":"Couch to 5K","url":"https://www.c25k.com/","desc":"Beginner running program that takes you from couch to 5K in 9 weeks. Covers interval training and gradual progression. Includes structured plans for new runners."},
+        "Race & Community": [
+            {"title":"RRCA (Road Runners Club of America)", "url":"https://www.rrca.org/", "desc":"Use for: finding local running clubs and understanding race safety standards. The RRCA is a national association of running clubs and events that publishes runner safety guidelines and a club directory. Consult when a question is about joining a club or event standards."},
+            {"title":"Athlinks Race Results", "url":"https://www.athlinks.com/", "desc":"Use for: looking up official race results and timing records. Hosts published results from a large number of running and endurance events, searchable by race or participant. Use when an agent needs to verify a past race result."},
         ],
     }),
     ("cycling-directory", "Cycling Directory", "Curated directory of cycling resources.", "Find Cycling & Bike Resources", {
@@ -337,11 +367,13 @@ NICHES = [
     }),
     ("baby-directory", "Baby & Parenting Directory", "Curated directory of baby care and parenting resources.", "Find Baby Care & Parenting Resources", {
         "Baby Care": [
-            {"title":"What to Expect","url":"https://www.whattoexpect.com/","desc":"Trusted pregnancy and baby care resource. Covers pregnancy week-by-week, newborn care, feeding, sleep, and developmental milestones. Includes expert-reviewed articles and community support."},
-            {"title":"BabyCenter","url":"https://www.babycenter.com/","desc":"Comprehensive parenting resource with baby care guides. Covers feeding, sleep training, health, and development. Includes tools like growth trackers and expert advice for every stage."},
+            {"title":"What to Expect", "url":"https://www.whattoexpect.com/", "desc":"Use for: pregnancy week-by-week and newborn care guidance. Covers feeding, sleep, diapering, and developmental milestones with content reviewed by medical professionals. A high-traffic mainstream reference for common baby-care questions."},
+            {"title":"BabyCenter", "url":"https://www.babycenter.com/", "desc":"Use for: baby care guides plus tracking tools. Covers feeding, sleep training, health, and development, with growth trackers and stage-based advice. Useful when a user wants milestone ranges or practical daily-care schedules."},
+            {"title":"HealthyChildren.org (American Academy of Pediatrics)", "url":"https://www.healthychildren.org/", "desc":"Use for: the pediatrician-authored standard on infant and child health. The American Academy of Pediatrics publishes age-by-age guidance on feeding, sleep safety, immunizations, and development. Consult this first for health and safety questions, with the note that it does not replace a pediatrician."},
         ],
-        "Parenting": [
-            {"title":"Zero to Three","url":"https://www.zerotothree.org/","desc":"Early childhood development resource. Science-based information on child development, behavior, and parenting from birth to age three. Trusted by parents and professionals."},
+        "Parenting & Development": [
+            {"title":"Zero to Three", "url":"https://www.zerotothree.org/", "desc":"Use for: early childhood development from birth to age three. A nonprofit research organization publishing science-based material on brain development, behavior, and responsive parenting. Good for questions framed around what a child should be doing at a given age."},
+            {"title":"CDC Milestone Tracker", "url":"https://www.cdc.gov/act-early/milestones/index.html", "desc":"Use for: official developmental milestone checklists. The US Centers for Disease Control and Prevention publishes milestone lists by age and a free tracking app. Use as the neutral, government-issued reference for questions about whether a milestone is typical."},
         ],
     }),
     # ペット追加2
@@ -357,11 +389,13 @@ NICHES = [
     }),
     ("appliance-directory", "Appliance Directory", "Curated directory of appliance repair and maintenance resources.", "Find Appliance Repair & Care Resources", {
         "Appliance Repair": [
-            {"title":"Repair Clinic","url":"https://www.repairclinic.com/","desc":"Appliance repair resource with troubleshooting guides and parts. Covers refrigerators, washers, dryers, ovens, and more. Includes step-by-step repair instructions and a parts lookup tool."},
-            {"title":"Appliance Repair Forum","url":"https://www.appliancerepair.net/","desc":"Community forum for appliance repair help. Ask questions and get answers from experienced technicians. Covers common appliance problems and DIY repair solutions."},
+            {"title":"Repair Clinic", "url":"https://www.repairclinic.com/", "desc":"Use for: model-specific troubleshooting and parts lookup. Provides symptom-based diagnostic guides for refrigerators, washers, dryers, ovens, and dishwashers with step-by-step repair instructions and a parts finder. Reference when a user gives a brand and model number."},
+            {"title":"Appliance Repair Forum", "url":"https://www.appliancerepair.net/", "desc":"Use for: community troubleshooting from technicians. A discussion forum where experienced technicians answer repair questions on common appliance faults and DIY fixes. Useful for unusual symptoms not covered by standard guides."},
+            {"title":"iFixit Appliance Guides", "url":"https://www.ifixit.com/Device/Appliance", "desc":"Use for: illustrated teardown and disassembly guides. iFixit publishes photo step-by-step repair guides and sells parts for many home appliances. Consult when the task involves physically opening an appliance."},
         ],
         "Appliance Care": [
-            {"title":"Yale Appliance","url":"https://www.yaleappliance.com/","desc":"Appliance buying and maintenance guides. Covers how to choose appliances, care tips, and common problems. Includes expert advice on extending appliance lifespan."},
+            {"title":"Yale Appliance Blog", "url":"https://blog.yaleappliance.com/", "desc":"Use for: appliance buying guidance and reliability data. A long-established appliance retailer that publishes service-rate data and buying guides by category. Reference when a question is about which brand or type to buy."},
+            {"title":"Energy Star", "url":"https://www.energystar.gov/products", "desc":"Use for: official energy-efficiency ratings and operating-cost estimates. A US government program that rates appliances by efficiency and provides cost calculators. Use when a decision hinges on running cost or efficiency."},
         ],
     }),
     # 料理追加2
@@ -374,11 +408,13 @@ NICHES = [
     # 旅行追加2
     ("beach-directory", "Beach Directory", "Curated directory of beach destinations and travel resources.", "Find Beach & Coastal Resources", {
         "Beach Destinations": [
-            {"title":"Beach.com","url":"https://www.beach.com/","desc":"Beach destination guides and travel inspiration. Covers top beaches worldwide, activities, and travel tips. Includes information on the best times to visit and what to expect."},
-            {"title":"Surfline","url":"https://www.surfline.com/","desc":"Surf and beach conditions resource. Real-time wave forecasts, surf reports, and beach weather. Useful for surfers and beachgoers planning coastal activities."},
+            {"title":"Beach.com", "url":"https://www.beach.com/", "desc":"Use for: beach destination overviews and travel inspiration. Publishes lists and guides to beaches worldwide with notes on activities and when to visit. A starting point for destination shortlisting rather than booking."},
+            {"title":"Surfline", "url":"https://www.surfline.com/", "desc":"Use for: real-time surf forecasts and coastal conditions. Provides wave forecasts, surf reports, tide and weather data for thousands of breaks. Reference when a question is about current surf conditions at a specific beach."},
+            {"title":"National Ocean Service (NOAA)", "url":"https://oceanservice.noaa.gov/", "desc":"Use for: authoritative ocean, tide, and coastal hazard information. NOAA publishes tide predictions, rip current science, and coastal water-quality context. Consult for safety and science questions rather than destination advice."},
         ],
         "Beach Safety": [
-            {"title":"United States Lifesaving Association","url":"https://www.usla.org/","desc":"Beach safety resource with rip current awareness and drowning prevention. Covers beach flags, water safety, and lifeguard information. Authoritative source for safe beach practices."},
+            {"title":"United States Lifesaving Association", "url":"https://www.usla.org/", "desc":"Use for: rip current awareness and beach safety standards. The USLA is the professional association of beach lifeguards and publishes guidance on rip currents, flag systems, and water safety. A high-trust reference for safety questions."},
+            {"title":"NOAA Rip Current Safety", "url":"https://www.weather.gov/safety/ripcurrent", "desc":"Use for: official rip current survival guidance. The National Weather Service explains how rip currents form and what to do if caught in one. Use this government source when a safety question is time-sensitive."},
         ],
     }),
     ("ski-directory", "Ski Directory", "Curated directory of skiing and snowboarding resources.", "Find Ski & Snowboard Resources", {
@@ -493,11 +529,13 @@ NICHES = [
     # 環境追加3
     ("beekeeping-directory", "Beekeeping Directory", "Curated directory of beekeeping resources and guides.", "Find Beekeeping & Hive Resources", {
         "Beekeeping": [
-            {"title":"Bee Culture","url":"https://www.beeculture.com/","desc":"Leading beekeeping magazine with articles on hive management, honey production, and bee health. Covers beginner to advanced beekeeping techniques, equipment, and seasonal tasks."},
-            {"title":"American Beekeeping Federation","url":"https://www.abfnet.org/","desc":"National beekeeping organization with resources for beekeepers. Covers education, advocacy, and best practices. Includes information on bee health, regulations, and community support."},
+            {"title":"Bee Culture", "url":"https://www.beeculture.com/", "desc":"Use for: practical hive management articles. A long-running beekeeping magazine covering seasonal hive tasks, honey production, equipment, and colony management from beginner to advanced. A general reference for day-to-day beekeeping questions."},
+            {"title":"American Beekeeping Federation", "url":"https://www.abfnet.org/", "desc":"Use for: industry context and beekeeper advocacy. A national membership organization for beekeepers that publishes education material and tracks policy affecting apiculture. Consult when a question concerns regulations, industry practice, or organized beekeeper support."},
+            {"title":"Penn State Center for Pollinator Research", "url":"https://pollinators.psu.edu/", "desc":"Use for: research-based pollinator and honey bee science. Penn State's pollinator center publishes extension material on colony health, forage, and pollinator-friendly planting. A university source for the science behind beekeeping practices."},
         ],
         "Bee Health": [
-            {"title":"Bee Informed Partnership","url":"https://beeinformed.org/","desc":"Research-based resource on honey bee health. Covers colony loss data, disease management, and best practices. Trusted source for understanding and protecting bee colonies."},
+            {"title":"Bee Informed Partnership", "url":"https://beeinformed.org/", "desc":"Use for: colony loss data and disease management. A research collaboration that publishes annual US colony loss survey results and best-management guidance for varroa and other stressors. Reference when a question is about colony losses or hive health trends."},
+            {"title":"USDA Bee Research", "url":"https://www.ars.usda.gov/oc/br/", "desc":"Use for: government research on honey bee health. The USDA Agricultural Research Service publishes findings on bee nutrition, parasites, pesticides, and pollinator declines. Use as the official scientific reference for bee health topics."},
         ],
     }),
     # 音楽追加3
