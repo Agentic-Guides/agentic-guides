@@ -528,6 +528,14 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/OverviewofsmallbusinessgrantsOverviewand"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "Types of personal financial aid: Overview and Key Points (October 2026)",
+    "description": "General information about Types of personal financial aid as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Personal Aid",
+    "url": "https://grant-navigator.pages.dev/articles/TypesofpersonalfinancialaidOverviewandKe"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -960,6 +968,14 @@ export const ARTICLES = [
     "url": "https://tax-filing-guide.pages.dev/articles/TheChecklistBeforeYouSubmitOverviewandKe"
   },
   {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "What Happens After You Apply: Overview and Key Points (October 2026)",
+    "description": "General information about What Happens After You Apply as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "e-Filing",
+    "url": "https://tax-filing-guide.pages.dev/articles/WhatHappensAfterYouApplyOverviewandKeyPo"
+  },
+  {
     "site": "Mortgage Guide",
     "slug": "mortgage-guide",
     "title": "How to Choose a Mortgage in 2026: Fixed vs Adjustable Rates",
@@ -1390,6 +1406,14 @@ export const ARTICLES = [
     "description": "General information about The Checklist Before You Submit as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Down Payment",
     "url": "https://mortgage-guide.pages.dev/articles/TheChecklistBeforeYouSubmitOverviewandKe"
+  },
+  {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "What Happens After You Apply: Overview and Key Points (October 2026)",
+    "description": "General information about What Happens After You Apply as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Refinance",
+    "url": "https://mortgage-guide.pages.dev/articles/WhatHappensAfterYouApplyOverviewandKeyPo"
   },
   {
     "site": "Side Hustle Hub",
@@ -1832,6 +1856,14 @@ export const ARTICLES = [
     "url": "https://side-hustle-hub.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Side Hustle Hub",
+    "slug": "side-hustle-hub",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Getting Started",
+    "url": "https://side-hustle-hub.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Elder Care Guide",
     "slug": "elder-care-guide",
     "title": "Medicare Basics 2026: How to Enroll and What It Covers",
@@ -2262,6 +2294,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Care Costs",
     "url": "https://elder-care-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Elder Care Guide",
+    "slug": "elder-care-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Family Care",
+    "url": "https://elder-care-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Insurance Guide",
@@ -2696,6 +2736,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/HowtoSpeedUptheProcessOverviewandKeyPoin"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "What the Fine Print Excludes: Overview and Key Points (October 2026)",
+    "description": "General information about What the Fine Print Excludes as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Insurance Basics",
+    "url": "https://insurance-guide-x35.pages.dev/articles/WhattheFinePrintExcludesOverviewandKeyPo"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -3126,6 +3174,14 @@ export const ARTICLES = [
     "description": "General information about How to Speed Up the Process as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Credit Reports",
     "url": "https://credit-score-guide.pages.dev/articles/HowtoSpeedUptheProcessOverviewandKeyPoin"
+  },
+  {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "What the Fine Print Excludes: Overview and Key Points (October 2026)",
+    "description": "General information about What the Fine Print Excludes as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Debt Management",
+    "url": "https://credit-score-guide.pages.dev/articles/WhattheFinePrintExcludesOverviewandKeyPo"
   },
   {
     "site": "Student Loan Guide",
@@ -3560,6 +3616,14 @@ export const ARTICLES = [
     "url": "https://student-loan-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
   },
   {
+    "site": "Student Loan Guide",
+    "slug": "student-loan-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Financial Aid",
+    "url": "https://student-loan-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
     "site": "Retirement Guide",
     "slug": "retirement-guide",
     "title": "Retirement Planning 2026: How to Start Saving for Retirement",
@@ -3992,6 +4056,14 @@ export const ARTICLES = [
     "url": "https://retirement-guide.pages.dev/articles/TheChecklistBeforeYouSubmitOverviewandKe"
   },
   {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "What Happens After You Apply: Overview and Key Points (October 2026)",
+    "description": "General information about What Happens After You Apply as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement Income",
+    "url": "https://retirement-guide.pages.dev/articles/WhatHappensAfterYouApplyOverviewandKeyPo"
+  },
+  {
     "site": "Small Business Guide",
     "slug": "small-business-guide",
     "title": "How to Start a Small Business in 2026: Complete Guide",
@@ -4422,6 +4494,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Marketing",
     "url": "https://small-business-guide-bgu.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Small Business Guide",
+    "slug": "small-business-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://small-business-guide-bgu.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Investing Guide",
@@ -4864,6 +4944,14 @@ export const ARTICLES = [
     "url": "https://investing-guide.pages.dev/articles/WhatHappensAfterYouApplyOverviewandKeyPo"
   },
   {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "How to Speed Up the Process: Overview and Key Points (October 2026)",
+    "description": "General information about How to Speed Up the Process as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Investing Basics",
+    "url": "https://investing-guide.pages.dev/articles/HowtoSpeedUptheProcessOverviewandKeyPoin"
+  },
+  {
     "site": "Pet Insurance Guide",
     "slug": "pet-insurance-guide",
     "title": "Pet Insurance 2026: Is It Worth It?",
@@ -5302,6 +5390,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Claims",
     "url": "https://pet-insurance-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Pet Insurance Guide",
+    "slug": "pet-insurance-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Pet Insurance Basics",
+    "url": "https://pet-insurance-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Estate Planning Guide",
@@ -5744,6 +5840,14 @@ export const ARTICLES = [
     "url": "https://estate-planning-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Estate Planning Guide",
+    "slug": "estate-planning-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Estate Basics",
+    "url": "https://estate-planning-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Auto Loan Guide",
     "slug": "auto-loan-guide",
     "title": "Auto Loans 2026: How to Get the Best Financing",
@@ -6182,6 +6286,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Refinancing",
     "url": "https://auto-loan-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Auto Loan Guide",
+    "slug": "auto-loan-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Auto Loan Basics",
+    "url": "https://auto-loan-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Rental Guide",
@@ -6624,6 +6736,14 @@ export const ARTICLES = [
     "url": "https://rental-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Rental Guide",
+    "slug": "rental-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Finding",
+    "url": "https://rental-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Personal Loan Guide",
     "slug": "personal-loan-guide",
     "title": "Personal Loans 2026: What You Need to Know",
@@ -7062,6 +7182,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Borrowing",
     "url": "https://personal-loan-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Personal Loan Guide",
+    "slug": "personal-loan-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Loan Basics",
+    "url": "https://personal-loan-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Banking Guide",
@@ -7504,6 +7632,14 @@ export const ARTICLES = [
     "url": "https://banking-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Banking Guide",
+    "slug": "banking-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Checking",
+    "url": "https://banking-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Financial Planning Guide",
     "slug": "financial-planning-guide",
     "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
@@ -7942,6 +8078,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Net Worth",
     "url": "https://financial-planning-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Financial Planning Guide",
+    "slug": "financial-planning-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Budgeting",
+    "url": "https://financial-planning-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Career Guide",
@@ -8384,6 +8528,14 @@ export const ARTICLES = [
     "url": "https://career-guide-dbn.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Career Guide",
+    "slug": "career-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Job Search",
+    "url": "https://career-guide-dbn.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Home Improvement Guide",
     "slug": "home-improvement-guide",
     "title": "Home Improvement 2026: Projects That Add Value",
@@ -8822,6 +8974,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "DIY",
     "url": "https://home-improvement-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Home Improvement Guide",
+    "slug": "home-improvement-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Projects",
+    "url": "https://home-improvement-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "HSA Guide",
@@ -9710,6 +9870,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Claims",
     "url": "https://travel-insurance-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Travel Insurance Guide",
+    "slug": "travel-insurance-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Insurance Basics",
+    "url": "https://travel-insurance-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Gig Work Guide",
@@ -11048,6 +11216,14 @@ export const ARTICLES = [
     "url": "https://subscription-guide-c84.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Subscription Guide",
+    "slug": "subscription-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Subscription Basics",
+    "url": "https://subscription-guide-c84.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Crypto Guide",
     "slug": "crypto-guide",
     "title": "Crypto Guide: Crypto Basics Guide 2026",
@@ -11496,6 +11672,14 @@ export const ARTICLES = [
     "url": "https://crypto-guide-aor.pages.dev/articles/HowtoSpeedUptheProcessOverviewandKeyPoin"
   },
   {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "What the Fine Print Excludes: Overview and Key Points (October 2026)",
+    "description": "General information about What the Fine Print Excludes as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Trading",
+    "url": "https://crypto-guide-aor.pages.dev/articles/WhattheFinePrintExcludesOverviewandKeyPo"
+  },
+  {
     "site": "Forex Guide",
     "slug": "forex-guide",
     "title": "Forex Guide: Forex Basics Guide 2026",
@@ -11942,6 +12126,14 @@ export const ARTICLES = [
     "description": "General information about Real Numbers and What They Mean for You as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Forex Basics",
     "url": "https://forex-guide.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
+  },
+  {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "How to Avoid the Most Common Rejections: Overview and Key Points (October 2026)",
+    "description": "General information about How to Avoid the Most Common Rejections as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Strategies",
+    "url": "https://forex-guide.pages.dev/articles/HowtoAvoidtheMostCommonRejectionsOvervie"
   },
   {
     "site": "Real Estate Investing Guide",
@@ -12832,6 +13024,14 @@ export const ARTICLES = [
     "url": "https://dividend-guide-aip.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Dividend Guide",
+    "slug": "dividend-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Dividend Basics",
+    "url": "https://dividend-guide-aip.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Medical Billing Guide",
     "slug": "medical-billing-guide",
     "title": "Medical Billing Guide: Billing Basics Guide 2026",
@@ -13270,6 +13470,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Costs",
     "url": "https://medical-billing-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Medical Billing Guide",
+    "slug": "medical-billing-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Billing Basics",
+    "url": "https://medical-billing-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Annuity Guide",
@@ -16400,6 +16608,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Giving Basics",
+    "url": "https://charity-tax-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -16838,6 +17054,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Negotiation",
     "url": "https://lease-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Lease Basics",
+    "url": "https://lease-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Financial Literacy Guide",
@@ -17280,6 +17504,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Money Basics",
+    "url": "https://financial-literacy-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -17718,6 +17950,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Management",
     "url": "https://insurance-policy-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Policy Basics",
+    "url": "https://insurance-policy-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
     "site": "Disability Insurance Guide",
@@ -18600,6 +18840,14 @@ export const ARTICLES = [
     "url": "https://unemployment-benefits-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
   },
   {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rights",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
     "site": "Medicaid Guide",
     "slug": "medicaid-guide",
     "title": "Medicaid Guide: Medicaid Basics Guide 2026",
@@ -19032,6 +19280,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "CHIP",
+    "url": "https://medicaid-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -19462,6 +19718,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Year-Round",
     "url": "https://tax-planning-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement",
+    "url": "https://tax-planning-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Emergency Fund Guide",
@@ -19904,6 +20168,14 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Fund Basics",
+    "url": "https://emergency-fund-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -20334,6 +20606,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Work-Study",
     "url": "https://financial-aid-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning",
+    "url": "https://financial-aid-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -20776,6 +21056,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tax Basics",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -21206,6 +21494,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Preparation",
     "url": "https://home-buying-guide-728.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Closing",
+    "url": "https://home-buying-guide-728.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Insurance Claims Guide",
@@ -21648,6 +21944,14 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims Basics",
+    "url": "https://insurance-claims-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -22078,5 +22382,13 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Choosing",
     "url": "https://financial-advisor-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Working",
+    "url": "https://financial-advisor-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   }
 ];
