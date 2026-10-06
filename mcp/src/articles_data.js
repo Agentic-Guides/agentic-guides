@@ -984,6 +984,14 @@ export const ARTICLES = [
     "url": "https://tax-filing-guide.pages.dev/articles/HowtoSpeedUptheProcessOverviewandKeyPoin"
   },
   {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "What the Fine Print Excludes: Overview and Key Points (October 2026)",
+    "description": "General information about What the Fine Print Excludes as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Deductions",
+    "url": "https://tax-filing-guide.pages.dev/articles/WhattheFinePrintExcludesOverviewandKeyPo"
+  },
+  {
     "site": "Mortgage Guide",
     "slug": "mortgage-guide",
     "title": "How to Choose a Mortgage in 2026: Fixed vs Adjustable Rates",
@@ -1430,6 +1438,14 @@ export const ARTICLES = [
     "description": "General information about How to Speed Up the Process as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Mortgage Basics",
     "url": "https://mortgage-guide.pages.dev/articles/HowtoSpeedUptheProcessOverviewandKeyPoin"
+  },
+  {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "What the Fine Print Excludes: Overview and Key Points (October 2026)",
+    "description": "General information about What the Fine Print Excludes as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rates",
+    "url": "https://mortgage-guide.pages.dev/articles/WhattheFinePrintExcludesOverviewandKeyPo"
   },
   {
     "site": "Side Hustle Hub",
@@ -2776,6 +2792,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "How to Avoid the Most Common Rejections: Overview and Key Points (October 2026)",
+    "description": "General information about How to Avoid the Most Common Rejections as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Life Insurance",
+    "url": "https://insurance-guide-x35.pages.dev/articles/HowtoAvoidtheMostCommonRejectionsOvervie"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -3222,6 +3246,14 @@ export const ARTICLES = [
     "description": "General information about Real Numbers and What They Mean for You as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Credit Basics",
     "url": "https://credit-score-guide.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
+  },
+  {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "How to Avoid the Most Common Rejections: Overview and Key Points (October 2026)",
+    "description": "General information about How to Avoid the Most Common Rejections as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Improve Credit",
+    "url": "https://credit-score-guide.pages.dev/articles/HowtoAvoidtheMostCommonRejectionsOvervie"
   },
   {
     "site": "Student Loan Guide",
@@ -4118,6 +4150,14 @@ export const ARTICLES = [
     "description": "General information about How to Speed Up the Process as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Retirement Basics",
     "url": "https://retirement-guide.pages.dev/articles/HowtoSpeedUptheProcessOverviewandKeyPoin"
+  },
+  {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "What the Fine Print Excludes: Overview and Key Points (October 2026)",
+    "description": "General information about What the Fine Print Excludes as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "401k",
+    "url": "https://retirement-guide.pages.dev/articles/WhattheFinePrintExcludesOverviewandKeyPo"
   },
   {
     "site": "Small Business Guide",
@@ -5022,6 +5062,14 @@ export const ARTICLES = [
     "description": "General information about What the Fine Print Excludes as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Stocks",
     "url": "https://investing-guide.pages.dev/articles/WhattheFinePrintExcludesOverviewandKeyPo"
+  },
+  {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "Real Numbers and What They Mean for You: Overview and Key Points (October 2026)",
+    "description": "General information about Real Numbers and What They Mean for You as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Bonds",
+    "url": "https://investing-guide.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
   },
   {
     "site": "Pet Insurance Guide",
@@ -11760,6 +11808,14 @@ export const ARTICLES = [
     "url": "https://crypto-guide-aor.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
   },
   {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "How to Avoid the Most Common Rejections: Overview and Key Points (October 2026)",
+    "description": "General information about How to Avoid the Most Common Rejections as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://crypto-guide-aor.pages.dev/articles/HowtoAvoidtheMostCommonRejectionsOvervie"
+  },
+  {
     "site": "Forex Guide",
     "slug": "forex-guide",
     "title": "Forex Guide: Forex Basics Guide 2026",
@@ -12222,6 +12278,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Platforms",
     "url": "https://forex-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Risk",
+    "url": "https://forex-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Real Estate Investing Guide",
