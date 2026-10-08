@@ -1,0 +1,364 @@
+=== 未デプロイ: 72 件 ===
+   bird-care-directory
+   boat-directory
+   calligraphy-directory
+   car-care-directory
+   cleaning-directory
+   coding-kids-directory
+   college-prep-directory
+   composting-directory
+   cruise-directory
+   cybersecurity-directory
+   cycling-directory
+   datascience-directory
+   decluttering-directory
+   dental-directory
+   dog-care-guide
+   drawing-directory
+   drums-directory
+   ecommerce-directory
+   embroidery-directory
+   fish-keeping-directory
+   freelancing-directory
+   furniture-directory
+   glutenfree-directory
+   golf-directory
+   grilling-directory
+   hamster-directory
+   homeschool-directory
+   horse-directory
+   interview-directory
+   landing
+   language-learning-directory
+   laundry-directory
+   marketing-directory
+   mental-health-directory
+   model-building-directory
+   motorcycle-directory
+   moving-directory
+   origami-directory
+   painting-directory
+   parenting-directory
+   pest-control-directory
+   piano-directory
+   posture-directory
+   pottery-directory
+   productivity-directory
+   recycling-directory
+   reptile-directory
+   resume-directory
+   roadtrip-directory
+   rv-directory
+   singing-directory
+   ski-directory
+   sleep-directory
+   smart-home-directory
+   software-directory
+   solar-directory
+   sourdough-directory
+   storage-directory
+   study-skills-directory
+   sustainability-directory
+   swimming-directory
+   tech-gadgets-directory
+   tennis-directory
+   tire-directory
+   tutoring-directory
+   ukulele-directory
+   vegan-directory
+   vision-directory
+   water-conservation-directory
+   webdev-directory
+   wedding-directory
+   wine-directory
+
+[1/72] bird-care-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-29-48_517.log"
+  deploy: https://fe1e4f95.bird-care-directory.pages.dev
+
+[2/72] boat-directory
+  create: To deploy a folder of assets, run 'wrangler pages deploy [directory]'.
+  deploy: https://a9e12b92.boat-directory.pages.dev
+
+[3/72] calligraphy-directory
+  create: To deploy a folder of assets, run 'wrangler pages deploy [directory]'.
+  deploy: https://6f3fa1c8.calligraphy-directory.pages.dev
+
+[4/72] car-care-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-31-26_561.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-31-46_617.log"
+
+[5/72] cleaning-directory
+  create: To deploy a folder of assets, run 'wrangler pages deploy [directory]'.
+  deploy: https://59bf1529.cleaning-directory.pages.dev
+
+[6/72] coding-kids-directory
+  create: To deploy a folder of assets, run 'wrangler pages deploy [directory]'.
+  deploy: https://eb5675a5.coding-kids-directory.pages.dev
+
+[7/72] college-prep-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-32-39_475.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-32-44_420.log"
+
+[8/72] composting-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-32-50_623.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-32-55_479.log"
+
+[9/72] cruise-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-01_705.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-06_205.log"
+
+[10/72] cybersecurity-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-12_402.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-17_312.log"
+
+[11/72] cycling-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-23_531.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-28_371.log"
+
+[12/72] datascience-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-34_681.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-39_465.log"
+
+[13/72] decluttering-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-45_574.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-50_317.log"
+
+[14/72] dental-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-33-56_691.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-01_761.log"
+
+[15/72] dog-care-guide
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-07_833.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-12_546.log"
+
+[16/72] drawing-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-18_648.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-23_336.log"
+
+[17/72] drums-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-29_460.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-34_056.log"
+
+[18/72] ecommerce-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-40_178.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-44_940.log"
+
+[19/72] embroidery-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-51_146.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-34-55_992.log"
+
+[20/72] fish-keeping-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-02_284.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-07_279.log"
+
+[21/72] freelancing-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-14_379.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-19_136.log"
+
+[22/72] furniture-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-25_763.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-30_855.log"
+
+[23/72] glutenfree-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-37_207.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-42_200.log"
+
+[24/72] golf-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-48_509.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-53_441.log"
+
+[25/72] grilling-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-35-59_833.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-04_773.log"
+
+[26/72] hamster-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-10_822.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-15_730.log"
+
+[27/72] homeschool-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-21_937.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-26_949.log"
+
+[28/72] horse-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-33_263.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-38_020.log"
+
+[29/72] interview-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-44_194.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-48_961.log"
+
+[30/72] landing
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-54_976.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-36-59_862.log"
+
+[31/72] language-learning-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-06_170.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-11_345.log"
+
+[32/72] laundry-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-17_711.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-22_545.log"
+
+[33/72] marketing-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-28_620.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-33_405.log"
+
+[34/72] mental-health-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-39_535.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-44_242.log"
+
+[35/72] model-building-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-50_313.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-37-55_135.log"
+
+[36/72] motorcycle-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-01_396.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-06_205.log"
+
+[37/72] moving-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-12_279.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-17_035.log"
+
+[38/72] origami-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-23_179.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-28_153.log"
+
+[39/72] painting-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-34_505.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-39_616.log"
+
+[40/72] parenting-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-45_948.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-51_049.log"
+
+[41/72] pest-control-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-38-57_282.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-02_213.log"
+
+[42/72] piano-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-08_290.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-13_084.log"
+
+[43/72] posture-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-19_227.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-24_294.log"
+
+[44/72] pottery-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-30_346.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-35_613.log"
+
+[45/72] productivity-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-41_678.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-46_466.log"
+
+[46/72] recycling-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-52_785.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-39-57_599.log"
+
+[47/72] reptile-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-03_619.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-11_061.log"
+
+[48/72] resume-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-17_316.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-22_498.log"
+
+[49/72] roadtrip-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-29_416.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-35_014.log"
+
+[50/72] rv-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-41_444.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-46_904.log"
+
+[51/72] singing-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-53_501.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-40-58_899.log"
+
+[52/72] ski-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-05_219.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-10_431.log"
+
+[53/72] sleep-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-17_353.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-23_141.log"
+
+[54/72] smart-home-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-30_115.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-37_333.log"
+
+[55/72] software-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-43_507.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-48_276.log"
+
+[56/72] solar-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-54_519.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-41-59_365.log"
+
+[57/72] sourdough-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-05_780.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-10_601.log"
+
+[58/72] storage-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-17_055.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-21_789.log"
+
+[59/72] study-skills-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-27_941.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-37_405.log"
+
+[60/72] sustainability-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-44_108.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-49_113.log"
+
+[61/72] swimming-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-42-56_014.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-02_662.log"
+
+[62/72] tech-gadgets-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-10_968.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-16_373.log"
+
+[63/72] tennis-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-23_701.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-32_026.log"
+
+[64/72] tire-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-39_040.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-43_983.log"
+
+[65/72] tutoring-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-53_911.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-43-58_890.log"
+
+[66/72] ukulele-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-44-12_475.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-44-17_839.log"
+
+[67/72] vegan-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-44-27_377.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-44-36_777.log"
+
+[68/72] vision-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-44-47_646.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-44-52_432.log"
+
+[69/72] water-conservation-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-45-02_916.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-45-08_853.log"
+
+[70/72] webdev-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-45-20_099.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-45-25_917.log"
+
+[71/72] wedding-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-45-37_653.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-45-47_191.log"
+
+[72/72] wine-directory
+  create: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-45-53_664.log"
+  deploy: 🪵  Logs were written to "C:\Users\hohoh\.wrangler\logs\wrangler-2026-10-08_18-46-03_029.log"
+
+=== 完了: 5/72 成功 ===
+  saved: C:\Users\hohoh/Desktop/agentic-sites\_deploy_new_results.csv

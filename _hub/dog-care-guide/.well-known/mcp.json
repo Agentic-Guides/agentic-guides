@@ -1,0 +1,10 @@
+{
+  "name": "agentic-guides-dog-care-guide",
+  "description": "Dog Care Guide — Complete guide to dog care, training, health, and nutrition. Latest information for dog owners on feeding, grooming, exercise, and common health issues.",
+  "servers": [
+    {
+      "url": "https://agentic-guides-mcp.pickaxe.workers.dev/mcp",
+      "description": "Agentic Guides MCP server — search articles and list sites across the network"
+    }
+  ]
+}

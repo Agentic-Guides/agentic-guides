@@ -1,0 +1,77 @@
+# AI Resource Directory Hub
+
+> Curated resource directories across hobbies, guides, and niche topics.
+
+## Directories
+- /bird-care-directory/ - bird care directory
+- /boat-directory/ - boat directory
+- /calligraphy-directory/ - calligraphy directory
+- /car-care-directory/ - car care directory
+- /cleaning-directory/ - cleaning directory
+- /coding-kids-directory/ - coding kids directory
+- /college-prep-directory/ - college prep directory
+- /composting-directory/ - composting directory
+- /cruise-directory/ - cruise directory
+- /cybersecurity-directory/ - cybersecurity directory
+- /cycling-directory/ - cycling directory
+- /datascience-directory/ - datascience directory
+- /decluttering-directory/ - decluttering directory
+- /dental-directory/ - dental directory
+- /dog-care-guide/ - dog care guide
+- /drawing-directory/ - drawing directory
+- /drums-directory/ - drums directory
+- /ecommerce-directory/ - ecommerce directory
+- /embroidery-directory/ - embroidery directory
+- /fish-keeping-directory/ - fish keeping directory
+- /freelancing-directory/ - freelancing directory
+- /furniture-directory/ - furniture directory
+- /glutenfree-directory/ - glutenfree directory
+- /golf-directory/ - golf directory
+- /grilling-directory/ - grilling directory
+- /hamster-directory/ - hamster directory
+- /homeschool-directory/ - homeschool directory
+- /horse-directory/ - horse directory
+- /interview-directory/ - interview directory
+- /landing/ - landing
+- /language-learning-directory/ - language learning directory
+- /laundry-directory/ - laundry directory
+- /marketing-directory/ - marketing directory
+- /mental-health-directory/ - mental health directory
+- /model-building-directory/ - model building directory
+- /motorcycle-directory/ - motorcycle directory
+- /moving-directory/ - moving directory
+- /origami-directory/ - origami directory
+- /painting-directory/ - painting directory
+- /parenting-directory/ - parenting directory
+- /pest-control-directory/ - pest control directory
+- /piano-directory/ - piano directory
+- /posture-directory/ - posture directory
+- /pottery-directory/ - pottery directory
+- /productivity-directory/ - productivity directory
+- /recycling-directory/ - recycling directory
+- /reptile-directory/ - reptile directory
+- /resume-directory/ - resume directory
+- /roadtrip-directory/ - roadtrip directory
+- /rv-directory/ - rv directory
+- /singing-directory/ - singing directory
+- /ski-directory/ - ski directory
+- /sleep-directory/ - sleep directory
+- /smart-home-directory/ - smart home directory
+- /software-directory/ - software directory
+- /solar-directory/ - solar directory
+- /sourdough-directory/ - sourdough directory
+- /storage-directory/ - storage directory
+- /study-skills-directory/ - study skills directory
+- /sustainability-directory/ - sustainability directory
+- /swimming-directory/ - swimming directory
+- /tech-gadgets-directory/ - tech gadgets directory
+- /tennis-directory/ - tennis directory
+- /tire-directory/ - tire directory
+- /tutoring-directory/ - tutoring directory
+- /ukulele-directory/ - ukulele directory
+- /vegan-directory/ - vegan directory
+- /vision-directory/ - vision directory
+- /water-conservation-directory/ - water conservation directory
+- /webdev-directory/ - webdev directory
+- /wedding-directory/ - wedding directory
+- /wine-directory/ - wine directory

@@ -1000,6 +1000,14 @@ export const ARTICLES = [
     "url": "https://tax-filing-guide.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
   },
   {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "How to Avoid the Most Common Rejections: Overview and Key Points (October 2026)",
+    "description": "General information about How to Avoid the Most Common Rejections as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement",
+    "url": "https://tax-filing-guide.pages.dev/articles/HowtoAvoidtheMostCommonRejectionsOvervie"
+  },
+  {
     "site": "Mortgage Guide",
     "slug": "mortgage-guide",
     "title": "How to Choose a Mortgage in 2026: Fixed vs Adjustable Rates",
@@ -1462,6 +1470,14 @@ export const ARTICLES = [
     "description": "General information about Real Numbers and What They Mean for You as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Tax Credits",
     "url": "https://mortgage-guide.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
+  },
+  {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "How to Avoid the Most Common Rejections: Overview and Key Points (October 2026)",
+    "description": "General information about How to Avoid the Most Common Rejections as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Down Payment",
+    "url": "https://mortgage-guide.pages.dev/articles/HowtoAvoidtheMostCommonRejectionsOvervie"
   },
   {
     "site": "Side Hustle Hub",
@@ -2824,6 +2840,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Home Insurance",
+    "url": "https://insurance-guide-x35.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -3286,6 +3310,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Credit Cards",
     "url": "https://credit-score-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Credit Reports",
+    "url": "https://credit-score-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Student Loan Guide",
@@ -4198,6 +4230,14 @@ export const ARTICLES = [
     "description": "General information about Real Numbers and What They Mean for You as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "IRA",
     "url": "https://retirement-guide.pages.dev/articles/RealNumbersandWhatTheyMeanforYouOverview"
+  },
+  {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "How to Avoid the Most Common Rejections: Overview and Key Points (October 2026)",
+    "description": "General information about How to Avoid the Most Common Rejections as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Social Security",
+    "url": "https://retirement-guide.pages.dev/articles/HowtoAvoidtheMostCommonRejectionsOvervie"
   },
   {
     "site": "Small Business Guide",
@@ -5118,6 +5158,14 @@ export const ARTICLES = [
     "description": "General information about How to Avoid the Most Common Rejections as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "ETFs",
     "url": "https://investing-guide.pages.dev/articles/HowtoAvoidtheMostCommonRejectionsOvervie"
+  },
+  {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "What Reviewers Actually Look For: Overview and Key Points (October 2026)",
+    "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Portfolio",
+    "url": "https://investing-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
   },
   {
     "site": "Pet Insurance Guide",
@@ -11872,6 +11920,14 @@ export const ARTICLES = [
     "url": "https://crypto-guide-aor.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
   },
   {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Crypto Basics",
+    "url": "https://crypto-guide-aor.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
     "site": "Forex Guide",
     "slug": "forex-guide",
     "title": "Forex Guide: Forex Basics Guide 2026",
@@ -12350,6 +12406,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Education",
     "url": "https://forex-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "Forex trading basics: Overview and Key Points (October 2026)",
+    "description": "General information about Forex trading basics as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Forex Basics",
+    "url": "https://forex-guide.pages.dev/articles/ForextradingbasicsOverviewandKeyPointsOc"
   },
   {
     "site": "Real Estate Investing Guide",
