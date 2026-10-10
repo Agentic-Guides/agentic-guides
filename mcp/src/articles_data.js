@@ -1016,6 +1016,14 @@ export const ARTICLES = [
     "url": "https://tax-filing-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
   },
   {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tax Filing",
+    "url": "https://tax-filing-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
     "site": "Mortgage Guide",
     "slug": "mortgage-guide",
     "title": "How to Choose a Mortgage in 2026: Fixed vs Adjustable Rates",
@@ -1494,6 +1502,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Refinance",
     "url": "https://mortgage-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Mortgage Basics",
+    "url": "https://mortgage-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Side Hustle Hub",
@@ -2872,6 +2888,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "Comparing health plans: Overview and Key Points (October 2026)",
+    "description": "General information about Comparing health plans as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Health Insurance",
+    "url": "https://insurance-guide-x35.pages.dev/articles/ComparinghealthplansOverviewandKeyPoints"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -3350,6 +3374,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Debt Management",
     "url": "https://credit-score-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "How credit scores work: Overview and Key Points (October 2026)",
+    "description": "General information about How credit scores work as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Credit Basics",
+    "url": "https://credit-score-guide.pages.dev/articles/HowcreditscoresworkOverviewandKeyPointsO"
   },
   {
     "site": "Student Loan Guide",
@@ -4278,6 +4310,14 @@ export const ARTICLES = [
     "description": "General information about What Reviewers Actually Look For as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Retirement Income",
     "url": "https://retirement-guide.pages.dev/articles/WhatReviewersActuallyLookForOverviewandK"
+  },
+  {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "The Financial Impact Explained: Overview and Key Points (October 2026)",
+    "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement Basics",
+    "url": "https://retirement-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
   },
   {
     "site": "Small Business Guide",
@@ -5214,6 +5254,14 @@ export const ARTICLES = [
     "description": "General information about The Financial Impact Explained as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Investing Basics",
     "url": "https://investing-guide.pages.dev/articles/TheFinancialImpactExplainedOverviewandKe"
+  },
+  {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "Stock investing basics: Overview and Key Points (October 2026)",
+    "description": "General information about Stock investing basics as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Stocks",
+    "url": "https://investing-guide.pages.dev/articles/StockinvestingbasicsOverviewandKeyPoints"
   },
   {
     "site": "Pet Insurance Guide",
@@ -11984,6 +12032,30 @@ export const ARTICLES = [
     "url": "https://crypto-guide-aor.pages.dev/articles/HowtochooseanexchangeOverviewandKeyPoint"
   },
   {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "Key Basics and Current Considerations: Overview and Key Points (October 2026)",
+    "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Investing",
+    "url": "https://crypto-guide-aor.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://crypto-guide-aor.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "The Complete Overview for Beginners: Overview and Key Points (October 2026)",
+    "description": "General information about The Complete Overview for Beginners as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Security",
+    "url": "https://crypto-guide-aor.pages.dev/articles/TheCompleteOverviewforBeginnersOverviewa"
+  },
+  {
     "site": "Forex Guide",
     "slug": "forex-guide",
     "title": "Forex Guide: Forex Basics Guide 2026",
@@ -14264,6 +14336,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Types",
+    "url": "https://annuity-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -14710,6 +14790,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rewards Basics",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Cashback",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Saving Strategies Guide",
@@ -15160,6 +15248,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "High-Yield",
+    "url": "https://saving-strategies-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -15606,6 +15702,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Equity Basics",
     "url": "https://home-equity-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "HELOC",
+    "url": "https://home-equity-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Entrepreneur Guide",
@@ -16056,6 +16160,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Starting",
+    "url": "https://entrepreneur-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -16502,6 +16614,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Wealth Basics",
     "url": "https://wealth-management-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Advisors",
+    "url": "https://wealth-management-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Charity Tax Guide",
@@ -16952,6 +17072,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Deductions",
+    "url": "https://charity-tax-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -17398,6 +17526,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Lease Basics",
     "url": "https://lease-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Car",
+    "url": "https://lease-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Financial Literacy Guide",
@@ -17848,6 +17984,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Interest",
+    "url": "https://financial-literacy-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -18294,6 +18438,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Policy Basics",
     "url": "https://insurance-policy-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Coverage",
+    "url": "https://insurance-policy-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Disability Insurance Guide",
@@ -18744,6 +18896,14 @@ export const ARTICLES = [
     "url": "https://disability-insurance-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Short-Term",
+    "url": "https://disability-insurance-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Unemployment Benefits Guide",
     "slug": "unemployment-benefits-guide",
     "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
@@ -19190,6 +19350,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Benefits Basics",
     "url": "https://unemployment-benefits-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Eligibility",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Medicaid Guide",
@@ -19640,6 +19808,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Eligibility",
+    "url": "https://medicaid-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -20086,6 +20262,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Planning Basics",
     "url": "https://tax-planning-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Strategies",
+    "url": "https://tax-planning-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Emergency Fund Guide",
@@ -20536,6 +20720,14 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Amount",
+    "url": "https://emergency-fund-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -20982,6 +21174,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Aid Basics",
     "url": "https://financial-aid-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "FAFSA",
+    "url": "https://financial-aid-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -21432,6 +21632,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "401k",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -21878,6 +22086,14 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Buying Basics",
     "url": "https://home-buying-guide-728.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Process",
+    "url": "https://home-buying-guide-728.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   },
   {
     "site": "Insurance Claims Guide",
@@ -22328,6 +22544,14 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Auto",
+    "url": "https://insurance-claims-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -22774,5 +22998,13 @@ export const ARTICLES = [
     "description": "General information about Key Basics and Current Considerations as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Advisor Basics",
     "url": "https://financial-advisor-guide.pages.dev/articles/KeyBasicsandCurrentConsiderationsOvervie"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "A Practical Guide for Busy Families: Overview and Key Points (October 2026)",
+    "description": "General information about A Practical Guide for Busy Families as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Types",
+    "url": "https://financial-advisor-guide.pages.dev/articles/APracticalGuideforBusyFamiliesOverviewan"
   }
 ];
