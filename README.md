@@ -1,5 +1,7 @@
 # Agentic Guides — AI-Agent-Ready Content Site Generator
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/agentic-guides-agentic-guides-1cf3os)](https://m8ven.ai/mcp/agentic-guides-agentic-guides-1cf3os?s=readme)
+
 **Agentic Guides** is an open-source framework for generating AI-agent-ready content sites at scale. Each site is optimized for discovery and use by AI agents (WebMCP, AEO, structured data, Content Signals) and is ready to monetize via Cloudflare's agentic commerce infrastructure (Monetization Gateway / Wallets / x402) when it reaches general availability.
 
 ## What it does
