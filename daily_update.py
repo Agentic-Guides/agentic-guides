@@ -321,14 +321,21 @@ def deploy(slug):
     wrangler = os.path.expanduser("~/AppData/Roaming/npm/wrangler.cmd")
     if not os.path.exists(wrangler):
         wrangler = "npx wrangler"
-    cf_token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
-    if not cf_token:
-        print("⚠️ CLOUDFLARE_API_TOKEN 環境変数が未設定です")
-        return False
+    # CLOUDFLARE_API_TOKEN があれば使う。無ければ wrangler の OAuth 認証で実行する。
+    # (2026-10-11: 漏洩した API トークンを .env から削除したため、OAuth 経路を追加)
+    # APIトークンがあれば使い、無ければ wrangler の OAuth 認証で実行する。
+    # 重要: 空文字串を渡すと OAuth にフォールバックしないため、キーごと差し替える。
+    deploy_env = {**os.environ}
+    cf_token = deploy_env.get("CLOUDFLARE_API_TOKEN", "")
+    if cf_token:
+        deploy_env["CLOUDFLARE_API_TOKEN"] = cf_token
+    else:
+        deploy_env.pop("CLOUDFLARE_API_TOKEN", None)
+        print("ℹ️ CLOUDFLARE_API_TOKEN 無し → wrangler の OAuth 認証でデプロイします")
     result = subprocess.run(
         [wrangler, "pages", "deploy", sb.site_dir(slug), "--project-name=" + site["project"], "--commit-dirty=true", "--branch=main"],
         capture_output=True, text=True, timeout=120,
-        env={**os.environ, "CLOUDFLARE_API_TOKEN": cf_token}
+        env=deploy_env
     )
     return result.returncode == 0
 
