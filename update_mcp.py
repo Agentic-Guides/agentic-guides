@@ -44,11 +44,67 @@ def rebuild_index():
     print(f"✅ MCPインデックス更新: {len(all_articles)}記事")
     return len(all_articles)
 
-def deploy_mcp():
-    token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
-    if not token:
-        print("⚠️ CLOUDFLARE_API_TOKEN 未設定")
+def _has_wrangler_oauth():
+    """wrangler の OAuth トークンが有効か実測する（環境変数不要）。"""
+    cfg = os.path.expanduser("~/.wrangler/config/default.toml")
+    if not os.path.exists(cfg):
         return False
+    try:
+        with open(cfg, "r", encoding="utf-8") as f:
+            txt = f.read()
+    except Exception:
+        return False
+    # oauth_token が空でなく、refresh_token もあれば有効とみなす
+    import re as _re
+    m = _re.search(r'^oauth_token\s*=\s*"([^"]+)"', txt, _re.M)
+    r = _re.search(r'^refresh_token\s*=\s*"([^"]+)"', txt, _re.M)
+    return bool(m and m.group(1) and r and r.group(1))
+
+
+def deploy_mcp():
+    """MCP サーバーを再デプロイする。
+    ★優先順位: 環境変数 CLOUDFLARE_API_TOKEN → wrangler の OAuth（~/.wrangler/config）。
+    環境変数が無くても OAuth があればデプロイできる（実測 2026-10-16）。
+    """
+    token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+    use_oauth = False
+    if not token:
+        if _has_wrangler_oauth():
+            use_oauth = True
+            print("ℹ️ CLOUDFLARE_API_TOKEN 未設定 → wrangler の OAuth を使用")
+        else:
+            print("⚠️ デプロイ不可: CLOUDFLARE_API_TOKEN も wrangler の OAuth も無い")
+            print("   → 対処: `npx wrangler login` を実行するか、.env に CLOUDFLARE_API_TOKEN を設定")
+            return False
+
+    mcp_dir = os.path.join(BASE, "mcp")
+    # wrangler のパスを解決（Windowsでは.cmd、無ければ npx）
+    wrangler = os.path.expanduser("~/AppData/Roaming/npm/wrangler.cmd")
+    if not os.path.exists(wrangler):
+        wrangler = "npx"
+        args = ["--yes", "wrangler", "deploy"]
+    else:
+        args = ["deploy"]
+
+    env = {**os.environ}
+    if token:
+        env["CLOUDFLARE_API_TOKEN"] = token
+    else:
+        # ★OAuth を使うときは、死んだトークンが邪魔になるので外す
+        env.pop("CLOUDFLARE_API_TOKEN", None)
+        env.pop("CLOUDFLARE_ACCOUNT_ID", None)
+
+    r = subprocess.run(
+        [wrangler] + args,
+        cwd=mcp_dir, capture_output=True, text=True, timeout=300,
+        env=env
+    )
+    out = (r.stdout or "") + (r.stderr or "")
+    if r.returncode == 0 and ("Deployed" in out or "Uploaded" in out or "Published" in out):
+        print("✅ MCPサーバー再デプロイ成功" + ("（OAuth）" if use_oauth else "（APIトークン）"))
+        return True
+    print("⚠️ MCPデプロイ失敗: %s" % out[-400:])
+    return False
     mcp_dir = os.path.join(BASE, "mcp")
     # wranglerのパスを解決（Windowsでは.cmd）
     wrangler = os.path.expanduser("~/AppData/Roaming/npm/wrangler.cmd")

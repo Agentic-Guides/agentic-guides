@@ -25,27 +25,67 @@ function createServer() {
       },
     },
     async ({ query, category, limit }) => {
-      const q = (query || "").toLowerCase();
-      const lim = limit || 5;
-      let results = ARTICLES.filter((a) => {
-        const matchesQuery = !q || a.title.toLowerCase().includes(q) || a.description.toLowerCase().includes(q);
-        const matchesCategory = !category || a.category === category;
-        return matchesQuery && matchesCategory;
-      }).slice(0, lim);
+      const raw = (query || "").trim();
+      const lim = Math.min(Math.max(limit || 5, 1), 20);
 
-      if (results.length === 0) {
+      // ★ 検索は「単語分割 + スコアリング」で行う。
+      //    以前は query 全体の部分一致だったため "mortgage rate" のような
+      //    複数語クエリが 1 件もヒットしなかった（実測 2026-10-16）。
+      //    ストップワードを除いた語ごとに重みを付け、合計スコアで並べる。
+      const STOP = new Set([
+        "the", "a", "an", "of", "for", "to", "in", "on", "and", "or", "is", "are",
+        "how", "what", "when", "why", "best", "guide", "2026", "2025", "us", "my",
+      ]);
+      const terms = raw
+        .toLowerCase()
+        .split(/[^a-z0-9]+/)
+        .filter((w) => w.length >= 2 && !STOP.has(w));
+
+      let pool = ARTICLES;
+      if (category) pool = pool.filter((a) => a.category === category);
+
+      let scored;
+      if (terms.length === 0) {
+        // クエリ無し（または記号のみ）→ カテゴリ指定があればそれを返す
+        scored = pool.slice(0, lim).map((a) => ({ a, score: 0 }));
+      } else {
+        scored = [];
+        for (const a of pool) {
+          const title = (a.title || "").toLowerCase();
+          const desc = (a.description || "").toLowerCase();
+          const cat = (a.category || "").toLowerCase();
+          const site = (a.site || "").toLowerCase();
+          let score = 0;
+          for (const t of terms) {
+            if (title.includes(t)) score += 10;   // タイトル一致を最重視
+            if (cat.includes(t)) score += 5;      // カテゴリ一致
+            if (desc.includes(t)) score += 3;      // 説明文
+            if (site.includes(t)) score += 2;      // サイト名
+          }
+          if (score > 0) scored.push({ a, score });
+        }
+        // スコア降順 → 同点はタイトル昇順で安定化
+        scored.sort((x, y) => y.score - x.score || (x.a.title || "").localeCompare(y.a.title || ""));
+        scored = scored.slice(0, lim);
+      }
+
+      if (scored.length === 0) {
         return {
-          content: [{ type: "text", text: "No articles found. Try a different query or browse the sites directly." }],
+          content: [{
+            type: "text",
+            text: `No articles found for "${raw}"${category ? ` in category "${category}"` : ""}. ` +
+                  `Try shorter keywords (e.g. "mortgage" instead of "mortgage rate"), or call list_sites to see all ${new Set(ARTICLES.map((a) => a.slug)).size} sites and their categories.`,
+          }],
         };
       }
 
-      const text = results
-        .map((a) => `### ${a.title}\n${a.description}\nSite: ${a.site} | Category: ${a.category}\nURL: ${a.url}`)
+      const text = scored
+        .map(({ a, score }) =>
+          `### ${a.title}\n${a.description}\nSite: ${a.site} | Category: ${a.category} | Score: ${score}\nURL: ${a.url}`
+        )
         .join("\n\n");
 
-      return {
-        content: [{ type: "text", text }],
-      };
+      return { content: [{ type: "text", text }] };
     }
   );
 
@@ -57,14 +97,31 @@ function createServer() {
       inputSchema: {},
     },
     async () => {
-      const sites = [
-        { name: "Grant Navigator", url: "https://grant-navigator.pages.dev", focus: "US government grants and subsidies" },
-        { name: "Tax Filing Guide", url: "https://tax-filing-guide.pages.dev", focus: "US tax filing, deductions, and credits" },
-        { name: "Mortgage Guide", url: "https://mortgage-guide.pages.dev", focus: "US mortgages, rates, and homebuyer tax benefits" },
-        { name: "Side Hustle Hub", url: "https://side-hustle-hub.pages.dev", focus: "Side hustles, remote work, and freelancing" },
-        { name: "Elder Care Guide", url: "https://elder-care-guide.pages.dev", focus: "Medicare, long-term care, and elder care" },
-      ];
-      const text = sites.map((s) => `- **${s.name}**: ${s.focus}\n  ${s.url}`).join("\n");
+      // ★ サイト一覧は articles_data.js から自動生成する（ハードコードしない）。
+      //    記事が1件も無いサイトは出ないため、追加したサイトは自動で現れる。
+      const map = new Map();
+      for (const a of ARTICLES) {
+        if (!map.has(a.slug)) {
+          map.set(a.slug, {
+            name: a.site,
+            url: a.url.split("/articles/")[0],
+            count: 0,
+            categories: new Set(),
+          });
+        }
+        const e = map.get(a.slug);
+        e.count += 1;
+        if (a.category) e.categories.add(a.category);
+      }
+      const sites = [...map.values()].sort((x, y) => y.count - x.count);
+      const text =
+        `Agentic Guides: ${sites.length} sites, ${ARTICLES.length} articles\n\n` +
+        sites
+          .map(
+            (s) =>
+              `- **${s.name}** (${s.count} articles)\n  ${s.url}\n  Categories: ${[...s.categories].slice(0, 8).join(", ")}`
+          )
+          .join("\n");
       return { content: [{ type: "text", text }] };
     }
   );
