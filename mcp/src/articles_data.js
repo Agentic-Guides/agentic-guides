@@ -640,6 +640,14 @@ export const ARTICLES = [
     "url": "https://grant-navigator.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Grant Navigator",
+    "slug": "grant-navigator",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Business Grants",
+    "url": "https://grant-navigator.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Tax Filing Guide",
     "slug": "tax-filing-guide",
     "title": "How to File Your US Taxes in 2026: Complete Guide for Beginners",
@@ -1230,6 +1238,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Retirement",
     "url": "https://tax-filing-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Tax Filing Guide",
+    "slug": "tax-filing-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "e-Filing",
+    "url": "https://tax-filing-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Mortgage Guide",
@@ -1824,6 +1840,14 @@ export const ARTICLES = [
     "url": "https://mortgage-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Mortgage Guide",
+    "slug": "mortgage-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Refinance",
+    "url": "https://mortgage-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Side Hustle Hub",
     "slug": "side-hustle-hub",
     "title": "How to Start a Side Hustle in 2026: Complete Guide for Beginners",
@@ -2376,6 +2400,14 @@ export const ARTICLES = [
     "url": "https://side-hustle-hub.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Side Hustle Hub",
+    "slug": "side-hustle-hub",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Clients",
+    "url": "https://side-hustle-hub.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Elder Care Guide",
     "slug": "elder-care-guide",
     "title": "Medicare Basics 2026: How to Enroll and What It Covers",
@@ -2926,6 +2958,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Care Costs",
     "url": "https://elder-care-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Elder Care Guide",
+    "slug": "elder-care-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Family Care",
+    "url": "https://elder-care-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Insurance Guide",
@@ -3520,6 +3560,14 @@ export const ARTICLES = [
     "url": "https://insurance-guide-x35.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Insurance Guide",
+    "slug": "insurance-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Insurance Basics",
+    "url": "https://insurance-guide-x35.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Credit Score Guide",
     "slug": "credit-score-guide",
     "title": "What Is a Credit Score and How Is It Calculated in 2026?",
@@ -4112,6 +4160,14 @@ export const ARTICLES = [
     "url": "https://credit-score-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Credit Score Guide",
+    "slug": "credit-score-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Debt Management",
+    "url": "https://credit-score-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Student Loan Guide",
     "slug": "student-loan-guide",
     "title": "Student Loans 2026: Federal vs Private Loans Explained",
@@ -4662,6 +4718,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Refinancing",
     "url": "https://student-loan-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Student Loan Guide",
+    "slug": "student-loan-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Financial Aid",
+    "url": "https://student-loan-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Retirement Guide",
@@ -5256,6 +5320,14 @@ export const ARTICLES = [
     "url": "https://retirement-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Retirement Guide",
+    "slug": "retirement-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Retirement Income",
+    "url": "https://retirement-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Small Business Guide",
     "slug": "small-business-guide",
     "title": "How to Start a Small Business in 2026: Complete Guide",
@@ -5806,6 +5878,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Marketing",
     "url": "https://small-business-guide-bgu.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Small Business Guide",
+    "slug": "small-business-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://small-business-guide-bgu.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Investing Guide",
@@ -6408,6 +6488,14 @@ export const ARTICLES = [
     "url": "https://investing-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Investing Guide",
+    "slug": "investing-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Investing Basics",
+    "url": "https://investing-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Pet Insurance Guide",
     "slug": "pet-insurance-guide",
     "title": "Pet Insurance 2026: Is It Worth It?",
@@ -6958,6 +7046,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Choosing",
     "url": "https://pet-insurance-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Pet Insurance Guide",
+    "slug": "pet-insurance-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims",
+    "url": "https://pet-insurance-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Estate Planning Guide",
@@ -7512,6 +7608,14 @@ export const ARTICLES = [
     "url": "https://estate-planning-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Estate Planning Guide",
+    "slug": "estate-planning-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Inheritance",
+    "url": "https://estate-planning-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Auto Loan Guide",
     "slug": "auto-loan-guide",
     "title": "Auto Loans 2026: How to Get the Best Financing",
@@ -8062,6 +8166,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Leasing",
     "url": "https://auto-loan-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Auto Loan Guide",
+    "slug": "auto-loan-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Refinancing",
+    "url": "https://auto-loan-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Rental Guide",
@@ -8616,6 +8728,14 @@ export const ARTICLES = [
     "url": "https://rental-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Rental Guide",
+    "slug": "rental-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Renters Insurance",
+    "url": "https://rental-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Personal Loan Guide",
     "slug": "personal-loan-guide",
     "title": "Personal Loans 2026: What You Need to Know",
@@ -9166,6 +9286,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Debt Consolidation",
     "url": "https://personal-loan-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Personal Loan Guide",
+    "slug": "personal-loan-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Borrowing",
+    "url": "https://personal-loan-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Banking Guide",
@@ -9720,6 +9848,14 @@ export const ARTICLES = [
     "url": "https://banking-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Banking Guide",
+    "slug": "banking-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Banking Basics",
+    "url": "https://banking-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Financial Planning Guide",
     "slug": "financial-planning-guide",
     "title": "Budgeting 2026: How to Create a Budget You Can Stick To",
@@ -10270,6 +10406,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Money Management",
     "url": "https://financial-planning-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Financial Planning Guide",
+    "slug": "financial-planning-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Net Worth",
+    "url": "https://financial-planning-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Career Guide",
@@ -10824,6 +10968,14 @@ export const ARTICLES = [
     "url": "https://career-guide-dbn.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Career Guide",
+    "slug": "career-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Salary",
+    "url": "https://career-guide-dbn.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Home Improvement Guide",
     "slug": "home-improvement-guide",
     "title": "Home Improvement 2026: Projects That Add Value",
@@ -11374,6 +11526,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Planning",
     "url": "https://home-improvement-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Home Improvement Guide",
+    "slug": "home-improvement-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "DIY",
+    "url": "https://home-improvement-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "HSA Guide",
@@ -11928,6 +12088,14 @@ export const ARTICLES = [
     "url": "https://hsa-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "HSA Guide",
+    "slug": "hsa-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Maximizing",
+    "url": "https://hsa-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Travel Insurance Guide",
     "slug": "travel-insurance-guide",
     "title": "Travel Insurance 2026: Is It Worth It?",
@@ -12478,6 +12646,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Choosing",
     "url": "https://travel-insurance-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Travel Insurance Guide",
+    "slug": "travel-insurance-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims",
+    "url": "https://travel-insurance-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Gig Work Guide",
@@ -13032,6 +13208,14 @@ export const ARTICLES = [
     "url": "https://gig-work-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Gig Work Guide",
+    "slug": "gig-work-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Growth",
+    "url": "https://gig-work-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Coupon Guide",
     "slug": "coupon-guide",
     "title": "Couponing Basics 2026: How to Start Saving",
@@ -13584,6 +13768,14 @@ export const ARTICLES = [
     "url": "https://coupon-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Coupon Guide",
+    "slug": "coupon-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Online Shopping",
+    "url": "https://coupon-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Subscription Guide",
     "slug": "subscription-guide",
     "title": "Subscription Management 2026: How to Track Your Subscriptions",
@@ -14134,6 +14326,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Streaming",
     "url": "https://subscription-guide-c84.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Subscription Guide",
+    "slug": "subscription-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Savings",
+    "url": "https://subscription-guide-c84.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Crypto Guide",
@@ -14760,6 +14960,14 @@ export const ARTICLES = [
     "url": "https://crypto-guide-aor.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
+    "site": "Crypto Guide",
+    "slug": "crypto-guide",
+    "title": "How to Handle the Paperwork: Overview and Key Points (October 2026)",
+    "description": "General information about How to Handle the Paperwork as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Taxes",
+    "url": "https://crypto-guide-aor.pages.dev/articles/HowtoHandlethePaperworkOverviewandKeyPoi"
+  },
+  {
     "site": "Forex Guide",
     "slug": "forex-guide",
     "title": "Forex Guide: Forex Basics Guide 2026",
@@ -15352,6 +15560,14 @@ export const ARTICLES = [
     "url": "https://forex-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Forex Guide",
+    "slug": "forex-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Education",
+    "url": "https://forex-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Real Estate Investing Guide",
     "slug": "real-estate-investing-guide",
     "title": "Real Estate Investing Guide: RE Basics Guide 2026",
@@ -15902,6 +16118,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Flipping",
     "url": "https://real-estate-investing-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Real Estate Investing Guide",
+    "slug": "real-estate-investing-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Financing",
+    "url": "https://real-estate-investing-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Dividend Guide",
@@ -16456,6 +16680,14 @@ export const ARTICLES = [
     "url": "https://dividend-guide-aip.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
   },
   {
+    "site": "Dividend Guide",
+    "slug": "dividend-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Portfolio",
+    "url": "https://dividend-guide-aip.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
     "site": "Medical Billing Guide",
     "slug": "medical-billing-guide",
     "title": "Medical Billing Guide: Billing Basics Guide 2026",
@@ -17006,6 +17238,14 @@ export const ARTICLES = [
     "description": "General information about The Essential Checklist for This Year as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Negotiation",
     "url": "https://medical-billing-guide.pages.dev/articles/TheEssentialChecklistforThisYearOverview"
+  },
+  {
+    "site": "Medical Billing Guide",
+    "slug": "medical-billing-guide",
+    "title": "What Has Changed and What Has Not: Overview and Key Points (October 2026)",
+    "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Costs",
+    "url": "https://medical-billing-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
     "site": "Annuity Guide",
@@ -17568,6 +17808,14 @@ export const ARTICLES = [
     "url": "https://annuity-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Annuity Guide",
+    "slug": "annuity-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Annuity Basics",
+    "url": "https://annuity-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Credit Card Rewards Guide",
     "slug": "credit-card-rewards-guide",
     "title": "Credit Card Rewards Guide: Rewards Basics Guide 2026",
@@ -18126,6 +18374,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Maximizing",
     "url": "https://credit-card-rewards-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Credit Card Rewards Guide",
+    "slug": "credit-card-rewards-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Rewards Basics",
+    "url": "https://credit-card-rewards-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Saving Strategies Guide",
@@ -18688,6 +18944,14 @@ export const ARTICLES = [
     "url": "https://saving-strategies-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Saving Strategies Guide",
+    "slug": "saving-strategies-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Saving Basics",
+    "url": "https://saving-strategies-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Home Equity Guide",
     "slug": "home-equity-guide",
     "title": "Home Equity Guide: Equity Basics Guide 2026",
@@ -19246,6 +19510,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Borrowing",
     "url": "https://home-equity-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Home Equity Guide",
+    "slug": "home-equity-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Equity Basics",
+    "url": "https://home-equity-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Entrepreneur Guide",
@@ -19808,6 +20080,14 @@ export const ARTICLES = [
     "url": "https://entrepreneur-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Entrepreneur Guide",
+    "slug": "entrepreneur-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Mindset",
+    "url": "https://entrepreneur-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Wealth Management Guide",
     "slug": "wealth-management-guide",
     "title": "Wealth Management Guide: Wealth Basics Guide 2026",
@@ -20366,6 +20646,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Protection",
     "url": "https://wealth-management-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Wealth Management Guide",
+    "slug": "wealth-management-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Wealth Basics",
+    "url": "https://wealth-management-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Charity Tax Guide",
@@ -20928,6 +21216,14 @@ export const ARTICLES = [
     "url": "https://charity-tax-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Charity Tax Guide",
+    "slug": "charity-tax-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Giving Basics",
+    "url": "https://charity-tax-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Lease Guide",
     "slug": "lease-guide",
     "title": "Lease Guide: Lease Basics Guide 2026",
@@ -21486,6 +21782,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Negotiation",
     "url": "https://lease-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Lease Guide",
+    "slug": "lease-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Lease Basics",
+    "url": "https://lease-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Financial Literacy Guide",
@@ -22048,6 +22352,14 @@ export const ARTICLES = [
     "url": "https://financial-literacy-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Financial Literacy Guide",
+    "slug": "financial-literacy-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Money Basics",
+    "url": "https://financial-literacy-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Insurance Policy Guide",
     "slug": "insurance-policy-guide",
     "title": "Insurance Policy Guide: Policy Basics Guide 2026",
@@ -22606,6 +22918,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Management",
     "url": "https://insurance-policy-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Insurance Policy Guide",
+    "slug": "insurance-policy-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Policy Basics",
+    "url": "https://insurance-policy-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Disability Insurance Guide",
@@ -23168,6 +23488,14 @@ export const ARTICLES = [
     "url": "https://disability-insurance-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Disability Insurance Guide",
+    "slug": "disability-insurance-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Disability Basics",
+    "url": "https://disability-insurance-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Unemployment Benefits Guide",
     "slug": "unemployment-benefits-guide",
     "title": "Unemployment Benefits Guide: Benefits Basics Guide 2026",
@@ -23726,6 +24054,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Rights",
     "url": "https://unemployment-benefits-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Unemployment Benefits Guide",
+    "slug": "unemployment-benefits-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Benefits Basics",
+    "url": "https://unemployment-benefits-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Medicaid Guide",
@@ -24288,6 +24624,14 @@ export const ARTICLES = [
     "url": "https://medicaid-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Medicaid Guide",
+    "slug": "medicaid-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Medicaid Basics",
+    "url": "https://medicaid-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Tax Planning Guide",
     "slug": "tax-planning-guide",
     "title": "Tax Planning Guide: Planning Basics Guide 2026",
@@ -24846,6 +25190,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Retirement",
     "url": "https://tax-planning-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Tax Planning Guide",
+    "slug": "tax-planning-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Planning Basics",
+    "url": "https://tax-planning-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Emergency Fund Guide",
@@ -25408,6 +25760,14 @@ export const ARTICLES = [
     "url": "https://emergency-fund-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Emergency Fund Guide",
+    "slug": "emergency-fund-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Fund Basics",
+    "url": "https://emergency-fund-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Financial Aid Guide",
     "slug": "financial-aid-guide",
     "title": "Financial Aid Guide: Aid Basics Guide 2026",
@@ -25966,6 +26326,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Planning",
     "url": "https://financial-aid-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Financial Aid Guide",
+    "slug": "financial-aid-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Aid Basics",
+    "url": "https://financial-aid-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Retirement Income Tax Guide",
@@ -26528,6 +26896,14 @@ export const ARTICLES = [
     "url": "https://retirement-income-tax-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Retirement Income Tax Guide",
+    "slug": "retirement-income-tax-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Tax Basics",
+    "url": "https://retirement-income-tax-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Home Buying Guide",
     "slug": "home-buying-guide",
     "title": "Home Buying Guide: Buying Basics Guide 2026",
@@ -27086,6 +27462,14 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Closing",
     "url": "https://home-buying-guide-728.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Home Buying Guide",
+    "slug": "home-buying-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Buying Basics",
+    "url": "https://home-buying-guide-728.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   },
   {
     "site": "Insurance Claims Guide",
@@ -27648,6 +28032,14 @@ export const ARTICLES = [
     "url": "https://insurance-claims-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
   },
   {
+    "site": "Insurance Claims Guide",
+    "slug": "insurance-claims-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Claims Basics",
+    "url": "https://insurance-claims-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
+  },
+  {
     "site": "Financial Advisor Guide",
     "slug": "financial-advisor-guide",
     "title": "Financial Advisor Guide: Advisor Basics Guide 2026",
@@ -28206,5 +28598,13 @@ export const ARTICLES = [
     "description": "General information about What Has Changed and What Has Not as of October 2026. Learn the key points, verification steps, and how to research current details.",
     "category": "Working",
     "url": "https://financial-advisor-guide.pages.dev/articles/WhatHasChangedandWhatHasNotOverviewandKe"
+  },
+  {
+    "site": "Financial Advisor Guide",
+    "slug": "financial-advisor-guide",
+    "title": "A Straightforward Explanation of the Rules: Overview and Key Points (October 2026)",
+    "description": "General information about A Straightforward Explanation of the Rules as of October 2026. Learn the key points, verification steps, and how to research current details.",
+    "category": "Advisor Basics",
+    "url": "https://financial-advisor-guide.pages.dev/articles/AStraightforwardExplanationoftheRulesOve"
   }
 ];
